@@ -1,0 +1,20 @@
+{
+  "nom": "Claire Glorot",
+  "adresse": "https://claireglorot-maquette.vercel.app",
+  "siteActuel": "www.claireglorot.com",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "conseil", "formation", "coaching", "contact"],
+  "actionEntete": { "page": "contact", "ancre": "demande" },
+  "couleurs": { "fond": "#F4EEE3", "texte": "#172633", "voile": "#12334D", "theme": "#F4EEE3", "ouverture": "#F4EEE3", "menu": "#F4EEE3" },
+  "formeVoile": "vague",
+  "contact": {
+    "telephone": "0690 61 81 41", "telephoneLien": "+590690618141",
+    "fixe": "0590 59 24 61", "fixeLien": "+590590592461",
+    "email": "claireglorot@hotmail.com",
+    "adresse": "97180 Sainte-Anne, Guadeloupe"
+  },
+  "polices": ["/assets/fonts/bricolage-700.woff2", "/assets/fonts/figtree-400.woff2"],
+  "imagePartage": "claire-portrait-1200.webp",
+  "curseur": true
+}

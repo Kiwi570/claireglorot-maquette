@@ -1,0 +1,1261 @@
+{
+  "dossier": "/home/claude/projet/claireglorot-maquette/recu",
+  "date": "2026-11-20T22:02:29.094Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [
+    {
+      "garder": "claire-glorot-portrait.jpg",
+      "ecarter": "reussir-equation-performance-economique.jpg",
+      "type": "doublon",
+      "distance": 0,
+      "ressemblance": 1
+    }
+  ],
+  "images": [
+    {
+      "fichier": "logo-clair.png",
+      "nom": "logo-clair",
+      "drapeau": "logo",
+      "largeur": 1080,
+      "hauteur": 1080,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 148662,
+      "transparence": true,
+      "sujet": {
+        "x": 18.8,
+        "y": 25,
+        "l": 59.4,
+        "h": 50,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        47
+      ],
+      "cadrage_css": "50% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "bas",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "gauche",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "droite",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 22.8,
+        "bruit": 0.07,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "230c2733270e3300",
+      "drapeaux": [
+        "logo",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "logo.jpg",
+      "nom": "logo",
+      "drapeau": "logo",
+      "largeur": 500,
+      "hauteur": 406,
+      "ratio": "5:4",
+      "ratio_valeur": 1.232,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 17745,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 30.8,
+        "l": 50,
+        "h": 26.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        44
+      ],
+      "cadrage_css": "52% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "bas",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        }
+      ],
+      "qualite": {
+        "nettete": 72.8,
+        "bruit": 0.27,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "12009696160e0c00",
+      "drapeaux": [
+        "logo",
+        "calme haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "logo-2.jpg",
+      "nom": "logo-2",
+      "drapeau": "logo",
+      "largeur": 317,
+      "hauteur": 170,
+      "ratio": "1.86",
+      "ratio_valeur": 1.865,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 56532,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 16.7,
+        "l": 81.3,
+        "h": 61.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        48
+      ],
+      "cadrage_css": "51% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 95.9,
+        "bruit": 0.29,
+        "compression": 0.93,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "00535721271b0b00",
+      "drapeaux": [
+        "logo"
+      ]
+    },
+    {
+      "fichier": "logo-sombre.jpg",
+      "nom": "logo-sombre",
+      "drapeau": "logo",
+      "largeur": 125,
+      "hauteur": 125,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 3359,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 37.5,
+        "l": 93.8,
+        "h": 25,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        50
+      ],
+      "cadrage_css": "48% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 1,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 1,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.56,
+          "ton": "moyen",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "moyen",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 27.5,
+        "bruit": 0.49,
+        "compression": 0.89,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0054299a766d9200",
+      "drapeaux": [
+        "logo",
+        "calme haut/bas"
+      ]
+    },
+    {
+      "fichier": "reussir-equation-performance-economique.jpg",
+      "nom": "reussir-equation-performance-economique",
+      "drapeau": "portrait",
+      "largeur": 1001,
+      "hauteur": 1500,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 250079,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        50
+      ],
+      "cadrage_css": "52% 50%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 25.2,
+        "bruit": 0.66,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "1001 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "f0ccd612120e0ecb",
+      "doublon_de": {
+        "fichier": "claire-glorot-portrait.jpg",
+        "type": "doublon",
+        "distance": 0,
+        "ressemblance": 1
+      },
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "doublon de claire-glorot-portrait.jpg"
+      ]
+    },
+    {
+      "fichier": "conseil-formation-coaching-professionnel.jpg",
+      "nom": "conseil-formation-coaching-professionnel",
+      "drapeau": "portrait",
+      "largeur": 424,
+      "hauteur": 283,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 72512,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        48
+      ],
+      "cadrage_css": "52% 48%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 50.6,
+        "bruit": 1.03,
+        "compression": 1.04,
+        "faible": true,
+        "raisons": [
+          "424 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "e0416723a2c981a2",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "etablissements-m-ont-fait.png",
+      "nom": "etablissements-m-ont-fait",
+      "drapeau": "portrait",
+      "largeur": 1628,
+      "hauteur": 336,
+      "ratio": "4.85",
+      "ratio_valeur": 4.845,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 94585,
+      "transparence": true,
+      "sujet": {
+        "x": 9.4,
+        "y": 0,
+        "l": 90.6,
+        "h": 85.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        39
+      ],
+      "cadrage_css": "62% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 70.1,
+        "bruit": 0.05,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "4a81c5c202023c24",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "etablissements-m-ont-fait-2.jpg",
+      "nom": "etablissements-m-ont-fait-2",
+      "drapeau": "portrait",
+      "largeur": 631,
+      "hauteur": 504,
+      "ratio": "5:4",
+      "ratio_valeur": 1.252,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 146592,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 96.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        50
+      ],
+      "cadrage_css": "50% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 67.8,
+        "bruit": 2.19,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "631 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "0ef8ea6874d4d444",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "portrait-femme-professionnelle.jpg",
+      "nom": "portrait-femme-professionnelle",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 226858,
+      "transparence": false,
+      "sujet": {
+        "x": 46.9,
+        "y": 4.5,
+        "l": 50,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        67,
+        48
+      ],
+      "cadrage_css": "67% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.91,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.59,
+          "ton": "sombre",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "moyen",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 11.3,
+        "bruit": 0.55,
+        "compression": 1.39,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f6e6edefe7e7e7c7",
+      "drapeaux": [
+        "portrait",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "temoignages.jpg",
+      "nom": "temoignages",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1420,
+      "ratio": "1.41",
+      "ratio_valeur": 1.408,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 136185,
+      "transparence": false,
+      "sujet": {
+        "x": 34.4,
+        "y": 13,
+        "l": 25,
+        "h": 82.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        39
+      ],
+      "cadrage_css": "47% 39%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.89,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "bas",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "haut",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 19.8,
+        "bruit": 0.47,
+        "compression": 1.19,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "084c4c5c961687cf",
+      "drapeaux": [
+        "portrait",
+        "calme droite/gauche/bas"
+      ]
+    },
+    {
+      "fichier": "plan-affaires.jpg",
+      "nom": "plan-affaires",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 332061,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        50
+      ],
+      "cadrage_css": "51% 50%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 25.3,
+        "bruit": 0.79,
+        "compression": 1.26,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "adadcc8dacbe1e92",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "sourire-affaires-femme.jpg",
+      "nom": "sourire-affaires-femme",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1337,
+      "ratio": "3:2",
+      "ratio_valeur": 1.496,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 172865,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 13.6,
+        "l": 78.1,
+        "h": 81.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        57
+      ],
+      "cadrage_css": "41% 57%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "haut",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "bas",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        }
+      ],
+      "qualite": {
+        "nettete": 16.9,
+        "bruit": 0.36,
+        "compression": 1.27,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "584848dac9b367e1",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "open-space.jpg",
+      "nom": "open-space",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 367673,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.5,
+        "l": 100,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        49
+      ],
+      "cadrage_css": "49% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 40.1,
+        "bruit": 0.78,
+        "compression": 1.14,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "a896879194da1b12",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "conseil-formation-coaching-professionnel-2.jpg",
+      "nom": "conseil-formation-coaching-professionnel-2",
+      "drapeau": "portrait",
+      "largeur": 1380,
+      "hauteur": 1501,
+      "ratio": "0.92",
+      "ratio_valeur": 0.919,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 284314,
+      "transparence": false,
+      "sujet": {
+        "x": 10,
+        "y": 6.3,
+        "l": 83.3,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        51
+      ],
+      "cadrage_css": "54% 51%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.68
+        }
+      ],
+      "qualite": {
+        "nettete": 44.9,
+        "bruit": 0.43,
+        "compression": 0.94,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "b7b3e1ecc6fefefe",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "satisfaction-generale.jpg",
+      "nom": "satisfaction-generale",
+      "drapeau": "portrait",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 146725,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 11.1,
+        "l": 100,
+        "h": 88.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        57
+      ],
+      "cadrage_css": "52% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "moyen",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 9.5,
+        "bruit": 0.29,
+        "compression": 1.59,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "8737312327279393",
+      "drapeaux": [
+        "portrait",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "centre-formation-claire-glorot.png",
+      "nom": "centre-formation-claire-glorot",
+      "drapeau": "portrait",
+      "largeur": 600,
+      "hauteur": 600,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 32983,
+      "transparence": true,
+      "sujet": {
+        "x": 6.3,
+        "y": 21.9,
+        "l": 87.5,
+        "h": 56.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        48
+      ],
+      "cadrage_css": "55% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 81.2,
+        "bruit": 0.16,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "600 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "20010d25177d2b41",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "entrer-relation-echange-strategique.jpg",
+      "nom": "entrer-relation-echange-strategique",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 287576,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 93.8,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        57
+      ],
+      "cadrage_css": "48% 57%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        }
+      ],
+      "qualite": {
+        "nettete": 15.5,
+        "bruit": 0.47,
+        "compression": 1.35,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "98a1a931333a7af8",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "salle-conference.jpg",
+      "nom": "salle-conference",
+      "drapeau": "portrait",
+      "largeur": 1970,
+      "hauteur": 2000,
+      "ratio": "1:1",
+      "ratio_valeur": 0.985,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 501871,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 96.9,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        50
+      ],
+      "cadrage_css": "54% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 35.3,
+        "bruit": 0.62,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "3f3fbfd66664df9f",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "claire-glorot-portrait.jpg",
+      "nom": "claire-glorot-portrait",
+      "drapeau": null,
+      "largeur": 1334,
+      "hauteur": 1999,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 458535,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        50
+      ],
+      "cadrage_css": "52% 50%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 30.9,
+        "bruit": 0.67,
+        "compression": 0.94,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f0ccd612120e0ecb",
+      "drapeaux": []
+    }
+  ]
+}

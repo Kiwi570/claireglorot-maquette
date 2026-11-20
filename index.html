@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Claire Glorot · Conseil, formation et coaching en Guadeloupe</title>
+<meta name="description" content="Conseil en organisation, management et RH, centre de formation certifié Qualiopi et coaching professionnel pour les dirigeants, DRH et managers, en Guadeloupe et dans la Caraïbe.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://claireglorot-maquette.vercel.app/">
+<style>:root{--fond:#F4EEE3;--texte:#172633;--voile-fond:#12334D;--ouverture-fond:#F4EEE3;--menu-fond:#F4EEE3}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4EEE3">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Claire Glorot">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Claire Glorot · Conseil, formation et coaching en Guadeloupe">
+<meta property="og:description" content="Conseil en organisation, management et RH, centre de formation certifié Qualiopi et coaching professionnel pour les dirigeants, DRH et managers, en Guadeloupe et dans la Caraïbe.">
+<meta property="og:url" content="https://claireglorot-maquette.vercel.app/">
+<meta property="og:image" content="https://claireglorot-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Claire Glorot : concilier performance et bien-être">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Claire Glorot, conseil, formation et coaching professionnel","url":"https://claireglorot-maquette.vercel.app/","telephone":"+590690618141","email":"claireglorot@hotmail.com","address":{"@type":"PostalAddress","addressLocality":"Sainte-Anne","postalCode":"97180","addressRegion":"Guadeloupe","addressCountry":"FR"},"areaServed":["Guadeloupe","Caraïbe"],"founder":{"@type":"Person","name":"Claire Glorot"},"sameAs":["https://www.linkedin.com/in/claire-glorot-b45486/","https://www.facebook.com/claireglorot.formation"],"description":"Conseil en organisation, management et RH, centre de formation certifié Qualiopi et coaching professionnel."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="84" height="56"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo.svg" alt="" width="96" height="64" data-ouverture-objet>
+  <p class="ouverture-nom">Claire Glorot</p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">Conseil · Formation · Coaching</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="Claire Glorot, Accueil" aria-current="page">
+      <img src="/assets/images/logo.svg" alt="" width="54" height="36"><span class="entete-nom">Claire Glorot<small>Conseil · Formation · Coaching</small></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/conseil" data-libelle="Conseil">Conseil</a></li><li><a href="/formation" data-libelle="Formation">Formation</a></li><li><a href="/coaching" data-libelle="Coaching">Coaching</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#demande" data-libelle="Contact">Demander un échange</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/conseil" class="menu-lien" data-libelle="Conseil">Conseil</a></li><li style="--i:2"><a href="/formation" class="menu-lien" data-libelle="Formation">Formation</a></li><li style="--i:3"><a href="/coaching" class="menu-lien" data-libelle="Coaching">Coaching</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+590690618141">Appeler 0690 61 81 41</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero ecran" id="debut">
+  <div class="hero-texte">
+    <p class="surtitre hero-surtitre masque-ecran-tres-bas">Conseil · Formation · Coaching · Guadeloupe</p>
+    <h1 class="hero-titre" data-anime="gsap">
+      <span class="ligne-masque"><span class="hero-ligne">Concilier</span></span>
+      <span class="ligne-masque"><span class="hero-ligne mot">performance</span></span>
+      <span class="ligne-masque"><span class="hero-ligne">et bien-être</span></span>
+    </h1>
+    <p class="hero-intro masque-ecran-bas" data-anime="gsap">J&#39;accompagne les dirigeants, les DRH, les managers et leurs équipes vers l&#39;excellence, dans un environnement de travail où chacun peut s&#39;épanouir.</p>
+    <p class="hero-actions" data-anime="gsap">
+      <a href="/contact#demande" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Parler de votre situation</a>
+      <a href="/formation#catalogue" class="bouton bouton--contour masque-ecran-tres-bas" data-libelle="Formation">Voir les formations</a>
+    </p>
+    <p class="hero-info" data-anime="gsap" data-info-cle data-rdv-info><span class="point" aria-hidden="true"></span><span data-rdv-avant>Prochain rendez-vous : jeudi 11 décembre, petit-déjeuner « Leadership au féminin »</span><span data-rdv-apres hidden>Formations certifiées Qualiopi, finançables par les OPCO</span></p>
+  </div>
+  <div class="hero-mobile"><div class="mobile" data-grille="manipuler" data-mobile data-effet="mobile" data-souris data-visuel role="group" aria-label="Mobile en équilibre : conseil, formation et coaching">
+  <span class="mobile-crochet" aria-hidden="true"></span>
+  <div class="pivot pivot--a" data-pivot data-omega="3.4" data-gain="1">
+    <span class="mobile-barre mobile-barre--a" aria-hidden="true"></span>
+    <div class="pivot pivot--a1" data-pivot data-omega="4.6" data-gain="-1.2">
+      <span class="mobile-fil mobile-fil--a1" aria-hidden="true"></span>
+      <a class="piece piece--cadre" href="/formation" data-libelle="Formation" data-iris-centre>
+      <span class="piece-forme"><figure class="media piece-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/piece-formation-800.webp" srcset="/assets/images/grok/piece-formation-400.webp 400w, /assets/images/grok/piece-formation-800.webp 800w" sizes="200px" alt="Formation" width="800" height="1067" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure></span>
+      <span class="piece-nom">Formation</span>
+    </a>
+    </div>
+    <div class="pivot pivot--a2" data-pivot data-omega="4" data-gain="1.4" data-tombe>
+      <span class="mobile-fil mobile-fil--a2" aria-hidden="true"></span>
+      <div class="pivot pivot--b" data-pivot data-omega="4.4" data-gain="-1.6">
+        <span class="mobile-barre mobile-barre--b" aria-hidden="true"></span>
+        <div class="pivot pivot--b1" data-pivot data-omega="5" data-gain="1.8">
+          <span class="mobile-fil mobile-fil--b1" aria-hidden="true"></span>
+          <a class="piece piece--rond" href="/conseil" data-libelle="Conseil">
+      <span class="piece-forme"><figure class="media piece-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/piece-conseil-800.webp" srcset="/assets/images/grok/piece-conseil-400.webp 400w, /assets/images/grok/piece-conseil-800.webp 800w" sizes="200px" alt="Conseil" width="800" height="800" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure></span>
+      <span class="piece-nom">Conseil</span>
+    </a>
+          <span class="mobile-fil mobile-fil--perle" aria-hidden="true"></span><span class="mobile-perle" aria-hidden="true"></span>
+        </div>
+        <div class="pivot pivot--b2" data-pivot data-omega="4.2" data-gain="-2">
+          <span class="mobile-fil mobile-fil--b2" aria-hidden="true"></span>
+          <a class="piece piece--arche" href="/coaching" data-libelle="Coaching">
+      <span class="piece-forme"><figure class="media piece-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/piece-coaching-800.webp" srcset="/assets/images/grok/piece-coaching-400.webp 400w, /assets/images/grok/piece-coaching-800.webp 800w" sizes="200px" alt="Coaching" width="800" height="800" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure></span>
+      <span class="piece-nom">Coaching</span>
+    </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+</section>
+<section class="orienteur bande bande--sable" id="situations">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre ">Par où commencer</p>
+      <h2 class="titre " data-anime="lignes">Où en <em class="mot">êtes-vous ?</em></h2>
+      <p data-anime>Choisissez la situation qui vous ressemble : voici l&#39;accompagnement qui y répond.</p>
+    </div>
+    <div class="orienteur-grille" data-orienteur>
+      <div class="orienteur-choix" role="group" aria-label="Votre situation" data-anime="cascade">
+        <button type="button" class="orienteur-bouton" data-situation="managers" data-metier="formation" aria-pressed="true" aria-controls="reponse-managers"><span class="orienteur-num">01</span>Développer les compétences de vos managers</button><button type="button" class="orienteur-bouton" data-situation="projet" data-metier="conseil" aria-pressed="false" aria-controls="reponse-projet"><span class="orienteur-num">02</span>Mener un projet qui transforme l&#39;organisation</button><button type="button" class="orienteur-bouton" data-situation="cohesion" data-metier="coaching" aria-pressed="false" aria-controls="reponse-cohesion"><span class="orienteur-num">03</span>Renforcer la cohésion de votre équipe</button><button type="button" class="orienteur-bouton" data-situation="transition" data-metier="coaching" aria-pressed="false" aria-controls="reponse-transition"><span class="orienteur-num">04</span>Faire le point dans une transition professionnelle</button><button type="button" class="orienteur-bouton" data-situation="dossier" data-metier="conseil" aria-pressed="false" aria-controls="reponse-dossier"><span class="orienteur-num">05</span>Monter le dossier d&#39;un projet d&#39;entreprise</button>
+      </div>
+      <div class="orienteur-reponses" aria-live="polite">
+        <svg class="balance" viewBox="0 0 320 150" role="img" aria-label="Balance qui penche vers le conseil, la formation ou le coaching" data-effet="orienteur" data-visuel>
+          <path class="balance-pied" d="M160 40 L160 140 M120 142 H200" />
+          <g class="balance-fleau" data-balance>
+            <path d="M40 40 H280" class="balance-barre" />
+            <circle cx="160" cy="40" r="7" class="balance-axe" />
+            <g class="balance-plateau" data-plateau="conseil"><path d="M40 40 L22 82 M40 40 L58 82" /><path d="M14 82 H66 Q40 100 14 82Z" /><text x="40" y="126">Conseil</text></g>
+            <g class="balance-plateau" data-plateau="formation"><path d="M160 40 L160 70" /><rect x="140" y="66" width="40" height="26" rx="4" /><text x="160" y="126">Formation</text></g>
+            <g class="balance-plateau" data-plateau="coaching"><path d="M280 40 L262 82 M280 40 L298 82" /><path d="M254 82 H306 Q280 100 254 82Z" /><text x="280" y="126">Coaching</text></g>
+          </g>
+        </svg>
+        <div class="orienteur-reponse" id="reponse-managers" data-reponse="managers">
+          <p class="orienteur-label">L&#39;accompagnement qui y répond · <strong>Formation</strong></p>
+          <p class="orienteur-situation">Développer les compétences de vos managers</p>
+          <p class="orienteur-texte">Les formations Management niveaux 1 à 3 et Leadership au féminin, en intra pour votre équipe ou en inter-entreprises.</p>
+          <a href="/formation#catalogue" class="lien-fleche" data-libelle="Formation">Voir les formations management</a>
+        </div><div class="orienteur-reponse" id="reponse-projet" data-reponse="projet" data-cache>
+          <p class="orienteur-label">L&#39;accompagnement qui y répond · <strong>Conseil</strong></p>
+          <p class="orienteur-situation">Mener un projet qui transforme l&#39;organisation</p>
+          <p class="orienteur-texte">Accompagnement au changement, cadrage et gestion de projet ; la formation Changement 360° pour embarquer toute l&#39;entreprise.</p>
+          <a href="/conseil#axes" class="lien-fleche" data-libelle="Conseil">Voir l&#39;accompagnement au changement</a>
+        </div><div class="orienteur-reponse" id="reponse-cohesion" data-reponse="cohesion" data-cache>
+          <p class="orienteur-label">L&#39;accompagnement qui y répond · <strong>Coaching d&#39;équipe</strong></p>
+          <p class="orienteur-situation">Renforcer la cohésion de votre équipe</p>
+          <p class="orienteur-texte">Six demi-journées de coaching d&#39;équipe sur 6 à 8 mois, ou la formation Cohésion et performance collective.</p>
+          <a href="/coaching#equipe" class="lien-fleche" data-libelle="Coaching">Voir le coaching d&#39;équipe</a>
+        </div><div class="orienteur-reponse" id="reponse-transition" data-reponse="transition" data-cache>
+          <p class="orienteur-label">L&#39;accompagnement qui y répond · <strong>Coaching individuel</strong></p>
+          <p class="orienteur-situation">Faire le point dans une transition professionnelle</p>
+          <p class="orienteur-texte">Environ 10 séances de 1 h 30 sur 6 à 8 mois, avec un bilan à mi-parcours et à la fin.</p>
+          <a href="/coaching#deroule" class="lien-fleche" data-libelle="Coaching">Voir le déroulé d&#39;un coaching</a>
+        </div><div class="orienteur-reponse" id="reponse-dossier" data-reponse="dossier" data-cache>
+          <p class="orienteur-label">L&#39;accompagnement qui y répond · <strong>Conseil</strong></p>
+          <p class="orienteur-situation">Monter le dossier d&#39;un projet d&#39;entreprise</p>
+          <p class="orienteur-texte">Définition d&#39;une feuille de route et d&#39;un plan stratégique de développement, en commençant par un échange stratégique.</p>
+          <a href="/contact?sujet=conseil#demande" class="lien-fleche" data-libelle="Contact">Demander un échange stratégique</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="metiers bande" id="metiers">
+  <div class="conteneur">
+    <div class="tete-section tete-section--ligne">
+      <div><p class="surtitre ">Trois métiers</p><h2 class="titre " data-anime="lignes">Une même <em class="mot">exigence</em></h2></div>
+      <p data-anime>Conseil, formation et coaching se combinent selon votre situation, dans un plan d&#39;accompagnement défini avec vous.</p>
+    </div>
+    <div class="metiers-grille" data-anime="cascade">
+      <article class="metier">
+        <figure class="media metier-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/axe-conseil-1072.webp" srcset="/assets/images/grok/axe-conseil-480.webp 480w, /assets/images/grok/axe-conseil-800.webp 800w, /assets/images/grok/axe-conseil-1072.webp 1072w" sizes="(max-width: 760px) 100vw, 33vw" alt="Séminaire de direction sur une terrasse couverte" width="1072" height="1340" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <p class="metier-num">01</p>
+        <h3 class="metier-titre">Conseil</h3>
+        <p>Organisation, management et RH : préparer et conduire le changement, sur des missions courtes, moyennes ou longues.</p>
+        <a href="/conseil" class="lien-fleche" data-libelle="Conseil">Découvrir<span class="visuellement-cache"> : Conseil</span></a>
+      </article><article class="metier">
+        <figure class="media metier-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/axe-formation-1072.webp" srcset="/assets/images/grok/axe-formation-480.webp 480w, /assets/images/grok/axe-formation-800.webp 800w, /assets/images/grok/axe-formation-1072.webp 1072w" sizes="(max-width: 760px) 100vw, 33vw" alt="Atelier de formation devant un mur de notes colorées" width="1072" height="1340" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <p class="metier-num">02</p>
+        <h3 class="metier-titre">Formation</h3>
+        <p>Centre certifié Qualiopi : 13 formations en management, leadership, RH et compétences transverses, en intra ou en inter.</p>
+        <a href="/formation" class="lien-fleche" data-libelle="Formation">Découvrir<span class="visuellement-cache"> : Formation</span></a>
+      </article><article class="metier">
+        <figure class="media metier-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/axe-coaching-1072.webp" srcset="/assets/images/grok/axe-coaching-480.webp 480w, /assets/images/grok/axe-coaching-800.webp 800w, /assets/images/grok/axe-coaching-1072.webp 1072w" sizes="(max-width: 760px) 100vw, 33vw" alt="Une manager de dos face à une grande fenêtre" width="1072" height="1340" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <p class="metier-num">03</p>
+        <h3 class="metier-titre">Coaching</h3>
+        <p>Individuel ou d&#39;équipe, pour prendre du recul et avancer : environ 10 séances de 1 h 30 sur 6 à 8 mois.</p>
+        <a href="/coaching" class="lien-fleche" data-libelle="Coaching">Découvrir<span class="visuellement-cache"> : Coaching</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="claire bande bande--sable" id="claire">
+  <div class="conteneur claire-grille">
+    <figure class="media claire-media" data-anime="rideau" style="--cadrage:50% 30%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/claire-portrait-mobile-640.webp 640w, /assets/images/claire-portrait-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 42vw">
+    <img src="/assets/images/claire-portrait-1200.webp" srcset="/assets/images/claire-portrait-480.webp 480w, /assets/images/claire-portrait-800.webp 800w, /assets/images/claire-portrait-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 42vw" alt="Claire Glorot, souriante, assise sur un fauteuil moutarde" width="1200" height="1500" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="claire-texte">
+      <p class="surtitre ">Qui vous accompagne</p>
+      <h2 class="titre titre--xl" data-anime="lettres">Claire Glorot</h2>
+      <p data-anime>Diplômée de l&#39;Institut Commercial de Nancy, Claire a passé 15 ans en cabinet de conseil, chez Accenture et Stanwell Consulting, à conduire le changement auprès de grands groupes à l&#39;international.</p>
+      <p data-anime>Depuis plus de 13 ans, elle accompagne en Guadeloupe et dans la Caraïbe les encadrants, du dirigeant au responsable d&#39;équipe terrain, de l&#39;analyse des besoins jusqu&#39;à la mise en œuvre. Coach certifiée, elle dirige aussi le centre de formation.</p>
+      <ul class="chiffres" data-anime="cascade">
+        <li><strong class="chiffre" data-compteur="15">15</strong> ans en cabinet de conseil</li>
+        <li><strong class="chiffre" data-compteur="13">13</strong> ans et plus en Guadeloupe et dans la Caraïbe</li>
+        <li><strong class="chiffre">9,3</strong> sur 10 de satisfaction générale en formation</li>
+      </ul>
+      <h3 class="valeurs-titre">Ses valeurs</h3>
+      <dl class="valeurs" data-anime="cascade">
+        <div><dt>Confiance</dt><dd>une relation fondée sur la confiance mutuelle et le respect des engagements</dd></div>
+        <div><dt>Investissement</dt><dd>une énergie forte au service des résultats, adaptée à votre contexte</dd></div>
+        <div><dt>Excellence</dt><dd>la qualité à chaque étape, pour des solutions durables</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+<section class="methode bande" id="methode">
+  <div class="conteneur methode-grille">
+    <div class="methode-tete">
+      <p class="surtitre ">La méthode</p>
+      <h2 class="titre " data-anime="lignes">De l&#39;analyse des besoins <em class="mot">à la mise en œuvre</em></h2>
+    </div>
+    <ol class="etapes" data-etapes>
+      <li class="etape" style="--n:1" data-effet="etapes-empilees">
+        <svg class="etape-num" viewBox="0 0 120 120" aria-hidden="true" data-visuel><circle cx="60" cy="60" r="54" /><text x="60" y="78">1</text></svg>
+        <div><h3>Comprendre et cadrer</h3><p>Un premier échange, puis une phase de définition et de cadrage de vos besoins.</p></div>
+      </li><li class="etape" style="--n:2" data-effet="etapes-empilees">
+        <svg class="etape-num" viewBox="0 0 120 120" aria-hidden="true" data-visuel><circle cx="60" cy="60" r="54" /><text x="60" y="78">2</text></svg>
+        <div><h3>Construire votre plan</h3><p>Un plan d&#39;accompagnement défini avec vous, adapté à vos besoins et à vos contraintes.</p></div>
+      </li><li class="etape" style="--n:3" data-effet="etapes-empilees">
+        <svg class="etape-num" viewBox="0 0 120 120" aria-hidden="true" data-visuel><circle cx="60" cy="60" r="54" /><text x="60" y="78">3</text></svg>
+        <div><h3>Agir sur le terrain</h3><p>Conseil, formation, coaching, ou un dispositif qui les associe : l&#39;accompagnement va jusqu&#39;à la mise en œuvre.</p></div>
+      </li><li class="etape" style="--n:4" data-effet="etapes-empilees">
+        <svg class="etape-num" viewBox="0 0 120 120" aria-hidden="true" data-visuel><circle cx="60" cy="60" r="54" /><text x="60" y="78">4</text></svg>
+        <div><h3>Consolider les résultats</h3><p>Suivi, bilans et consolidation des résultats, pour des solutions qui durent.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+<section class="une bande bande--sable" id="formations">
+  <div class="conteneur">
+    <div class="tete-section tete-section--ligne">
+      <div><p class="surtitre ">Centre de formation</p><h2 class="titre " data-anime="lignes">Quatre formations <em class="mot">à la une</em></h2></div>
+      <div class="une-qualiopi" data-anime>
+        <img src="/assets/images/qualiopi.jpg" alt="Certification Qualiopi au titre des actions de formation." width="500" height="406" loading="lazy">
+        <p>Certifiées Qualiopi au titre des actions de formation, finançables par les OPCO, en intra-entreprise ou en inter-entreprises.</p>
+      </div>
+    </div>
+    <div class="fiches fiches--une" data-anime="cascade" tabindex="0" role="region" aria-label="Formations à la une, à faire glisser" data-galerie>
+      <div class="fiche-cadre" data-fx="vitesse"><article class="fiche fiche--management" id="une-management-1">
+  <p class="fiche-cat">Management</p>
+  <h3 class="fiche-titre">Management niveau 1 : les bases du management</h3>
+  <p class="fiche-sous">Les essentiels pour manager une équipe opérationnelle</p>
+  <ul class="fiche-infos">
+    <li><strong>3 jours</strong> · 21 h</li>
+    <li>4 à 12 participants</li>
+    <li>8,9 sur 10 · 2 avis</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Managers et toute personne qui encadre une équipe ou va le faire</p>
+  <p class="fiche-prix" data-prix>1 485 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=management-1#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Management niveau 1 : les bases du management</span></a>
+</article></div><div class="fiche-cadre" data-fx="vitesse"><article class="fiche fiche--management" id="une-leadership-feminin">
+  <p class="fiche-cat">Management</p>
+  <h3 class="fiche-titre">Leadership au féminin</h3>
+  <ul class="fiche-infos">
+    <li><strong>3 jours</strong> · 21 h</li>
+    <li>1 à 12 participants</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Femmes managers, dirigeantes et leaders</p>
+  <p class="fiche-prix" data-prix>1 485 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=leadership-feminin#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Leadership au féminin</span></a>
+</article></div><div class="fiche-cadre" data-fx="vitesse"><article class="fiche fiche--rh" id="une-conflits">
+  <p class="fiche-cat">Management et RH</p>
+  <h3 class="fiche-titre">Prévenir et gérer les conflits</h3>
+  <ul class="fiche-infos">
+    <li><strong>2 jours</strong> · 14 h</li>
+    <li>4 à 12 participants</li>
+    <li>9,3 sur 10 · 3 avis</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Managers, responsables RH et toute personne amenée à gérer des conflits</p>
+  <p class="fiche-prix" data-prix>990 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=conflits#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Prévenir et gérer les conflits</span></a>
+</article></div><div class="fiche-cadre" data-fx="vitesse"><article class="fiche fiche--transverses" id="une-changement-360">
+  <p class="fiche-cat">Compétences transverses</p>
+  <h3 class="fiche-titre">Changement 360°</h3>
+  <p class="fiche-sous">Comprendre, intégrer et réussir les transitions à tous les niveaux de l&#39;organisation</p>
+  <ul class="fiche-infos">
+    <li><strong>2 jours</strong> · 14 h</li>
+    <li>4 à 14 participants</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Toute l&#39;entreprise, par groupes constitués avec vous</p>
+  <p class="fiche-prix" data-prix>2 400 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=changement-360#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Changement 360°</span></a>
+</article></div>
+    </div>
+    <p class="une-tout"><a href="/formation#catalogue" class="bouton bouton--contour" data-libelle="Formation">Voir les 13 formations</a></p>
+  </div>
+</section>
+<section class="rdv bande rdv--photo" id="rendez-vous" data-rdv data-date="2026-12-11" data-aujourdhui="C&#39;est aujourd&#39;hui">
+  <figure class="media rdv-media" data-grok data-fx="zoom" style="--cadrage:62% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/petit-dejeuner-mobile-640.webp 640w, /assets/images/grok/petit-dejeuner-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/petit-dejeuner-1280.webp" srcset="/assets/images/grok/petit-dejeuner-640.webp 640w, /assets/images/grok/petit-dejeuner-1280.webp 1280w, /assets/images/grok/petit-dejeuner-1600.webp 1600w" sizes="100vw" alt="Leadership au féminin, petit-déjeuner inspirant" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur rdv-grille">
+    <div class="rdv-carte" data-anime>
+      <p class="surtitre ">Prochain rendez-vous</p>
+      <h2 class="titre titre--l">Leadership au féminin, petit-déjeuner inspirant</h2>
+      <p class="rdv-date"><strong>Jeudi 11 décembre 2026</strong><br>Buro Club Guadeloupe, ZI de Jarry, Baie-Mahault</p>
+      <p class="rdv-details">3 h 30 · de 3 à 15 participantes · 42 € net de TVA</p>
+      <p class="rdv-texte">Un temps d&#39;échange entre femmes dirigeantes, managers et leaders : plafond de verre, perfectionnisme, stéréotypes du quotidien, performance et management humaniste.</p>
+      <div class="rdv-avant">
+        <p class="rdv-compte" data-effet="compte-a-rebours" aria-live="off"><span class="rdv-dans">Dans</span> <strong data-rdv-jours>21</strong> <span data-rdv-mot>jours</span></p>
+        <p><a href="/contact?sujet=petit-dejeuner&amp;formation=petit-dejeuner#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Réserver ma place</a></p>
+      </div>
+      <div class="rdv-apres" hidden>
+        <p>Ce petit-déjeuner a eu lieu le 11 décembre 2026.</p>
+        <p><a href="/contact?sujet=petit-dejeuner#demande" class="bouton" data-libelle="Contact">Être informée des prochaines dates</a></p>
+      </div>
+      <p class="rdv-note">9,8 sur 10 de satisfaction, 6 avis</p>
+    </div>
+  </div>
+</section>
+<section class="confiance bande" id="confiance">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre ">Ils m&#39;ont fait confiance</p>
+      <h2 class="titre " data-anime="lignes">Des mots <em class="mot">qui comptent</em></h2>
+    </div>
+    <div class="temoignages">
+      <figure class="temoignage">
+        <svg class="guillemet" viewBox="0 0 80 60" aria-hidden="true" data-visuel><path d="M0 60V34Q0 8 26 0l4 8Q14 14 14 30h16v30zm44 0V34q0-26 26-34l4 8Q58 14 58 30h16v30z"/></svg>
+        <blockquote data-anime="mots">En conclusion, grâce à ce coaching et à la réflexion que je mène dessus, j&#39;ai l&#39;impression d&#39;avoir mûri.</blockquote>
+        <figcaption><strong>Muriel</strong>, Manager de proximité dans un organisme public</figcaption>
+      </figure>
+      <figure class="temoignage">
+        <svg class="guillemet" viewBox="0 0 80 60" aria-hidden="true"><path d="M0 60V34Q0 8 26 0l4 8Q14 14 14 30h16v30zm44 0V34q0-26 26-34l4 8Q58 14 58 30h16v30z"/></svg>
+        <blockquote data-anime="mots">J&#39;estime que cet accompagnement a contribué à faire ressortir les intérêts du projet pour chacun.</blockquote>
+        <figcaption><strong>Marie-Claude</strong>, Responsable de service</figcaption>
+      </figure>
+    </div>
+    <p class="confiance-note">Extraits de témoignages publiés sur le site actuel</p>
+  </div>
+  <div class="ruban-section" aria-label="Entreprises et établissements accompagnés" role="group" data-visuel>
+    <p class="visuellement-cache">Entreprises et établissements accompagnés : Europcar, Chantiers Audebert, Novundi, FORE, DRSM, Clubfunding, CMC Caraïbe Management Construction</p>
+    <div class="ruban" id="ruban-clients" data-boucle-css data-ruban aria-hidden="true"><p><span>Europcar</span><span>Chantiers Audebert</span><span>Novundi</span><span>FORE</span><span>DRSM</span><span>Clubfunding</span><span>CMC Caraïbe Management Construction</span><span>Europcar</span><span>Chantiers Audebert</span><span>Novundi</span><span>FORE</span><span>DRSM</span><span>Clubfunding</span><span>CMC Caraïbe Management Construction</span></p></div>
+    <button type="button" class="ruban-pause" data-pause-pour="ruban-clients" data-libelle-pause="Pause" data-libelle-lecture="Lecture"><span data-libelle-bouton>Pause</span></button>
+  </div>
+</section>
+<section class="appel bande bande--ocean" id="appel">
+  <div class="conteneur appel-grille">
+    <div class="appel-texte">
+      <p class="surtitre ">Un premier échange</p>
+      <h2 class="titre titre--xl" data-anime="lignes">Trouvons ensemble le bon <em class="mot">équilibre</em></h2>
+      <p data-anime>Décrivez votre situation et vos contraintes : le plan d&#39;accompagnement se construit avec vous.</p>
+      <p class="appel-actions" data-anime>
+        <a href="/contact#demande" class="bouton bouton--clair" data-libelle="Contact" data-survol="magnetique">Demander un échange</a>
+        <span class="appel-tel">ou appeler le <a href="tel:+590690618141">0690 61 81 41</a></span>
+      </p>
+    </div>
+    <div class="mobile mobile--simple" data-grille="fil" data-mobile data-effet="mobile-appel" data-souris data-visuel role="group" aria-label="Mobile en équilibre : conseil, formation et coaching">
+  <span class="mobile-crochet" aria-hidden="true"></span>
+  <div class="pivot pivot--a" data-pivot data-omega="3.4" data-gain="1">
+    <span class="mobile-barre mobile-barre--a" aria-hidden="true"></span>
+    <div class="pivot pivot--a1" data-pivot data-omega="4.6" data-gain="-1.2">
+      <span class="mobile-fil mobile-fil--a1" aria-hidden="true"></span>
+      <a class="piece piece--cadre" href="/formation" data-libelle="Formation">
+      <span class="piece-forme"></span>
+      <span class="piece-nom">Formation</span>
+    </a>
+    </div>
+    <div class="pivot pivot--a2" data-pivot data-omega="4" data-gain="1.4" data-tombe>
+      <span class="mobile-fil mobile-fil--a2" aria-hidden="true"></span>
+      <div class="pivot pivot--b" data-pivot data-omega="4.4" data-gain="-1.6">
+        <span class="mobile-barre mobile-barre--b" aria-hidden="true"></span>
+        <div class="pivot pivot--b1" data-pivot data-omega="5" data-gain="1.8">
+          <span class="mobile-fil mobile-fil--b1" aria-hidden="true"></span>
+          <a class="piece piece--rond" href="/conseil" data-libelle="Conseil">
+      <span class="piece-forme"></span>
+      <span class="piece-nom">Conseil</span>
+    </a>
+          <span class="mobile-fil mobile-fil--perle" aria-hidden="true"></span><span class="mobile-perle" aria-hidden="true"></span>
+        </div>
+        <div class="pivot pivot--b2" data-pivot data-omega="4.2" data-gain="-2">
+          <span class="mobile-fil mobile-fil--b2" aria-hidden="true"></span>
+          <a class="piece piece--arche" href="/coaching" data-libelle="Coaching">
+      <span class="piece-forme"></span>
+      <span class="piece-nom">Coaching</span>
+    </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair.svg" alt="" width="66" height="44">
+      <p class="pied-nom">Claire Glorot</p>
+      <p>Conseil, formation et coaching professionnel pour les dirigeants, les DRH, les managers et leurs équipes.</p>
+    </div>
+    <div>
+      <h2 class="pied-titre">Coordonnées</h2>
+      <ul>
+        <li>Mobile <a href="tel:+590690618141">0690 61 81 41</a></li>
+        <li>Fixe <a href="tel:+590590592461">0590 59 24 61</a></li>
+        <li class="pied-mail">E-mail <a href="mailto:claireglorot@hotmail.com">claireglorot@hotmail.com</a></li>
+        <li>Sainte-Anne, Guadeloupe</li>
+      </ul>
+    </div>
+    <nav aria-label="Plan du site">
+      <h2 class="pied-titre">Plan du site</h2>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/conseil" data-libelle="Conseil">Conseil</a></li><li><a href="/formation" data-libelle="Formation">Formation</a></li><li><a href="/coaching" data-libelle="Coaching">Coaching</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+    <div>
+      <h2 class="pied-titre">Réseaux</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/claire-glorot-b45486/" target="_blank" rel="noopener">LinkedIn<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.facebook.com/claireglorot.formation" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+      </ul>
+      <figure class="pied-qualiopi"><img src="/assets/images/qualiopi.jpg" alt="Certification Qualiopi au titre des actions de formation." width="500" height="406" loading="lazy"></figure>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales : à compléter · Politique de confidentialité : à compléter · SIREN 539 751 032</p>
+    <p>Déclaration d&#39;activité n° 95 97 30685 97 auprès du préfet de région de Guadeloupe. Cet enregistrement ne vaut pas agrément de l&#39;État.</p>
+    <p>Maquette de démonstration : formulaires simulés, rien n&#39;est envoyé. © 2026 Claire Glorot</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+590690618141">Appeler</a>
+  <a class="bouton" href="/contact#demande" data-libelle="Contact">Demander un échange</a>
+</div>
+</body>
+</html>

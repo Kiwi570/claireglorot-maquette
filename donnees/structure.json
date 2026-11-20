@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Claire Glorot, conseil, formation et coaching professionnel",
+  "url": "https://claireglorot-maquette.vercel.app/",
+  "telephone": "+590690618141",
+  "email": "claireglorot@hotmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Sainte-Anne", "postalCode": "97180", "addressRegion": "Guadeloupe", "addressCountry": "FR" },
+  "areaServed": ["Guadeloupe", "Caraïbe"],
+  "founder": { "@type": "Person", "name": "Claire Glorot" },
+  "sameAs": ["https://www.linkedin.com/in/claire-glorot-b45486/", "https://www.facebook.com/claireglorot.formation"],
+  "description": "Conseil en organisation, management et RH, centre de formation certifié Qualiopi et coaching professionnel."
+}

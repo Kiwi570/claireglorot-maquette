@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Centre de formation certifié Qualiopi · Claire Glorot</title>
+<meta name="description" content="13 formations en management, leadership, RH et compétences transverses, en intra ou en inter-entreprises en Guadeloupe, finançables par les OPCO.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://claireglorot-maquette.vercel.app/formation">
+<style>:root{--fond:#F4EEE3;--texte:#172633;--voile-fond:#12334D;--ouverture-fond:#F4EEE3;--menu-fond:#F4EEE3}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4EEE3">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Claire Glorot">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Centre de formation certifié Qualiopi · Claire Glorot">
+<meta property="og:description" content="13 formations en management, leadership, RH et compétences transverses, en intra ou en inter-entreprises en Guadeloupe, finançables par les OPCO.">
+<meta property="og:url" content="https://claireglorot-maquette.vercel.app/formation">
+<meta property="og:image" content="https://claireglorot-maquette.vercel.app/assets/partage/formation-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Formation : manager avec exigence et humanité">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Claire Glorot, conseil, formation et coaching professionnel","url":"https://claireglorot-maquette.vercel.app/","telephone":"+590690618141","email":"claireglorot@hotmail.com","address":{"@type":"PostalAddress","addressLocality":"Sainte-Anne","postalCode":"97180","addressRegion":"Guadeloupe","addressCountry":"FR"},"areaServed":["Guadeloupe","Caraïbe"],"founder":{"@type":"Person","name":"Claire Glorot"},"sameAs":["https://www.linkedin.com/in/claire-glorot-b45486/","https://www.facebook.com/claireglorot.formation"],"description":"Conseil en organisation, management et RH, centre de formation certifié Qualiopi et coaching professionnel."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="84" height="56"><span data-voile-libelle>Formation</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo.svg" alt="" width="96" height="64" data-ouverture-objet>
+  <p class="ouverture-nom">Claire Glorot</p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">Conseil · Formation · Coaching</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="Claire Glorot, Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="54" height="36"><span class="entete-nom">Claire Glorot<small>Conseil · Formation · Coaching</small></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/conseil" data-libelle="Conseil">Conseil</a></li><li><a href="/formation" data-libelle="Formation" aria-current="page">Formation</a></li><li><a href="/coaching" data-libelle="Coaching">Coaching</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#demande" data-libelle="Contact">Demander un échange</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/conseil" class="menu-lien" data-libelle="Conseil">Conseil</a></li><li style="--i:2"><a href="/formation" class="menu-lien" data-libelle="Formation" aria-current="page">Formation</a></li><li style="--i:3"><a href="/coaching" class="menu-lien" data-libelle="Coaching">Coaching</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+590690618141">Appeler 0690 61 81 41</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouverture ouverture--titre" id="debut">
+  <div class="conteneur ouverture-titre-grille">
+    <div>
+      <p class="surtitre ">Centre de formation certifié Qualiopi</p>
+      <h1 class="titre titre--xxl" data-anime="gsap" data-ouverture-titre>Manager avec exigence <em class="mot">et humanité</em></h1>
+    </div>
+    <div class="ouverture-cote">
+      <p class="masque-ecran-bas" data-anime="gsap" data-ouverture-suite>Management, leadership, conduite du changement, dynamique d&#39;équipe et ressources humaines : des formations pour des pratiques managériales humaines et responsables.</p>
+      <p class="ouverture-actions" data-anime="gsap" data-ouverture-suite>
+        <a href="/contact?sujet=formation#demande" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Demander un devis</a>
+        <a class="bouton bouton--contour masque-ecran-tres-bas" href="#catalogue">Voir le catalogue</a>
+      </p>
+      <p class="ouverture-info" data-anime="gsap" data-ouverture-suite data-info-cle><span class="point" aria-hidden="true"></span>Finançable par les OPCO · intra ou inter-entreprises · accessible sur demande aux personnes en situation de handicap</p>
+    </div>
+    <div class="pastille" data-iris-centre="disque" aria-hidden="true" data-visuel><span class="pastille-anneau" data-effet="pastille"></span><span class="pastille-chiffre">13</span><span class="pastille-mot">formations</span></div>
+  </div>
+</section>
+<section class="ouvre bande" id="pedagogie" data-fx="plein-ecran" data-fx-depart="inset(18% 22% 18% 22% round 24px)">
+  <div data-collant>
+    <figure class="media ouvre-media" data-grok data-fx-cible style="--cadrage:50% 55%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/formation-ouverture-mobile-640.webp 640w, /assets/images/grok/formation-ouverture-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/formation-ouverture-1280.webp" srcset="/assets/images/grok/formation-ouverture-640.webp 640w, /assets/images/grok/formation-ouverture-1280.webp 1280w, /assets/images/grok/formation-ouverture-1600.webp 1600w" sizes="100vw" alt="Une session de formation en demi-cercle" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <p class="ouvre-mot ouvre-mot--g" data-fx-ecarte="g" aria-hidden="true">Intra</p>
+    <p class="ouvre-mot ouvre-mot--d" data-fx-ecarte="d" aria-hidden="true">Inter</p>
+    <p class="ouvre-legende" data-fx-apres>Une pédagogie immersive, ancrée dans des situations réelles.</p>
+  </div>
+</section>
+<section class="cycle bande bande--sable" id="cycle">
+  <div class="conteneur cycle-grille">
+    <div>
+      <p class="surtitre ">Inter-entreprises en Guadeloupe</p>
+      <h2 class="titre " data-anime="lignes">Cycle Management <em class="mot">&amp; Leadership</em></h2>
+      <p data-anime>Cinq modules à la carte, à mobiliser selon vos enjeux, en inter-entreprises ou en intra-entreprise.</p>
+      <p data-anime><a href="/contact?sujet=formation-inter#demande" class="bouton bouton--contour" data-libelle="Contact">Demander les dates</a></p>
+    </div>
+    <ol class="cycle-modules" data-anime="cascade">
+      <li><span class="cycle-num">1</span>Renforcer ses compétences de management</li><li><span class="cycle-num">2</span>Développer son leadership</li><li><span class="cycle-num">3</span>Leadership au féminin</li><li><span class="cycle-num">4</span>Cohésion et performance d&#39;équipe</li><li><span class="cycle-num">5</span>Prévenir et gérer les conflits</li>
+    </ol>
+  </div>
+</section>
+<section class="rdv bande" id="rendez-vous" data-rdv data-date="2026-12-11" data-aujourdhui="C&#39;est aujourd&#39;hui">
+  <div class="conteneur rdv-grille">
+    <div class="rdv-carte" data-anime>
+      <p class="surtitre ">Prochain rendez-vous</p>
+      <h2 class="titre titre--l">Leadership au féminin, petit-déjeuner inspirant</h2>
+      <p class="rdv-date"><strong>Jeudi 11 décembre 2026</strong><br>Buro Club Guadeloupe, ZI de Jarry, Baie-Mahault</p>
+      <p class="rdv-details">3 h 30 · de 3 à 15 participantes · 42 € net de TVA</p>
+      <p class="rdv-texte">Un temps d&#39;échange entre femmes dirigeantes, managers et leaders : plafond de verre, perfectionnisme, stéréotypes du quotidien, performance et management humaniste.</p>
+      <div class="rdv-avant">
+        <p class="rdv-compte" data-effet="compte-a-rebours" aria-live="off"><span class="rdv-dans">Dans</span> <strong data-rdv-jours>21</strong> <span data-rdv-mot>jours</span></p>
+        <p><a href="/contact?sujet=petit-dejeuner&amp;formation=petit-dejeuner#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Réserver ma place</a></p>
+      </div>
+      <div class="rdv-apres" hidden>
+        <p>Ce petit-déjeuner a eu lieu le 11 décembre 2026.</p>
+        <p><a href="/contact?sujet=petit-dejeuner#demande" class="bouton" data-libelle="Contact">Être informée des prochaines dates</a></p>
+      </div>
+      <p class="rdv-note">9,8 sur 10 de satisfaction, 6 avis</p>
+    </div>
+  </div>
+</section>
+<section class="cff catalogue bande" id="catalogue" data-module="catalogue-filtres-flip" aria-labelledby="catalogue-titre">
+  <div class="conteneur">
+    <div class="tete-section tete-section--ligne">
+      <div><p class="surtitre ">Catalogue</p><h2 id="catalogue-titre" class="titre " data-anime="lignes">13 formations, <em class="mot">à filtrer</em></h2></div>
+      <p data-anime>Prix nets de TVA, par participant pour les sessions inter-entreprises. Chaque demande est étudiée pour construire une réponse sur mesure.</p>
+    </div>
+    <div class="cff__filtres" role="region" aria-label="Filtres du catalogue">
+      <div class="cff__rang">
+        <div class="cff__groupe" role="group" aria-label="Thème" data-filtre-groupe="categorie"><span class="cff__etiquette">Thème</span>
+          <button type="button" data-valeur="tout" aria-pressed="true">Tout</button>
+          <button type="button" data-valeur="management" aria-pressed="false">Management</button>
+          <button type="button" data-valeur="rh" aria-pressed="false">Management et RH</button>
+          <button type="button" data-valeur="transverses" aria-pressed="false">Compétences transverses</button>
+        </div>
+        <div class="cff__groupe" role="group" aria-label="Durée" data-filtre-groupe="duree"><span class="cff__etiquette">Durée</span>
+          <button type="button" data-valeur="tout" aria-pressed="true">Tout</button>
+          <button type="button" data-valeur="court" aria-pressed="false">Demi-journée</button>
+          <button type="button" data-valeur="2j" aria-pressed="false">2 jours</button>
+          <button type="button" data-valeur="3j" aria-pressed="false">3 jours</button>
+        </div>
+      </div>
+      <div class="cff__rang">
+        <label class="cff__curseur"><span class="cff__etiquette">Budget maximum</span> <b data-sortie="prix">2 400 €</b>
+          <input type="range" min="100" max="2400" step="50" value="2400" data-filtre-max="prix"></label>
+        <label class="cff__tri"><span class="cff__etiquette">Trier</span>
+          <select data-tri><option value="ordre">Recommandées</option><option value="prix-asc">Prix croissant</option><option value="heures-asc">Durée croissante</option></select></label>
+        <p class="cff__compte" aria-live="polite"><b data-compte>13</b> <span data-compte-mot>formations</span> · <button type="button" class="cff__reinit" data-reinit>Réinitialiser</button></p>
+      </div>
+    </div>
+    <div class="cff__grille fiches" data-grille data-effet="catalogue">
+      <article class="fiche fiche--management cff__fiche" id="f-management-1" data-categorie="management" data-duree="3j" data-prix="1485" data-heures="21" data-ordre="1">
+  <p class="fiche-cat">Management</p>
+  <h3 class="fiche-titre">Management niveau 1 : les bases du management</h3>
+  <p class="fiche-sous">Les essentiels pour manager une équipe opérationnelle</p>
+  <ul class="fiche-infos">
+    <li><strong>3 jours</strong> · 21 h</li>
+    <li>4 à 12 participants</li>
+    <li>8,9 sur 10 · 2 avis</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Managers et toute personne qui encadre une équipe ou va le faire</p>
+  <p class="fiche-prix" data-prix>1 485 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=management-1#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Management niveau 1 : les bases du management</span></a>
+</article><article class="fiche fiche--management cff__fiche" id="f-management-2" data-categorie="management" data-duree="2j" data-prix="990" data-heures="14" data-ordre="2">
+  <p class="fiche-cat">Management</p>
+  <h3 class="fiche-titre">Management niveau 2 : renforcer ses compétences de management</h3>
+  <ul class="fiche-infos">
+    <li><strong>2 jours</strong> · 14 h</li>
+    <li>4 à 12 participants</li>
+    <li>10 sur 10 · 1 avis</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Managers qui veulent actualiser leurs pratiques</p>
+  <p class="fiche-prix" data-prix>990 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=management-2#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Management niveau 2 : renforcer ses compétences de management</span></a>
+</article><article class="fiche fiche--management cff__fiche" id="f-management-3" data-categorie="management" data-duree="3j" data-prix="1485" data-heures="21" data-ordre="3">
+  <p class="fiche-cat">Management</p>
+  <h3 class="fiche-titre">Management niveau 3 : développer son leadership</h3>
+  <ul class="fiche-infos">
+    <li><strong>3 jours</strong> · 21 h</li>
+    <li>4 à 12 participants</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Dirigeants, managers et responsables de projet en situation managériale</p>
+  <p class="fiche-prix" data-prix>1 485 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=management-3#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Management niveau 3 : développer son leadership</span></a>
+</article><article class="fiche fiche--management cff__fiche" id="f-leadership-feminin" data-categorie="management" data-duree="3j" data-prix="1485" data-heures="21" data-ordre="4">
+  <p class="fiche-cat">Management</p>
+  <h3 class="fiche-titre">Leadership au féminin</h3>
+  <ul class="fiche-infos">
+    <li><strong>3 jours</strong> · 21 h</li>
+    <li>1 à 12 participants</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Femmes managers, dirigeantes et leaders</p>
+  <p class="fiche-prix" data-prix>1 485 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=leadership-feminin#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Leadership au féminin</span></a>
+</article><article class="fiche fiche--management cff__fiche" id="f-petit-dejeuner" data-categorie="management" data-duree="court" data-prix="42" data-heures="3.5" data-ordre="5">
+  <p class="fiche-cat">Management · <span class="fiche-date">Le 11 décembre 2026</span></p>
+  <h3 class="fiche-titre">Leadership au féminin : petit-déjeuner inspirant</h3>
+  <ul class="fiche-infos">
+    <li><strong>3 h 30</strong></li>
+    <li>3 à 15 participants</li>
+    <li>9,8 sur 10 · 6 avis</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Femmes dirigeantes, managers, responsables d&#39;équipe et leaders</p>
+  <p class="fiche-prix" data-prix>42 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=petit-dejeuner&amp;formation=petit-dejeuner#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Leadership au féminin : petit-déjeuner inspirant</span></a>
+</article><article class="fiche fiche--management cff__fiche" id="f-entretiens-annuels" data-categorie="management" data-duree="2j" data-prix="2400" data-heures="14" data-ordre="6">
+  <p class="fiche-cat">Management</p>
+  <h3 class="fiche-titre">Préparer et conduire ses entretiens annuels</h3>
+  <ul class="fiche-infos">
+    <li><strong>2 jours</strong> · 14 h</li>
+    <li>4 à 12 participants</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Managers et responsables qui mènent des entretiens annuels</p>
+  <p class="fiche-prix" data-prix>Tarif sur devis</p>
+  <a href="/contact?sujet=formation&amp;formation=entretiens-annuels#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Préparer et conduire ses entretiens annuels</span></a>
+</article><article class="fiche fiche--rh cff__fiche" id="f-entretiens-professionnels" data-categorie="rh" data-duree="2j" data-prix="990" data-heures="14" data-ordre="7">
+  <p class="fiche-cat">Management et RH</p>
+  <h3 class="fiche-titre">Préparer et conduire ses entretiens professionnels</h3>
+  <ul class="fiche-infos">
+    <li><strong>2 jours</strong> · 14 h</li>
+    <li>4 à 12 participants</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Managers, responsables RH et toute personne qui mène des entretiens professionnels</p>
+  <p class="fiche-prix" data-prix>990 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=entretiens-professionnels#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Préparer et conduire ses entretiens professionnels</span></a>
+</article><article class="fiche fiche--rh cff__fiche" id="f-conflits" data-categorie="rh" data-duree="2j" data-prix="990" data-heures="14" data-ordre="8">
+  <p class="fiche-cat">Management et RH</p>
+  <h3 class="fiche-titre">Prévenir et gérer les conflits</h3>
+  <ul class="fiche-infos">
+    <li><strong>2 jours</strong> · 14 h</li>
+    <li>4 à 12 participants</li>
+    <li>9,3 sur 10 · 3 avis</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Managers, responsables RH et toute personne amenée à gérer des conflits</p>
+  <p class="fiche-prix" data-prix>990 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=conflits#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Prévenir et gérer les conflits</span></a>
+</article><article class="fiche fiche--transverses cff__fiche" id="f-changement-360" data-categorie="transverses" data-duree="2j" data-prix="2400" data-heures="14" data-ordre="9">
+  <p class="fiche-cat">Compétences transverses</p>
+  <h3 class="fiche-titre">Changement 360°</h3>
+  <p class="fiche-sous">Comprendre, intégrer et réussir les transitions à tous les niveaux de l&#39;organisation</p>
+  <ul class="fiche-infos">
+    <li><strong>2 jours</strong> · 14 h</li>
+    <li>4 à 14 participants</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Toute l&#39;entreprise, par groupes constitués avec vous</p>
+  <p class="fiche-prix" data-prix>2 400 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=changement-360#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Changement 360°</span></a>
+</article><article class="fiche fiche--transverses cff__fiche" id="f-cohesion" data-categorie="transverses" data-duree="2j" data-prix="990" data-heures="14" data-ordre="10">
+  <p class="fiche-cat">Compétences transverses</p>
+  <h3 class="fiche-titre">Cohésion et performance collective</h3>
+  <ul class="fiche-infos">
+    <li><strong>2 jours</strong> · 14 h</li>
+    <li>4 à 15 participants</li>
+    <li>9,6 sur 10 · 12 avis</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Tout collaborateur qui travaille en équipe</p>
+  <p class="fiche-prix" data-prix>990 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=cohesion#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Cohésion et performance collective</span></a>
+</article><article class="fiche fiche--transverses cff__fiche" id="f-leadership-projet" data-categorie="transverses" data-duree="3j" data-prix="1485" data-heures="21" data-ordre="11">
+  <p class="fiche-cat">Compétences transverses</p>
+  <h3 class="fiche-titre">Le leadership de projet</h3>
+  <ul class="fiche-infos">
+    <li><strong>3 jours</strong> · 21 h</li>
+    <li>4 à 12 participants</li>
+    <li>9,7 sur 10 · 1 avis</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Toute personne qui dirige un projet ou y prend part</p>
+  <p class="fiche-prix" data-prix>1 485 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=leadership-projet#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Le leadership de projet</span></a>
+</article><article class="fiche fiche--transverses cff__fiche" id="f-posture" data-categorie="transverses" data-duree="2j" data-prix="990" data-heures="14" data-ordre="12">
+  <p class="fiche-cat">Compétences transverses</p>
+  <h3 class="fiche-titre">Développer et affirmer sa posture professionnelle</h3>
+  <ul class="fiche-infos">
+    <li><strong>2 jours</strong> · 14 h</li>
+    <li>4 à 12 participants</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Collaborateurs ou équipes qui veulent prendre du recul sur leur rôle</p>
+  <p class="fiche-prix" data-prix>990 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=posture#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Développer et affirmer sa posture professionnelle</span></a>
+</article><article class="fiche fiche--transverses cff__fiche" id="f-priorites" data-categorie="transverses" data-duree="2j" data-prix="990" data-heures="14" data-ordre="13">
+  <p class="fiche-cat">Compétences transverses</p>
+  <h3 class="fiche-titre">Gérer ses priorités et la pression professionnelle</h3>
+  <ul class="fiche-infos">
+    <li><strong>2 jours</strong> · 14 h</li>
+    <li>4 à 12 participants</li>
+  </ul>
+  <p class="fiche-public"><span>Pour qui</span> Toute personne qui veut mieux organiser son temps</p>
+  <p class="fiche-prix" data-prix>990 € <small>net de TVA</small></p>
+  <a href="/contact?sujet=formation&amp;formation=priorites#demande" class="fiche-lien" data-libelle="Contact">Demander un devis<span class="visuellement-cache"> : Gérer ses priorités et la pression professionnelle</span></a>
+</article>
+      <p class="cff__vide" data-vide hidden>Aucune formation ne correspond à ces filtres. <button type="button" data-reinit>Réinitialiser</button></p>
+    </div>
+  </div>
+</section>
+<section class="formats bande bande--sable" id="formats">
+  <div class="conteneur">
+    <div class="tete-section"><p class="surtitre ">Deux formats</p><h2 class="titre " data-anime="lignes">Chez vous <em class="mot">ou entre pairs</em></h2></div>
+    <div class="formats-grille" data-anime="cascade">
+      <article class="format">
+        <figure class="media format-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/formation-intra-800.webp" srcset="/assets/images/grok/formation-intra-640.webp 640w, /assets/images/grok/formation-intra-800.webp 800w" sizes="(max-width: 760px) 100vw, 45vw" alt="Une équipe en atelier dans sa propre salle de réunion" width="800" height="600" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <h3>Intra-entreprise</h3><p>Des dispositifs conçus sur mesure pour votre équipe, qui peuvent associer formation, diagnostic, coaching et régulation collective.</p>
+        <a href="/contact?sujet=formation#demande" class="lien-fleche" data-libelle="Contact">Demander un devis</a>
+      </article>
+      <article class="format">
+        <figure class="media format-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/formation-inter-800.webp" srcset="/assets/images/grok/formation-inter-640.webp 640w, /assets/images/grok/formation-inter-800.webp 800w" sizes="(max-width: 760px) 100vw, 45vw" alt="Pause entre participants de plusieurs entreprises" width="800" height="600" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <h3>Inter-entreprises</h3><p>Un cadre structuré et neutre, pour échanger avec des pairs venus d&#39;autres contextes, avec un cycle Management &amp; Leadership proposé en Guadeloupe.</p>
+        <a href="/contact?sujet=formation-inter#demande" class="lien-fleche" data-libelle="Contact">Demander les dates</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="engagements bande" id="engagements">
+  <div class="conteneur engagements-grille">
+    <div>
+      <p class="surtitre ">Engagements</p>
+      <h2 class="titre " data-anime="lignes">Une pédagogie <em class="mot">qui engage</em></h2>
+      <ul class="engagements-liste" data-anime="cascade">
+        <li><h3>Circuit court</h3><p>La formatrice dirige le centre : vous parlez directement à celle qui conçoit et anime.</p></li><li><h3>Humaniste et systémique</h3><p>Chaque personne est vue dans son équipe et son organisation, avec un souci du mieux-être du manager.</p></li><li><h3>Immersive</h3><p>Mises en situation, jeux de rôle et autodiagnostics, ancrés dans vos problématiques, même en inter.</p></li><li><h3>Suivi en ligne</h3><p>Un espace dédié : suivi pédagogique, documents, supports et échanges.</p></li>
+      </ul>
+    </div>
+    <aside class="garanties" data-anime>
+      <p class="garanties-note"><strong class="chiffre">9,3</strong> sur 10 de satisfaction générale</p>
+      <img src="/assets/images/qualiopi.jpg" alt="Certification Qualiopi au titre des actions de formation." width="500" height="406" loading="lazy" data-visuel>
+      <p>Certification Qualiopi renouvelée en 2025 : vos formations sont éligibles aux financements des OPCO.</p>
+      <p>Accessible aux personnes en situation de handicap : vos besoins sont pris en compte sur demande.</p>
+      <p class="garanties-nda">Déclaration d&#39;activité n° 95 97 30685 97 auprès du préfet de région de Guadeloupe. Cet enregistrement ne vaut pas agrément de l&#39;État.</p>
+    </aside>
+  </div>
+</section>
+<section class="appel bande bande--ocean" id="appel">
+  <div class="conteneur appel-grille">
+    <div class="appel-texte">
+      <p class="surtitre ">Un premier échange</p>
+      <h2 class="titre titre--xl" data-anime="lignes">Trouvons ensemble le bon <em class="mot">équilibre</em></h2>
+      <p data-anime>Décrivez votre situation et vos contraintes : le plan d&#39;accompagnement se construit avec vous.</p>
+      <p class="appel-actions" data-anime>
+        <a href="/contact?sujet=formation#demande" class="bouton bouton--clair" data-libelle="Contact" data-survol="magnetique">Demander un échange</a>
+        <span class="appel-tel">ou appeler le <a href="tel:+590690618141">0690 61 81 41</a></span>
+      </p>
+    </div>
+    <div class="mobile mobile--simple" data-grille="fil" data-mobile data-effet="mobile-appel" data-souris data-visuel role="group" aria-label="Mobile en équilibre : conseil, formation et coaching">
+  <span class="mobile-crochet" aria-hidden="true"></span>
+  <div class="pivot pivot--a" data-pivot data-omega="3.4" data-gain="1">
+    <span class="mobile-barre mobile-barre--a" aria-hidden="true"></span>
+    <div class="pivot pivot--a1" data-pivot data-omega="4.6" data-gain="-1.2">
+      <span class="mobile-fil mobile-fil--a1" aria-hidden="true"></span>
+      <a class="piece piece--cadre" href="/formation" data-libelle="Formation">
+      <span class="piece-forme"></span>
+      <span class="piece-nom">Formation</span>
+    </a>
+    </div>
+    <div class="pivot pivot--a2" data-pivot data-omega="4" data-gain="1.4" data-tombe>
+      <span class="mobile-fil mobile-fil--a2" aria-hidden="true"></span>
+      <div class="pivot pivot--b" data-pivot data-omega="4.4" data-gain="-1.6">
+        <span class="mobile-barre mobile-barre--b" aria-hidden="true"></span>
+        <div class="pivot pivot--b1" data-pivot data-omega="5" data-gain="1.8">
+          <span class="mobile-fil mobile-fil--b1" aria-hidden="true"></span>
+          <a class="piece piece--rond" href="/conseil" data-libelle="Conseil">
+      <span class="piece-forme"></span>
+      <span class="piece-nom">Conseil</span>
+    </a>
+          <span class="mobile-fil mobile-fil--perle" aria-hidden="true"></span><span class="mobile-perle" aria-hidden="true"></span>
+        </div>
+        <div class="pivot pivot--b2" data-pivot data-omega="4.2" data-gain="-2">
+          <span class="mobile-fil mobile-fil--b2" aria-hidden="true"></span>
+          <a class="piece piece--arche" href="/coaching" data-libelle="Coaching">
+      <span class="piece-forme"></span>
+      <span class="piece-nom">Coaching</span>
+    </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair.svg" alt="" width="66" height="44">
+      <p class="pied-nom">Claire Glorot</p>
+      <p>Conseil, formation et coaching professionnel pour les dirigeants, les DRH, les managers et leurs équipes.</p>
+    </div>
+    <div>
+      <h2 class="pied-titre">Coordonnées</h2>
+      <ul>
+        <li>Mobile <a href="tel:+590690618141">0690 61 81 41</a></li>
+        <li>Fixe <a href="tel:+590590592461">0590 59 24 61</a></li>
+        <li class="pied-mail">E-mail <a href="mailto:claireglorot@hotmail.com">claireglorot@hotmail.com</a></li>
+        <li>Sainte-Anne, Guadeloupe</li>
+      </ul>
+    </div>
+    <nav aria-label="Plan du site">
+      <h2 class="pied-titre">Plan du site</h2>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/conseil" data-libelle="Conseil">Conseil</a></li><li><a href="/formation" data-libelle="Formation" aria-current="page">Formation</a></li><li><a href="/coaching" data-libelle="Coaching">Coaching</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+    <div>
+      <h2 class="pied-titre">Réseaux</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/claire-glorot-b45486/" target="_blank" rel="noopener">LinkedIn<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.facebook.com/claireglorot.formation" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+      </ul>
+      <figure class="pied-qualiopi"><img src="/assets/images/qualiopi.jpg" alt="Certification Qualiopi au titre des actions de formation." width="500" height="406" loading="lazy"></figure>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales : à compléter · Politique de confidentialité : à compléter · SIREN 539 751 032</p>
+    <p>Déclaration d&#39;activité n° 95 97 30685 97 auprès du préfet de région de Guadeloupe. Cet enregistrement ne vaut pas agrément de l&#39;État.</p>
+    <p>Maquette de démonstration : formulaires simulés, rien n&#39;est envoyé. © 2026 Claire Glorot</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+590690618141">Appeler</a>
+  <a class="bouton" href="/contact#demande" data-libelle="Contact">Demander un échange</a>
+</div>
+</body>
+</html>

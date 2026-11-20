@@ -1,0 +1,352 @@
+[
+ {
+  "source": "recu/logo-clair.png",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "Claire Glorot, conseil, formation et coaching professionnel"
+ },
+ {
+  "source": "recu/logo.jpg",
+  "nom": "qualiopi",
+  "role": "logo",
+  "alt": "Qualiopi, processus certifié, République française. La certification qualité a été délivrée au titre de la catégorie d'actions suivante : actions de formation."
+ },
+ {
+  "source": "recu/claire-glorot-portrait.jpg",
+  "nom": "claire-portrait",
+  "role": "portrait",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "mobile": "4:5",
+  "cadrage": [
+   50,
+   30
+  ],
+  "beaute": 5,
+  "alt": "Claire Glorot, souriante, assise sur un fauteuil moutarde"
+ },
+ {
+  "source": "recu/grok/accueil-piece-conseil.jpg",
+  "nom": "grok/piece-conseil",
+  "page": "Accueil",
+  "emplacement": "pièce ronde du mobile (Conseil)",
+  "role": "vignette",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Atelier de stratégie : notes colorées rangées en colonnes sur une table claire",
+  "consigne_scene": "Top-down view of a pale wooden meeting table during a strategy workshop: square sticky notes in coral, deep blue and sand colours arranged in neat columns, two closed notebooks, a pencil and a glass of water, soft shadows of louvered shutters falling across the table, nobody in the frame, nothing written on the notes."
+ },
+ {
+  "source": "recu/grok/accueil-piece-formation.jpg",
+  "nom": "grok/piece-formation",
+  "page": "Accueil",
+  "emplacement": "cadre central du mobile (Formation)",
+  "role": "vignette",
+  "ratio": "3:4",
+  "largeurs": [
+   400,
+   800
+  ],
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Salle de formation lumineuse, participants vus de dos",
+  "consigne_scene": "A bright training room seen from the back: four or five Caribbean professionals of varied backgrounds seated at light wooden tables arranged in a U, all seen strictly from behind, a flipchart with blank white sheets at the front next to tall windows with open louvered shutters, green leaves outside, calm and attentive atmosphere."
+ },
+ {
+  "source": "recu/grok/accueil-piece-coaching.jpg",
+  "nom": "grok/piece-coaching",
+  "page": "Accueil",
+  "emplacement": "pièce en arche du mobile (Coaching)",
+  "role": "vignette",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Deux fauteuils en rotin face à face sur une véranda ombragée",
+  "consigne_scene": "Two rattan armchairs with linen cushions facing each other on a shaded wooden veranda, a low table between them with two cups of coffee and a closed notebook, a lush green garden softly blurred beyond the railing, nobody, quiet and welcoming."
+ },
+ {
+  "source": "recu/grok/accueil-axe-conseil.jpg",
+  "nom": "grok/axe-conseil",
+  "page": "Accueil",
+  "emplacement": "carte Conseil des trois métiers",
+  "role": "galerie",
+  "ratio": "4:5",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Séminaire de direction sur une terrasse couverte",
+  "consigne_scene": "A small leadership seminar on a covered terrace with white plaster columns: a long pale wooden table with notebooks and water carafes, three executives seen strictly from behind in a focused discussion, a soft green hillside blurred in the background, morning light, calm and serious.",
+  "largeurs": [
+   480,
+   800,
+   1072
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-axe-formation.jpg",
+  "nom": "grok/axe-formation",
+  "page": "Accueil",
+  "emplacement": "carte Formation des trois métiers",
+  "role": "galerie",
+  "ratio": "4:5",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Atelier de formation : un mur de notes colorées, participants de dos",
+  "consigne_scene": "A training workshop in progress, seen over the shoulder of a participant: two or three colleagues standing in front of a white wall covered with coral, deep blue and sand sticky notes, all seen from behind or in soft blur, nothing written on the notes, bright and energetic but calm.",
+  "largeurs": [
+   480,
+   800,
+   1072
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-axe-coaching.jpg",
+  "nom": "grok/axe-coaching",
+  "page": "Accueil",
+  "emplacement": "carte Coaching des trois métiers",
+  "role": "galerie",
+  "ratio": "4:5",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Une manager de dos, face à une grande fenêtre, prend du recul",
+  "consigne_scene": "A woman manager seen strictly from behind, standing at a tall open window with louvered shutters in a calm office, looking out at green trees, a closed notebook resting on the window sill, contemplative moment of stepping back.",
+  "largeurs": [
+   480,
+   800,
+   1072
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-petit-dejeuner.jpg",
+  "source_mobile": "recu/grok/accueil-petit-dejeuner-mobile.jpg",
+  "nom": "grok/petit-dejeuner",
+  "page": "Accueil",
+  "emplacement": "fond du prochain rendez-vous",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "zone_texte": "gauche",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Table de petit-déjeuner dressée pour une rencontre, chaises encore vides",
+  "consigne_scene": "A long table set for a morning meeting in a bright room with white plaster walls: coffee cups, a carafe of juice, a bowl of fresh tropical fruit, small pastries, notebooks and pens at each place, the chairs still empty, warm early light through louvered shutters, elegant and friendly.",
+  "largeurs": [
+   640,
+   1280,
+   1600
+  ]
+ },
+ {
+  "source": "recu/grok/conseil-ouverture.jpg",
+  "nom": "grok/conseil-ouverture",
+  "page": "Conseil",
+  "emplacement": "ouverture (image à droite du titre)",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "mobile": "4:5",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Salle de séminaire prête pour une journée de travail, volets ouverts",
+  "consigne_scene": "An empty seminar room prepared for a strategy day: a long pale wooden table with chairs neatly aligned, notebooks and water glasses at each place, a flipchart with blank white sheets, tall windows with open louvered shutters onto tropical greenery, nobody.",
+  "largeurs": [
+   640,
+   960,
+   1280
+  ]
+ },
+ {
+  "source": "recu/grok/conseil-strategie.jpg",
+  "nom": "grok/conseil-strategie",
+  "page": "Conseil",
+  "emplacement": "tiroir Stratégie, management et gouvernance",
+  "role": "carte-service",
+  "ratio": "16:10",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Une feuille de route en construction : cartes colorées posées en frise",
+  "consigne_scene": "Top-down view of a roadmap being built on a large sheet of kraft paper on a wooden table: blank coloured cards in coral, deep blue and sand laid out along a hand-drawn timeline line, a pencil and a ruler, nothing readable, nobody."
+ },
+ {
+  "source": "recu/grok/conseil-organisation.jpg",
+  "nom": "grok/conseil-organisation",
+  "page": "Conseil",
+  "emplacement": "tiroir Organisation et ressources humaines",
+  "role": "carte-service",
+  "ratio": "16:10",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Un organigramme abstrait de notes et de traits sur une paroi vitrée",
+  "consigne_scene": "A glass wall in a bright office with an abstract organisation chart made of blank sticky notes in coral, deep blue and sand connected by thin drawn lines, seen at an angle with soft reflections of leaves, nothing readable, nobody."
+ },
+ {
+  "source": "recu/grok/conseil-transformation.jpg",
+  "nom": "grok/conseil-transformation",
+  "page": "Conseil",
+  "emplacement": "tiroir Transformation et gestion de projet",
+  "role": "carte-service",
+  "ratio": "16:10",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Une équipe projet de dos devant un grand tableau de planification",
+  "consigne_scene": "A project team of three seen strictly from behind, standing in front of a wall-sized planning board with coloured magnets and blank cards arranged in columns, mid-discussion, bright office with white plaster walls, nothing readable."
+ },
+ {
+  "source": "recu/grok/formation-ouverture.jpg",
+  "source_mobile": "recu/grok/formation-ouverture-mobile.jpg",
+  "nom": "grok/formation-ouverture",
+  "page": "Formation",
+  "emplacement": "grande image qui s'ouvre en plein écran",
+  "role": "ouverture",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "zone_texte": "bas",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Une session de formation en demi-cercle, dans une salle baignée de lumière",
+  "consigne_scene": "A bright training room during a session: six participants of varied Caribbean backgrounds seated in a semicircle, all seen from behind, a trainer standing near a flipchart with blank sheets, her back half turned and in soft focus, tall windows with louvered shutters and green leaves outside, warm and engaged atmosphere.",
+  "largeurs": [
+   640,
+   1280,
+   1600
+  ]
+ },
+ {
+  "source": "recu/grok/formation-inter.jpg",
+  "nom": "grok/formation-inter",
+  "page": "Formation",
+  "emplacement": "carte Inter-entreprises",
+  "role": "vignette",
+  "ratio": "4:3",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Pause entre participants de plusieurs entreprises, cafés à la main",
+  "consigne_scene": "A coffee break during an inter-company training in a light-filled lobby with white plaster walls and plants: a few professionals chatting in two small groups, seen from behind or in soft blur, coffee cups on a high table, relaxed and open atmosphere."
+ },
+ {
+  "source": "recu/grok/formation-intra.jpg",
+  "nom": "grok/formation-intra",
+  "page": "Formation",
+  "emplacement": "carte Intra-entreprise",
+  "role": "vignette",
+  "ratio": "4:3",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Une équipe en atelier dans sa propre salle de réunion",
+  "consigne_scene": "A team of five working together around a single table in their own company meeting room, seen from behind and in soft blur, blank cards and sticky notes spread on the table, a whiteboard left blank, bright and focused."
+ },
+ {
+  "source": "recu/grok/coaching-ouverture.jpg",
+  "nom": "grok/coaching-ouverture",
+  "page": "Coaching",
+  "emplacement": "ouverture (image en arche)",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "mobile": "4:5",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Deux fauteuils face à face dans une pièce calme et lumineuse",
+  "consigne_scene": "Two comfortable armchairs facing each other in a calm room with white plaster walls, a low wooden table with a carafe of water, two glasses and a closed notebook, a tall green plant, louvered shutters filtering the light into soft stripes on the floor, nobody.",
+  "largeurs": [
+   640,
+   960,
+   1280
+  ]
+ },
+ {
+  "source": "recu/grok/coaching-equipe.jpg",
+  "nom": "grok/coaching-equipe",
+  "page": "Coaching",
+  "emplacement": "Coaching d'équipe",
+  "role": "galerie",
+  "ratio": "3:2",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Une équipe assise en cercle, sans table, en séance collective",
+  "consigne_scene": "A team of six sitting in a circle of chairs without a table in a bright room, seen from behind and in soft blur, attentive, one person speaking with an open gesture, a facilitator standing slightly apart, calm and trusting atmosphere."
+ },
+ {
+  "source": "recu/grok/coaching-carnet.jpg",
+  "nom": "grok/coaching-carnet",
+  "page": "Coaching",
+  "emplacement": "image collante du déroulé",
+  "role": "galerie",
+  "ratio": "4:5",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Un carnet ouvert et un stylo sur un rebord de fenêtre",
+  "consigne_scene": "An open notebook with blank pages and a pen resting on a wooden window sill, a cup of coffee beside it, the garden outside softly blurred in green, quiet morning, nobody.",
+  "largeurs": [
+   480,
+   800,
+   1072
+  ]
+ },
+ {
+  "source": "recu/grok/contact-ouverture.jpg",
+  "nom": "grok/contact-ouverture",
+  "page": "Contact",
+  "emplacement": "ouverture (image à côté du formulaire)",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "mobile": "4:5",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Un bureau calme près d'une fenêtre ouverte, carnet et café",
+  "consigne_scene": "A calm desk by an open window in a small coastal town: a closed laptop, a notebook, a cup of coffee and a phone lying face down, a bougainvillea branch softly blurred outside, warm light, nobody.",
+  "largeurs": [
+   640,
+   960,
+   1280
+  ]
+ },
+ {
+  "source": "recu/grok/page-404.jpg",
+  "nom": "grok/page-404",
+  "page": "404",
+  "emplacement": "image de la page introuvable",
+  "role": "404",
+  "ratio": "16:9",
+  "mobile": "4:5",
+  "zone_texte": "gauche",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "beaute": 4,
+  "alt": "Une chaise vide face à un tableau blanc, dans une salle calme",
+  "consigne_scene": "A single empty chair facing a flipchart with a blank white sheet in a quiet seminar room, the afternoon light stretching across the wooden floor, gentle and slightly humorous mood, nobody.",
+  "largeurs": [
+   640,
+   1280,
+   1600
+  ]
+ }
+]

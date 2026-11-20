@@ -1,0 +1,76 @@
+{
+  "axes": [
+    {
+      "id": "strategie",
+      "titre": "Stratégie, management et gouvernance",
+      "liste": [
+        "Définition d'une feuille de route et d'un plan stratégique de développement",
+        "Audit managérial et plan d'accompagnement",
+        "Séminaires de direction",
+        "Coaching de direction et de management"
+      ],
+      "image": "conseil-strategie",
+      "alt": "Une feuille de route en construction : cartes colorées posées en frise"
+    },
+    {
+      "id": "organisation",
+      "titre": "Organisation et ressources humaines",
+      "liste": [
+        "Audit organisationnel",
+        "Stratégie et plan d'action GPEC",
+        "Définition d'organisation et référentiels RH",
+        "Processus RH : performance, talents, formation, recrutement",
+        "Accompagnement SIRH"
+      ],
+      "image": "conseil-organisation",
+      "alt": "Un organigramme abstrait de notes et de traits sur une paroi vitrée"
+    },
+    {
+      "id": "transformation",
+      "titre": "Transformation et gestion de projet",
+      "liste": [
+        "Accompagnement au changement : organisation, processus, SI, stratégie, humain et culturel",
+        "Cadrage et gestion de projet"
+      ],
+      "image": "conseil-transformation",
+      "alt": "Une équipe projet de dos devant un grand tableau de planification"
+    }
+  ],
+  "situationsCoaching": [
+    "Un nouveau projet stratégique",
+    "Une transformation de l'organisation",
+    "Une sortie de crise",
+    "Une prise de fonction",
+    "Une baisse de motivation",
+    "Le management à distance",
+    "La recherche de sens",
+    "La cohésion d'équipe",
+    "Une réinvention professionnelle"
+  ],
+  "themes": [
+    {
+      "titre": "Posture",
+      "liste": [
+        "Confiance dans la fonction managériale",
+        "Positionnement de leader",
+        "Communication"
+      ]
+    },
+    {
+      "titre": "Organisation",
+      "liste": [
+        "Charge de travail",
+        "Gestion de la pression",
+        "Délégation"
+      ]
+    },
+    {
+      "titre": "Collectif",
+      "liste": [
+        "Réunions plus efficaces",
+        "Confiance envers l'équipe",
+        "Changement de fonction"
+      ]
+    }
+  ]
+}

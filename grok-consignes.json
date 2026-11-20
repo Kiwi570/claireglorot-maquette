@@ -1,0 +1,305 @@
+{
+  "client": "Claire Glorot",
+  "activite": "conseil",
+  "direction": "L'équilibre",
+  "date": "2026-11-20T20:42:04.731Z",
+  "images": [
+    {
+      "nom": "piece-conseil",
+      "fichier": "accueil-piece-conseil.jpg",
+      "page": "Accueil",
+      "emplacement": "pièce ronde du mobile (Conseil)",
+      "role": "vignette",
+      "format": "1:1",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "Top-down view of a pale wooden meeting table during a strategy workshop: square sticky notes in coral, deep blue and sand colours arranged in neat columns, two closed notebooks, a pencil and a glass of water, soft shadows of louvered shutters falling across the table, nobody in the frame, nothing written on the notes. Square composition, aspect ratio 1:1, subject centered, main subject well inside the central area with generous margins on every side, so the image can be cropped. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "piece-formation",
+      "fichier": "accueil-piece-formation.jpg",
+      "page": "Accueil",
+      "emplacement": "cadre central du mobile (Formation)",
+      "role": "vignette",
+      "format": "3:4",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A bright training room seen from the back: four or five Caribbean professionals of varied backgrounds seated at light wooden tables arranged in a U, all seen strictly from behind, a flipchart with blank white sheets at the front next to tall windows with open louvered shutters, green leaves outside, calm and attentive atmosphere. Vertical composition, aspect ratio 3:4, main subject well inside the central area with generous margins on every side, so the image can be cropped. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "piece-coaching",
+      "fichier": "accueil-piece-coaching.jpg",
+      "page": "Accueil",
+      "emplacement": "pièce en arche du mobile (Coaching)",
+      "role": "vignette",
+      "format": "1:1",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "Two rattan armchairs with linen cushions facing each other on a shaded wooden veranda, a low table between them with two cups of coffee and a closed notebook, a lush green garden softly blurred beyond the railing, nobody, quiet and welcoming. Square composition, aspect ratio 1:1, subject centered, main subject well inside the central area with generous margins on every side, so the image can be cropped. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "axe-conseil",
+      "fichier": "accueil-axe-conseil.jpg",
+      "page": "Accueil",
+      "emplacement": "carte Conseil des trois métiers",
+      "role": "galerie",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "A small leadership seminar on a covered terrace with white plaster columns: a long pale wooden table with notebooks and water carafes, three executives seen strictly from behind in a focused discussion, a soft green hillside blurred in the background, morning light, calm and serious. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "axe-formation",
+      "fichier": "accueil-axe-formation.jpg",
+      "page": "Accueil",
+      "emplacement": "carte Formation des trois métiers",
+      "role": "galerie",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A training workshop in progress, seen over the shoulder of a participant: two or three colleagues standing in front of a white wall covered with coral, deep blue and sand sticky notes, all seen from behind or in soft blur, nothing written on the notes, bright and energetic but calm. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "axe-coaching",
+      "fichier": "accueil-axe-coaching.jpg",
+      "page": "Accueil",
+      "emplacement": "carte Coaching des trois métiers",
+      "role": "galerie",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite",
+        "visages"
+      ],
+      "consigne": "A woman manager seen strictly from behind, standing at a tall open window with louvered shutters in a calm office, looking out at green trees, a closed notebook resting on the window sill, contemplative moment of stepping back. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "petit-dejeuner",
+      "fichier": "accueil-petit-dejeuner.jpg",
+      "page": "Accueil",
+      "emplacement": "fond du prochain rendez-vous (ordinateur)",
+      "role": "section-fond",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "A long table set for a morning meeting in a bright room with white plaster walls: coffee cups, a carafe of juice, a bowl of fresh tropical fruit, small pastries, notebooks and pens at each place, the chairs still empty, warm early light through louvered shutters, elegant and friendly. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "petit-dejeuner",
+      "fichier": "accueil-petit-dejeuner-mobile.jpg",
+      "page": "Accueil",
+      "emplacement": "fond du prochain rendez-vous (téléphone)",
+      "role": "section-fond",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "A long table set for a morning meeting in a bright room with white plaster walls: coffee cups, a carafe of juice, a bowl of fresh tropical fruit, small pastries, notebooks and pens at each place, the chairs still empty, warm early light through louvered shutters, elegant and friendly. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "conseil-ouverture",
+      "fichier": "conseil-ouverture.jpg",
+      "page": "Conseil",
+      "emplacement": "ouverture (image à droite du titre)",
+      "role": "ouverture",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "An empty seminar room prepared for a strategy day: a long pale wooden table with chairs neatly aligned, notebooks and water glasses at each place, a flipchart with blank white sheets, tall windows with open louvered shutters onto tropical greenery, nobody. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "conseil-strategie",
+      "fichier": "conseil-strategie.jpg",
+      "page": "Conseil",
+      "emplacement": "tiroir Stratégie, management et gouvernance",
+      "role": "carte-service",
+      "format": "16:10",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Top-down view of a roadmap being built on a large sheet of kraft paper on a wooden table: blank coloured cards in coral, deep blue and sand laid out along a hand-drawn timeline line, a pencil and a ruler, nothing readable, nobody. Aspect ratio 16:10, main subject well inside the central area with generous margins on every side, so the image can be cropped. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "conseil-organisation",
+      "fichier": "conseil-organisation.jpg",
+      "page": "Conseil",
+      "emplacement": "tiroir Organisation et ressources humaines",
+      "role": "carte-service",
+      "format": "16:10",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A glass wall in a bright office with an abstract organisation chart made of blank sticky notes in coral, deep blue and sand connected by thin drawn lines, seen at an angle with soft reflections of leaves, nothing readable, nobody. Aspect ratio 16:10, main subject well inside the central area with generous margins on every side, so the image can be cropped. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "conseil-transformation",
+      "fichier": "conseil-transformation.jpg",
+      "page": "Conseil",
+      "emplacement": "tiroir Transformation et gestion de projet",
+      "role": "carte-service",
+      "format": "16:10",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A project team of three seen strictly from behind, standing in front of a wall-sized planning board with coloured magnets and blank cards arranged in columns, mid-discussion, bright office with white plaster walls, nothing readable. Aspect ratio 16:10, main subject well inside the central area with generous margins on every side, so the image can be cropped. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "formation-ouverture",
+      "fichier": "formation-ouverture.jpg",
+      "page": "Formation",
+      "emplacement": "grande image qui s'ouvre en plein écran (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A bright training room during a session: six participants of varied Caribbean backgrounds seated in a semicircle, all seen from behind, a trainer standing near a flipchart with blank sheets, her back half turned and in soft focus, tall windows with louvered shutters and green leaves outside, warm and engaged atmosphere. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, the lower third stays dark and simple for text overlay. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "formation-ouverture",
+      "fichier": "formation-ouverture-mobile.jpg",
+      "page": "Formation",
+      "emplacement": "grande image qui s'ouvre en plein écran (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A bright training room during a session: six participants of varied Caribbean backgrounds seated in a semicircle, all seen from behind, a trainer standing near a flipchart with blank sheets, her back half turned and in soft focus, tall windows with louvered shutters and green leaves outside, warm and engaged atmosphere. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "formation-inter",
+      "fichier": "formation-inter.jpg",
+      "page": "Formation",
+      "emplacement": "carte Inter-entreprises",
+      "role": "vignette",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A coffee break during an inter-company training in a light-filled lobby with white plaster walls and plants: a few professionals chatting in two small groups, seen from behind or in soft blur, coffee cups on a high table, relaxed and open atmosphere. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "formation-intra",
+      "fichier": "formation-intra.jpg",
+      "page": "Formation",
+      "emplacement": "carte Intra-entreprise",
+      "role": "vignette",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A team of five working together around a single table in their own company meeting room, seen from behind and in soft blur, blank cards and sticky notes spread on the table, a whiteboard left blank, bright and focused. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "coaching-ouverture",
+      "fichier": "coaching-ouverture.jpg",
+      "page": "Coaching",
+      "emplacement": "ouverture (image en arche)",
+      "role": "ouverture",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "Two comfortable armchairs facing each other in a calm room with white plaster walls, a low wooden table with a carafe of water, two glasses and a closed notebook, a tall green plant, louvered shutters filtering the light into soft stripes on the floor, nobody. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "coaching-equipe",
+      "fichier": "coaching-equipe.jpg",
+      "page": "Coaching",
+      "emplacement": "Coaching d'équipe",
+      "role": "galerie",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "visages"
+      ],
+      "consigne": "A team of six sitting in a circle of chairs without a table in a bright room, seen from behind and in soft blur, attentive, one person speaking with an open gesture, a facilitator standing slightly apart, calm and trusting atmosphere. Landscape composition, aspect ratio 3:2. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "coaching-carnet",
+      "fichier": "coaching-carnet.jpg",
+      "page": "Coaching",
+      "emplacement": "image collante du déroulé",
+      "role": "galerie",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "An open notebook with blank pages and a pen resting on a wooden window sill, a cup of coffee beside it, the garden outside softly blurred in green, quiet morning, nobody. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "contact-ouverture",
+      "fichier": "contact-ouverture.jpg",
+      "page": "Contact",
+      "emplacement": "ouverture (image à côté du formulaire)",
+      "role": "ouverture",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "écrans",
+        "texte parasite"
+      ],
+      "consigne": "A calm desk by an open window in a small coastal town: a closed laptop, a notebook, a cup of coffee and a phone lying face down, a bougainvillea branch softly blurred outside, warm light, nobody. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "page-404",
+      "fichier": "page-404.jpg",
+      "page": "404",
+      "emplacement": "image de la page introuvable",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A single empty chair facing a flipchart with a blank white sheet in a quiet seminar room, the afternoon light stretching across the wooden floor, gentle and slightly humorous mood, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic editorial photograph, warm, luminous and serene mood, palette of warm sand beige, deep ocean blue and small touches of coral, soft tropical morning light filtered through louvered wooden shutters, tactile pale wood, linen, rattan and white plaster, set in a small coastal town in the French Caribbean on a bright dry-season morning, soft volumetric light, subtle film grain, calm and contemplative, medium-format look, natural realistic colours, generous negative space. No charts with numbers, no readable documents, no handshake, no puzzle pieces, no chess pieces, no arrows pointing up, nobody looking at the camera, no flags. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

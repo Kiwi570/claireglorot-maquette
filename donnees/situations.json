@@ -1,0 +1,12 @@
+[
+  { "id": "managers", "situation": "Développer les compétences de vos managers", "metier": "formation", "metierNom": "Formation",
+    "reponse": "Les formations Management niveaux 1 à 3 et Leadership au féminin, en intra pour votre équipe ou en inter-entreprises.", "lien": "formation", "ancre": "catalogue", "action": "Voir les formations management" },
+  { "id": "projet", "situation": "Mener un projet qui transforme l'organisation", "metier": "conseil", "metierNom": "Conseil",
+    "reponse": "Accompagnement au changement, cadrage et gestion de projet ; la formation Changement 360° pour embarquer toute l'entreprise.", "lien": "conseil", "ancre": "axes", "action": "Voir l'accompagnement au changement" },
+  { "id": "cohesion", "situation": "Renforcer la cohésion de votre équipe", "metier": "coaching", "metierNom": "Coaching d'équipe",
+    "reponse": "Six demi-journées de coaching d'équipe sur 6 à 8 mois, ou la formation Cohésion et performance collective.", "lien": "coaching", "ancre": "equipe", "action": "Voir le coaching d'équipe" },
+  { "id": "transition", "situation": "Faire le point dans une transition professionnelle", "metier": "coaching", "metierNom": "Coaching individuel",
+    "reponse": "Environ 10 séances de 1 h 30 sur 6 à 8 mois, avec un bilan à mi-parcours et à la fin.", "lien": "coaching", "ancre": "deroule", "action": "Voir le déroulé d'un coaching" },
+  { "id": "dossier", "situation": "Monter le dossier d'un projet d'entreprise", "metier": "conseil", "metierNom": "Conseil",
+    "reponse": "Définition d'une feuille de route et d'un plan stratégique de développement, en commençant par un échange stratégique.", "lien": "contact", "ancre": "demande", "params": "sujet=conseil", "action": "Demander un échange stratégique" }
+]

@@ -1,0 +1,256 @@
+{
+ "explication": "Maquettes favorites de l'utilisateur : le niveau et le style visés, sur l'accueil ET les pages intérieures. Jamais à copier (ni leur idée, ni leur mise en page) : même harmonie, même fluidité, même soin.",
+ "activite": [
+  "conseil"
+ ],
+ "metier": "consultante formatrice coach management",
+ "besoin": [],
+ "ton": [
+  "chaleureux"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "claireglorot-maquette",
+ "favorites_dans_la_bibliotheque": 22,
+ "favorites": [
+  {
+   "rang": 1,
+   "maquette": "efficience-triathlon-maquette",
+   "client": "coach de triathlon, tests d'effort lactate et stages",
+   "metier": "coach de triathlon",
+   "pourquoi": "Coach de triathlon : bleu nuit et orange, capitales, chiffres de course.",
+   "proche": [
+    "même métier"
+   ],
+   "lumiere": "sombre",
+   "note_maquette": 88,
+   "en_ligne": "https://efficience-triathlon-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "efficience-triathlon-maquette/top",
+     "note_section": 4,
+     "titre": "Héros vidéo sous ondes",
+     "capture": "medias/efficience-triathlon-maquette/top-p1440.jpg",
+     "video": "medias/efficience-triathlon-maquette/top-p720.mp4",
+     "fiche": "sections/efficience-triathlon-maquette/top.json",
+     "en_ligne": "https://efficience-triathlon-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "outil-interactif",
+     "id": "efficience-triathlon-maquette/science",
+     "note_section": 5,
+     "titre": "Courbe interactive à curseur",
+     "capture": "medias/efficience-triathlon-maquette/science-p1440.jpg",
+     "video": "medias/efficience-triathlon-maquette/science-p720.mp4",
+     "fiche": "sections/efficience-triathlon-maquette/science.json",
+     "en_ligne": "https://efficience-triathlon-maquette.vercel.app"
+    },
+    {
+     "page": "stage-triathlon-montagne",
+     "role": "ouverture",
+     "id": "efficience-triathlon-maquette/stage-triathlon-montagne-top",
+     "note_section": 4,
+     "titre": "Héros à profil d'altitude",
+     "capture": "medias/efficience-triathlon-maquette/stage-triathlon-montagne-top-p1440.jpg",
+     "video": "medias/efficience-triathlon-maquette/stage-triathlon-montagne-top-p720.mp4",
+     "fiche": "sections/efficience-triathlon-maquette/stage-triathlon-montagne-top.json",
+     "en_ligne": "https://efficience-triathlon-maquette.vercel.app/stage-triathlon-montagne"
+    },
+    {
+     "page": "test-effort",
+     "role": "étapes",
+     "id": "efficience-triathlon-maquette/test-effort-protocole",
+     "note_section": 4,
+     "titre": "Protocole épinglé palier par palier",
+     "capture": "medias/efficience-triathlon-maquette/test-effort-protocole-p1440.jpg",
+     "video": "medias/efficience-triathlon-maquette/test-effort-protocole-p720.mp4",
+     "fiche": "sections/efficience-triathlon-maquette/test-effort-protocole.json",
+     "en_ligne": "https://efficience-triathlon-maquette.vercel.app/test-effort"
+    }
+   ]
+  },
+  {
+   "rang": 2,
+   "maquette": "artic-maquette",
+   "client": "conseil en hôtellerie-restauration (stratégie, transformation, transmission) d'un ancien cuisinier et directeur F&B, à Orbe",
+   "metier": "conseil en hôtellerie-restauration",
+   "pourquoi": "Conseil en hôtellerie-restauration : revue éditoriale crème et encre, rouge réservé au « ! », cycle en anneau WebGL.",
+   "proche": [
+    "même activité",
+    "ambiance chaleureux"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 85,
+   "en_ligne": "https://artic-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "artic-maquette/debut",
+     "note_section": 4,
+     "titre": "L’Art de l’Intelligence Commerciale en Hospitalité !",
+     "capture": "medias/artic-maquette/debut-p1440.jpg",
+     "video": "medias/artic-maquette/debut-p720.mp4",
+     "fiche": "sections/artic-maquette/debut.json",
+     "en_ligne": "https://artic-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "méthode",
+     "id": "artic-maquette/cycle",
+     "note_section": 5,
+     "titre": "De la conception à la transmission",
+     "capture": "medias/artic-maquette/cycle-p1440.jpg",
+     "video": "medias/artic-maquette/cycle-p720.mp4",
+     "fiche": "sections/artic-maquette/cycle.json",
+     "en_ligne": "https://artic-maquette.vercel.app"
+    },
+    {
+     "page": "a-propos",
+     "role": "ouverture",
+     "id": "artic-maquette/a-propos-debut",
+     "note_section": 3,
+     "titre": "Michel Grand",
+     "capture": "medias/artic-maquette/a-propos-debut-p1440.jpg",
+     "video": null,
+     "fiche": "sections/artic-maquette/a-propos-debut.json",
+     "en_ligne": "https://artic-maquette.vercel.app/a-propos"
+    },
+    {
+     "page": "projets/distribotion",
+     "role": "étapes",
+     "id": "artic-maquette/projets-distribotion-produits",
+     "note_section": 5,
+     "titre": "Cinq étapes, un verre à remplir",
+     "capture": "medias/artic-maquette/projets-distribotion-produits-p1440.jpg",
+     "video": "medias/artic-maquette/projets-distribotion-produits-p720.mp4",
+     "fiche": "sections/artic-maquette/projets-distribotion-produits.json",
+     "en_ligne": "https://artic-maquette.vercel.app/projets/distribotion"
+    }
+   ]
+  },
+  {
+   "rang": 3,
+   "maquette": "nolanis-maquette",
+   "client": "Agence de communication visuelle à Strasbourg : print et web, espaces publicitaires, publipostage, photo et vidéo, objets publicitaires, sauvegarde en ligne, formation photo",
+   "metier": "agence de communication visuelle",
+   "pourquoi": "Agence de communication : beige, éventail de couleurs, cartes nettes, sommaire des métiers.",
+   "proche": [
+    "activité proche"
+   ],
+   "lumiere": "clair",
+   "note_maquette": 86,
+   "en_ligne": "https://nolanis-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "nolanis-maquette/debut",
+     "note_section": 5,
+     "titre": "Votre agence de communication visuelle à Strasbourg",
+     "capture": "medias/nolanis-maquette/debut-p1440.jpg",
+     "video": "medias/nolanis-maquette/debut-p720.mp4",
+     "fiche": "sections/nolanis-maquette/debut.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "services",
+     "id": "nolanis-maquette/services",
+     "note_section": 4,
+     "titre": "La liasse des épreuves",
+     "capture": "medias/nolanis-maquette/services-p1440.jpg",
+     "video": "medias/nolanis-maquette/services-p720.mp4",
+     "fiche": "sections/nolanis-maquette/services.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app"
+    },
+    {
+     "page": "formations",
+     "role": "ouverture",
+     "id": "nolanis-maquette/formations-debut",
+     "note_section": 4,
+     "titre": "Choisir l’image juste",
+     "capture": "medias/nolanis-maquette/formations-debut-p1440.jpg",
+     "video": "medias/nolanis-maquette/formations-debut-p720.mp4",
+     "fiche": "sections/nolanis-maquette/formations-debut.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app/formations"
+    },
+    {
+     "page": "contact",
+     "role": "outil-interactif",
+     "id": "nolanis-maquette/contact-devis",
+     "note_section": 4,
+     "titre": "Votre demande, en trois étapes",
+     "capture": "medias/nolanis-maquette/contact-devis-p1440.jpg",
+     "video": "medias/nolanis-maquette/contact-devis-p720.mp4",
+     "fiche": "sections/nolanis-maquette/contact-devis.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app/contact"
+    }
+   ]
+  },
+  {
+   "rang": 4,
+   "maquette": "observatoire-des-cse-maquette",
+   "client": "observatoire indépendant des relations sociales qui mène des enquêtes auprès des élus de CSE",
+   "metier": "observatoire social et études",
+   "pourquoi": "Observatoire social : crème et bleu marine, ligne de pouls qui traverse la page, graphiques de vraies données.",
+   "proche": [
+    "même activité",
+    "ambiance chaleureux"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 90,
+   "en_ligne": "https://observatoire-des-cse-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "observatoire-des-cse-maquette/haut",
+     "note_section": 4,
+     "titre": "Héros prise de pouls",
+     "capture": "medias/observatoire-des-cse-maquette/haut-p1440.jpg",
+     "video": "medias/observatoire-des-cse-maquette/haut-p720.mp4",
+     "fiche": "sections/observatoire-des-cse-maquette/haut.json",
+     "en_ligne": "https://observatoire-des-cse-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "étapes",
+     "id": "observatoire-des-cse-maquette/participer",
+     "note_section": 5,
+     "titre": "Téléphone épinglé du parcours",
+     "capture": "medias/observatoire-des-cse-maquette/participer-p1440.jpg",
+     "video": "medias/observatoire-des-cse-maquette/participer-p720.mp4",
+     "fiche": "sections/observatoire-des-cse-maquette/participer.json",
+     "en_ligne": "https://observatoire-des-cse-maquette.vercel.app"
+    },
+    {
+     "page": "enquete-rps-2026",
+     "role": "ouverture",
+     "id": "observatoire-des-cse-maquette/enquete-rps-2026-phero",
+     "note_section": 3,
+     "titre": "Tête de la page enquête",
+     "capture": "medias/observatoire-des-cse-maquette/enquete-rps-2026-phero-p1440.jpg",
+     "video": null,
+     "fiche": "sections/observatoire-des-cse-maquette/enquete-rps-2026-phero.json",
+     "en_ligne": "https://observatoire-des-cse-maquette.vercel.app/enquete-rps-2026"
+    },
+    {
+     "page": "resultats",
+     "role": "chiffres",
+     "id": "observatoire-des-cse-maquette/resultats-etude-1",
+     "note_section": 4,
+     "titre": "Bascule avec ou sans syndicat",
+     "capture": "medias/observatoire-des-cse-maquette/resultats-etude-1-p1440.jpg",
+     "video": "medias/observatoire-des-cse-maquette/resultats-etude-1-p720.mp4",
+     "fiche": "sections/observatoire-des-cse-maquette/resultats-etude-1.json",
+     "en_ligne": "https://observatoire-des-cse-maquette.vercel.app/resultats"
+    }
+   ]
+  }
+ ]
+}

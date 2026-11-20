@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Conseil en organisation, management et RH · Claire Glorot</title>
+<meta name="description" content="Stratégie et gouvernance, organisation et RH, transformation et gestion de projet : des missions de conseil courtes, moyennes ou longues, en Guadeloupe et dans la Caraïbe.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://claireglorot-maquette.vercel.app/conseil">
+<style>:root{--fond:#F4EEE3;--texte:#172633;--voile-fond:#12334D;--ouverture-fond:#F4EEE3;--menu-fond:#F4EEE3}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4EEE3">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Claire Glorot">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Conseil en organisation, management et RH · Claire Glorot">
+<meta property="og:description" content="Stratégie et gouvernance, organisation et RH, transformation et gestion de projet : des missions de conseil courtes, moyennes ou longues, en Guadeloupe et dans la Caraïbe.">
+<meta property="og:url" content="https://claireglorot-maquette.vercel.app/conseil">
+<meta property="og:image" content="https://claireglorot-maquette.vercel.app/assets/partage/conseil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Conseil : préparer et conduire le changement">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Claire Glorot, conseil, formation et coaching professionnel","url":"https://claireglorot-maquette.vercel.app/","telephone":"+590690618141","email":"claireglorot@hotmail.com","address":{"@type":"PostalAddress","addressLocality":"Sainte-Anne","postalCode":"97180","addressRegion":"Guadeloupe","addressCountry":"FR"},"areaServed":["Guadeloupe","Caraïbe"],"founder":{"@type":"Person","name":"Claire Glorot"},"sameAs":["https://www.linkedin.com/in/claire-glorot-b45486/","https://www.facebook.com/claireglorot.formation"],"description":"Conseil en organisation, management et RH, centre de formation certifié Qualiopi et coaching professionnel."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="84" height="56"><span data-voile-libelle>Conseil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo.svg" alt="" width="96" height="64" data-ouverture-objet>
+  <p class="ouverture-nom">Claire Glorot</p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">Conseil · Formation · Coaching</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="Claire Glorot, Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="54" height="36"><span class="entete-nom">Claire Glorot<small>Conseil · Formation · Coaching</small></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/conseil" data-libelle="Conseil" aria-current="page">Conseil</a></li><li><a href="/formation" data-libelle="Formation">Formation</a></li><li><a href="/coaching" data-libelle="Coaching">Coaching</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#demande" data-libelle="Contact">Demander un échange</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/conseil" class="menu-lien" data-libelle="Conseil" aria-current="page">Conseil</a></li><li style="--i:2"><a href="/formation" class="menu-lien" data-libelle="Formation">Formation</a></li><li style="--i:3"><a href="/coaching" class="menu-lien" data-libelle="Coaching">Coaching</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+590690618141">Appeler 0690 61 81 41</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouverture ouverture--scindee" id="debut">
+  <div class="ouverture-texte">
+    <p class="surtitre ">Conseil</p>
+    <h1 class="titre titre--xl" data-anime="gsap" data-ouverture-titre>Préparer et conduire <em class="mot">le changement</em></h1>
+    <p class="masque-ecran-bas" data-anime="gsap" data-ouverture-suite>Missions de conseil en organisation, management et ressources humaines pour les entreprises qui se transforment, avec un suivi et une consolidation des résultats.</p>
+    <p class="ouverture-actions" data-anime="gsap" data-ouverture-suite><a href="/contact?sujet=conseil#demande" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Entrer en relation pour un échange stratégique</a></p>
+    <p class="ouverture-info" data-anime="gsap" data-ouverture-suite data-info-cle><span class="point" aria-hidden="true"></span>Missions courtes, moyennes ou longues · Guadeloupe, Caraïbe et international</p>
+  </div>
+  <div class="persiennes-cadre" data-iris-centre>
+    <figure class="media ouverture-media" data-grok data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/conseil-ouverture-mobile-640.webp 640w, /assets/images/grok/conseil-ouverture-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 46vw">
+    <img src="/assets/images/grok/conseil-ouverture-1280.webp" srcset="/assets/images/grok/conseil-ouverture-640.webp 640w, /assets/images/grok/conseil-ouverture-960.webp 960w, /assets/images/grok/conseil-ouverture-1280.webp 1280w" sizes="(max-width: 760px) 100vw, 46vw" alt="Salle de séminaire prête pour une journée de travail" width="1280" height="1600" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="persiennes" data-persiennes aria-hidden="true"><span class="lame" data-effet="persiennes"></span><span class="lame" data-effet="persiennes"></span><span class="lame" data-effet="persiennes"></span><span class="lame" data-effet="persiennes"></span><span class="lame" data-effet="persiennes"></span><span class="lame" data-effet="persiennes"></span><span class="lame" data-effet="persiennes"></span><span class="lame" data-effet="persiennes"></span><span class="lame" data-effet="persiennes"></span></div>
+  </div>
+</section>
+<section class="ofr axes bande bande--sable" id="axes" data-module="offre-a-tiroirs" aria-labelledby="axes-titre">
+  <div class="conteneur">
+    <div class="tete-section tete-section--ligne ofr__tete">
+      <div><p class="surtitre ">Trois axes d&#39;expertise</p><h2 id="axes-titre" class="titre " data-anime="lignes">Ce que <em class="mot">j&#39;accompagne</em></h2></div>
+      <p data-anime>Ouvrez un tiroir pour voir les missions possibles.</p>
+    </div>
+    <div class="ofr__corps">
+      <ol class="ofr__tiroirs">
+        <li class="ofr__tiroir" id="strategie" data-sujet="conseil">
+          <h3 class="ofr__titre"><button type="button" class="ofr__poignee">
+            <span class="ofr__num">01</span><span class="ofr__nom">Stratégie, management et gouvernance</span>
+            <span class="ofr__resume">4 missions possibles</span>
+          </button></h3>
+          <div class="ofr__contenu"><div class="ofr__interieur">
+            <figure class="media ofr__image" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/conseil-strategie-1168.webp" srcset="/assets/images/grok/conseil-strategie-1168.webp 1168w" sizes="(max-width: 760px) 100vw, 40vw" alt="Une feuille de route en construction : cartes colorées posées en frise" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+            <ul class="liste-puces"><li>Définition d&#39;une feuille de route et d&#39;un plan stratégique de développement</li><li>Audit managérial et plan d&#39;accompagnement</li><li>Séminaires de direction</li><li>Coaching de direction et de management</li></ul>
+            <a href="/contact?sujet=conseil#demande" class="bouton ofr__parler" data-libelle="Contact">En parler<span class="visuellement-cache"> : Stratégie, management et gouvernance</span></a>
+          </div></div>
+        </li><li class="ofr__tiroir" id="organisation" data-sujet="conseil">
+          <h3 class="ofr__titre"><button type="button" class="ofr__poignee">
+            <span class="ofr__num">02</span><span class="ofr__nom">Organisation et ressources humaines</span>
+            <span class="ofr__resume">5 missions possibles</span>
+          </button></h3>
+          <div class="ofr__contenu"><div class="ofr__interieur">
+            <figure class="media ofr__image" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/conseil-organisation-1168.webp" srcset="/assets/images/grok/conseil-organisation-1168.webp 1168w" sizes="(max-width: 760px) 100vw, 40vw" alt="Un organigramme abstrait de notes et de traits sur une paroi vitrée" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+            <ul class="liste-puces"><li>Audit organisationnel</li><li>Stratégie et plan d&#39;action GPEC</li><li>Définition d&#39;organisation et référentiels RH</li><li>Processus RH : performance, talents, formation, recrutement</li><li>Accompagnement SIRH</li></ul>
+            <a href="/contact?sujet=conseil#demande" class="bouton ofr__parler" data-libelle="Contact">En parler<span class="visuellement-cache"> : Organisation et ressources humaines</span></a>
+          </div></div>
+        </li><li class="ofr__tiroir" id="transformation" data-sujet="conseil">
+          <h3 class="ofr__titre"><button type="button" class="ofr__poignee">
+            <span class="ofr__num">03</span><span class="ofr__nom">Transformation et gestion de projet</span>
+            <span class="ofr__resume">2 missions possibles</span>
+          </button></h3>
+          <div class="ofr__contenu"><div class="ofr__interieur">
+            <figure class="media ofr__image" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/conseil-transformation-1168.webp" srcset="/assets/images/grok/conseil-transformation-1168.webp 1168w" sizes="(max-width: 760px) 100vw, 40vw" alt="Une équipe projet de dos devant un grand tableau de planification" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+            <ul class="liste-puces"><li>Accompagnement au changement : organisation, processus, SI, stratégie, humain et culturel</li><li>Cadrage et gestion de projet</li></ul>
+            <a href="/contact?sujet=conseil#demande" class="bouton ofr__parler" data-libelle="Contact">En parler<span class="visuellement-cache"> : Transformation et gestion de projet</span></a>
+          </div></div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="mission bande" id="mission">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre ">Une mission</p>
+      <h2 class="titre " data-anime="lignes">Une méthode <em class="mot">adaptée</em></h2>
+    </div>
+    <ol class="mission-etapes" data-anime="cascade">
+      <li class="mission-etape"><span class="mission-num">01</span><h3>Cadrage</h3><p>Une phase de définition et de cadrage des besoins, avec la direction.</p></li><li class="mission-etape"><span class="mission-num">02</span><h3>Diagnostic</h3><p>Audit organisationnel ou managérial quand la situation le demande.</p></li><li class="mission-etape"><span class="mission-num">03</span><h3>Plan d&#39;action</h3><p>Un plan d&#39;accompagnement construit avec vous, à la mesure de vos contraintes.</p></li><li class="mission-etape"><span class="mission-num">04</span><h3>Mise en œuvre et suivi</h3><p>Accompagnement sur le terrain, suivi et consolidation des résultats.</p></li>
+    </ol>
+    <div class="durees" data-anime>
+      <p class="surtitre">Durée des missions</p>
+      <svg class="durees-svg" viewBox="0 0 600 70" role="img" aria-label="Durée des missions : Courte, Moyenne, Longue" data-fx="trace" data-visuel>
+        <path d="M10 35 H590" class="durees-ligne" />
+        <path d="M10 35 C 90 5, 150 5, 190 35" data-fx-trait /><path d="M10 35 C 140 -5, 300 -5, 390 35" data-fx-trait /><path d="M10 35 C 200 -15, 480 -15, 590 35" data-fx-trait />
+        <circle cx="10" cy="35" r="7" /><circle cx="190" cy="35" r="6" /><circle cx="390" cy="35" r="6" /><circle cx="590" cy="35" r="6" />
+        <text x="190" y="64">Courte</text><text x="390" y="64">Moyenne</text><text x="560" y="64">Longue</text>
+      </svg>
+    </div>
+  </div>
+</section>
+<section class="territoire bande bande--sable" id="territoire">
+  <div class="mots-geants" data-fx="mots-geants" aria-hidden="true" data-ruban data-visuel data-audit-ignorer>
+    <p data-fx-rangee>Guadeloupe · Caraïbe · International · Guadeloupe · Caraïbe ·</p>
+    <p data-fx-rangee data-sens="-1">International · Caraïbe · Guadeloupe · International · Caraïbe ·</p>
+  </div>
+  <div class="conteneur territoire-texte">
+    <h2 class="titre titre--l" data-anime="lignes">Une expertise basée en Guadeloupe</h2>
+    <p data-anime>Une expérience de la Caraïbe et de l&#39;international, nourrie par 15 ans de conseil auprès de grands groupes.</p>
+  </div>
+</section>
+<section class="appel bande bande--ocean" id="appel">
+  <div class="conteneur appel-grille">
+    <div class="appel-texte">
+      <p class="surtitre ">Un premier échange</p>
+      <h2 class="titre titre--xl" data-anime="lignes">Trouvons ensemble le bon <em class="mot">équilibre</em></h2>
+      <p data-anime>Décrivez votre situation et vos contraintes : le plan d&#39;accompagnement se construit avec vous.</p>
+      <p class="appel-actions" data-anime>
+        <a href="/contact?sujet=conseil#demande" class="bouton bouton--clair" data-libelle="Contact" data-survol="magnetique">Demander un échange</a>
+        <span class="appel-tel">ou appeler le <a href="tel:+590690618141">0690 61 81 41</a></span>
+      </p>
+    </div>
+    <div class="mobile mobile--simple" data-grille="fil" data-mobile data-effet="mobile-appel" data-souris data-visuel role="group" aria-label="Mobile en équilibre : conseil, formation et coaching">
+  <span class="mobile-crochet" aria-hidden="true"></span>
+  <div class="pivot pivot--a" data-pivot data-omega="3.4" data-gain="1">
+    <span class="mobile-barre mobile-barre--a" aria-hidden="true"></span>
+    <div class="pivot pivot--a1" data-pivot data-omega="4.6" data-gain="-1.2">
+      <span class="mobile-fil mobile-fil--a1" aria-hidden="true"></span>
+      <a class="piece piece--cadre" href="/formation" data-libelle="Formation">
+      <span class="piece-forme"></span>
+      <span class="piece-nom">Formation</span>
+    </a>
+    </div>
+    <div class="pivot pivot--a2" data-pivot data-omega="4" data-gain="1.4" data-tombe>
+      <span class="mobile-fil mobile-fil--a2" aria-hidden="true"></span>
+      <div class="pivot pivot--b" data-pivot data-omega="4.4" data-gain="-1.6">
+        <span class="mobile-barre mobile-barre--b" aria-hidden="true"></span>
+        <div class="pivot pivot--b1" data-pivot data-omega="5" data-gain="1.8">
+          <span class="mobile-fil mobile-fil--b1" aria-hidden="true"></span>
+          <a class="piece piece--rond" href="/conseil" data-libelle="Conseil">
+      <span class="piece-forme"></span>
+      <span class="piece-nom">Conseil</span>
+    </a>
+          <span class="mobile-fil mobile-fil--perle" aria-hidden="true"></span><span class="mobile-perle" aria-hidden="true"></span>
+        </div>
+        <div class="pivot pivot--b2" data-pivot data-omega="4.2" data-gain="-2">
+          <span class="mobile-fil mobile-fil--b2" aria-hidden="true"></span>
+          <a class="piece piece--arche" href="/coaching" data-libelle="Coaching">
+      <span class="piece-forme"></span>
+      <span class="piece-nom">Coaching</span>
+    </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair.svg" alt="" width="66" height="44">
+      <p class="pied-nom">Claire Glorot</p>
+      <p>Conseil, formation et coaching professionnel pour les dirigeants, les DRH, les managers et leurs équipes.</p>
+    </div>
+    <div>
+      <h2 class="pied-titre">Coordonnées</h2>
+      <ul>
+        <li>Mobile <a href="tel:+590690618141">0690 61 81 41</a></li>
+        <li>Fixe <a href="tel:+590590592461">0590 59 24 61</a></li>
+        <li class="pied-mail">E-mail <a href="mailto:claireglorot@hotmail.com">claireglorot@hotmail.com</a></li>
+        <li>Sainte-Anne, Guadeloupe</li>
+      </ul>
+    </div>
+    <nav aria-label="Plan du site">
+      <h2 class="pied-titre">Plan du site</h2>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/conseil" data-libelle="Conseil" aria-current="page">Conseil</a></li><li><a href="/formation" data-libelle="Formation">Formation</a></li><li><a href="/coaching" data-libelle="Coaching">Coaching</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+    <div>
+      <h2 class="pied-titre">Réseaux</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/claire-glorot-b45486/" target="_blank" rel="noopener">LinkedIn<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.facebook.com/claireglorot.formation" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+      </ul>
+      <figure class="pied-qualiopi"><img src="/assets/images/qualiopi.jpg" alt="Certification Qualiopi au titre des actions de formation." width="500" height="406" loading="lazy"></figure>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales : à compléter · Politique de confidentialité : à compléter · SIREN 539 751 032</p>
+    <p>Déclaration d&#39;activité n° 95 97 30685 97 auprès du préfet de région de Guadeloupe. Cet enregistrement ne vaut pas agrément de l&#39;État.</p>
+    <p>Maquette de démonstration : formulaires simulés, rien n&#39;est envoyé. © 2026 Claire Glorot</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+590690618141">Appeler</a>
+  <a class="bouton" href="/contact#demande" data-libelle="Contact">Demander un échange</a>
+</div>
+</body>
+</html>

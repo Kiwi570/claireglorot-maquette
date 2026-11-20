@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Coaching professionnel individuel et d&#39;équipe · Claire Glorot</title>
+<meta name="description" content="Coaching individuel et coaching d&#39;équipe pour les périodes de transition, de développement ou de prise de recul : environ 10 séances de 1 h 30 sur 6 à 8 mois.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://claireglorot-maquette.vercel.app/coaching">
+<style>:root{--fond:#F4EEE3;--texte:#172633;--voile-fond:#12334D;--ouverture-fond:#F4EEE3;--menu-fond:#F4EEE3}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4EEE3">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Claire Glorot">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Coaching professionnel individuel et d&#39;équipe · Claire Glorot">
+<meta property="og:description" content="Coaching individuel et coaching d&#39;équipe pour les périodes de transition, de développement ou de prise de recul : environ 10 séances de 1 h 30 sur 6 à 8 mois.">
+<meta property="og:url" content="https://claireglorot-maquette.vercel.app/coaching">
+<meta property="og:image" content="https://claireglorot-maquette.vercel.app/assets/partage/coaching-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Coaching : prendre du recul pour mieux avancer">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Claire Glorot, conseil, formation et coaching professionnel","url":"https://claireglorot-maquette.vercel.app/","telephone":"+590690618141","email":"claireglorot@hotmail.com","address":{"@type":"PostalAddress","addressLocality":"Sainte-Anne","postalCode":"97180","addressRegion":"Guadeloupe","addressCountry":"FR"},"areaServed":["Guadeloupe","Caraïbe"],"founder":{"@type":"Person","name":"Claire Glorot"},"sameAs":["https://www.linkedin.com/in/claire-glorot-b45486/","https://www.facebook.com/claireglorot.formation"],"description":"Conseil en organisation, management et RH, centre de formation certifié Qualiopi et coaching professionnel."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="84" height="56"><span data-voile-libelle>Coaching</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo.svg" alt="" width="96" height="64" data-ouverture-objet>
+  <p class="ouverture-nom">Claire Glorot</p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">Conseil · Formation · Coaching</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="Claire Glorot, Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="54" height="36"><span class="entete-nom">Claire Glorot<small>Conseil · Formation · Coaching</small></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/conseil" data-libelle="Conseil">Conseil</a></li><li><a href="/formation" data-libelle="Formation">Formation</a></li><li><a href="/coaching" data-libelle="Coaching" aria-current="page">Coaching</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#demande" data-libelle="Contact">Demander un échange</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/conseil" class="menu-lien" data-libelle="Conseil">Conseil</a></li><li style="--i:2"><a href="/formation" class="menu-lien" data-libelle="Formation">Formation</a></li><li style="--i:3"><a href="/coaching" class="menu-lien" data-libelle="Coaching" aria-current="page">Coaching</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+590690618141">Appeler 0690 61 81 41</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouverture ouverture--chiffres" id="debut">
+  <div class="ouverture-texte">
+    <p class="surtitre ">Coaching professionnel</p>
+    <h1 class="titre titre--xl" data-anime="gsap" data-ouverture-titre>Prendre du recul <em class="mot">pour mieux avancer</em></h1>
+    <p class="masque-ecran-bas" data-anime="gsap" data-ouverture-suite>Le coaching développe votre potentiel professionnel, seul ou en équipe, dans les périodes de transition, de développement ou de prise de recul.</p>
+    <p class="ouverture-actions" data-anime="gsap" data-ouverture-suite><a href="/contact?sujet=coaching-individuel#demande" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Être contacté</a></p>
+    <p class="ouverture-info" data-anime="gsap" data-ouverture-suite data-info-cle><span class="point" aria-hidden="true"></span>Environ 10 séances de 1 h 30 sur 6 à 8 mois</p>
+  </div>
+  <div class="chiffres-geants" data-iris-centre>
+    <p class="geant" data-effet="chiffre-geant"><span class="geant-chiffre">10</span><span class="geant-mot">séances d&#39;environ 1 h 30</span></p>
+    <p class="geant geant--2"><span class="geant-chiffre">6 à 8</span><span class="geant-mot">mois d&#39;accompagnement</span></p>
+  </div>
+  <figure class="media arche-media" data-grok data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/coaching-ouverture-mobile-640.webp 640w, /assets/images/grok/coaching-ouverture-mobile-1080.webp 1080w" sizes="(max-width: 760px) 90vw, 30vw">
+    <img src="/assets/images/grok/coaching-ouverture-1280.webp" srcset="/assets/images/grok/coaching-ouverture-640.webp 640w, /assets/images/grok/coaching-ouverture-960.webp 960w, /assets/images/grok/coaching-ouverture-1280.webp 1280w" sizes="(max-width: 760px) 90vw, 30vw" alt="Deux fauteuils face à face dans une pièce calme" width="1280" height="1600" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+</section>
+<section class="situations bande bande--sable" id="situations">
+  <div class="conteneur">
+    <div class="tete-section"><p class="surtitre ">Pour quelles situations</p><h2 class="titre " data-anime="lignes">Quand le coaching <em class="mot">fait la différence</em></h2></div>
+    <ul class="nuage" data-nuage>
+      <li style="--i:0" data-effet="situations">Un nouveau projet stratégique</li><li style="--i:1" data-effet="situations">Une transformation de l&#39;organisation</li><li style="--i:2" data-effet="situations">Une sortie de crise</li><li style="--i:3" data-effet="situations">Une prise de fonction</li><li style="--i:4" data-effet="situations">Une baisse de motivation</li><li style="--i:5" data-effet="situations">Le management à distance</li><li style="--i:6" data-effet="situations">La recherche de sens</li><li style="--i:7" data-effet="situations">La cohésion d&#39;équipe</li><li style="--i:8" data-effet="situations">Une réinvention professionnelle</li>
+    </ul>
+  </div>
+</section>
+<section class="deroule bande" id="deroule">
+  <div class="conteneur deroule-grille">
+    <div class="deroule-image">
+      <figure class="media deroule-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/coaching-carnet-1072.webp" srcset="/assets/images/grok/coaching-carnet-480.webp 480w, /assets/images/grok/coaching-carnet-800.webp 800w, /assets/images/grok/coaching-carnet-1072.webp 1072w" sizes="(max-width: 760px) 100vw, 38vw" alt="Un carnet ouvert et un stylo sur un rebord de fenêtre" width="1072" height="1340" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    </div>
+    <div>
+      <p class="surtitre ">Coaching individuel</p>
+      <h2 class="titre " data-anime="lignes">Comment <em class="mot">ça se passe</em></h2>
+      <ol class="temps" data-anime="cascade">
+        <li><span class="temps-num">1</span><div><h3>Entretien préalable</h3><p>Un premier échange pour valider ensemble la démarche.</p></div></li><li><span class="temps-num">2</span><div><h3>Vos objectifs</h3><p>Les objectifs détaillés sont fixés au premier entretien.</p></div></li><li><span class="temps-num">3</span><div><h3>Le contrat</h3><p>Il précise le nombre de séances, la durée, les objectifs, le lieu et les conditions financières.</p></div></li><li><span class="temps-num">4</span><div><h3>Les séances</h3><p>Elles travaillent à la fois le développement personnel et les pratiques dans l&#39;organisation.</p></div></li><li><span class="temps-num">5</span><div><h3>Entre les séances</h3><p>Vous observez, expérimentez et mettez en pratique.</p></div></li><li><span class="temps-num">6</span><div><h3>Deux bilans</h3><p>Un bilan à mi-parcours, un bilan à la fin.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="themes bande bande--sable" id="themes">
+  <div class="conteneur">
+    <div class="tete-section"><p class="surtitre ">Thématiques</p><h2 class="titre " data-anime="lignes">Ce que l&#39;on <em class="mot">travaille</em></h2></div>
+    <div class="themes-grille" data-anime="cascade">
+      <article class="theme">
+        <svg class="theme-forme" viewBox="0 0 80 80" aria-hidden="true" data-visuel><circle cx="40" cy="40" r="30"/></svg>
+        <h3>Posture</h3><ul class="liste-puces"><li>Confiance dans la fonction managériale</li><li>Positionnement de leader</li><li>Communication</li></ul>
+      </article><article class="theme">
+        <svg class="theme-forme" viewBox="0 0 80 80" aria-hidden="true" data-visuel><rect x="16" y="10" width="48" height="60" rx="3"/></svg>
+        <h3>Organisation</h3><ul class="liste-puces"><li>Charge de travail</li><li>Gestion de la pression</li><li>Délégation</li></ul>
+      </article><article class="theme">
+        <svg class="theme-forme" viewBox="0 0 80 80" aria-hidden="true" data-visuel><path d="M14 70 V40 A26 26 0 0 1 66 40 V70 Z"/></svg>
+        <h3>Collectif</h3><ul class="liste-puces"><li>Réunions plus efficaces</li><li>Confiance envers l&#39;équipe</li><li>Changement de fonction</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="equipe bande" id="equipe">
+  <div class="conteneur equipe-grille">
+    <figure class="media equipe-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/coaching-equipe-1600.webp" srcset="/assets/images/grok/coaching-equipe-1024.webp 1024w, /assets/images/grok/coaching-equipe-1168.webp 1168w, /assets/images/grok/coaching-equipe-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 52vw" alt="Une équipe assise en cercle, en séance collective" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div>
+      <p class="surtitre ">Coaching d&#39;équipe</p>
+      <h2 class="titre " data-anime="lignes">Avancer <em class="mot">ensemble</em></h2>
+      <p data-anime>Pour une équipe qui veut atteindre des objectifs collectifs de fonctionnement : communication, cohésion, résolution de problèmes, amélioration continue et intelligence collective.</p>
+      <p class="equipe-format" data-anime><span class="point" aria-hidden="true"></span>6 séances d&#39;une demi-journée sur 6 à 8 mois, dans une salle dédiée</p>
+      <p data-anime><a href="/contact?sujet=coaching-equipe#demande" class="bouton" data-libelle="Contact">Parler de votre équipe</a></p>
+    </div>
+  </div>
+</section>
+<section class="paroles bande bande--sable" id="temoignages">
+  <div class="conteneur paroles-grille">
+    <figure class="temoignage">
+      <svg class="guillemet" viewBox="0 0 80 60" aria-hidden="true" data-visuel><path d="M0 60V34Q0 8 26 0l4 8Q14 14 14 30h16v30zm44 0V34q0-26 26-34l4 8Q58 14 58 30h16v30z"/></svg>
+      <blockquote data-anime="mots">En conclusion, grâce à ce coaching et à la réflexion que je mène dessus, j&#39;ai l&#39;impression d&#39;avoir mûri.</blockquote>
+      <figcaption><strong>Muriel</strong>, Manager de proximité dans un organisme public</figcaption>
+    </figure>
+    <figure class="temoignage">
+      <svg class="guillemet" viewBox="0 0 80 60" aria-hidden="true"><path d="M0 60V34Q0 8 26 0l4 8Q14 14 14 30h16v30zm44 0V34q0-26 26-34l4 8Q58 14 58 30h16v30z"/></svg>
+      <blockquote data-anime="mots">J&#39;estime que cet accompagnement a contribué à faire ressortir les intérêts du projet pour chacun.</blockquote>
+      <figcaption><strong>Marie-Claude</strong>, Responsable de service</figcaption>
+    </figure>
+    <div class="deonto" data-anime>
+      <h2 class="titre titre--m">Un cadre clair</h2>
+      <p>Coach certifiée (Groupe CAPP) et elle-même accompagnée dans sa pratique, Claire applique le code de déontologie de la Société Française de Coaching. Le coaching travaille vos objectifs professionnels, dans un cadre fixé ensemble.</p>
+    </div>
+  </div>
+</section>
+<section class="appel bande bande--ocean" id="appel">
+  <div class="conteneur appel-grille">
+    <div class="appel-texte">
+      <p class="surtitre ">Un premier échange</p>
+      <h2 class="titre titre--xl" data-anime="lignes">Trouvons ensemble le bon <em class="mot">équilibre</em></h2>
+      <p data-anime>Décrivez votre situation et vos contraintes : le plan d&#39;accompagnement se construit avec vous.</p>
+      <p class="appel-actions" data-anime>
+        <a href="/contact?sujet=coaching-individuel#demande" class="bouton bouton--clair" data-libelle="Contact" data-survol="magnetique">Demander un échange</a>
+        <span class="appel-tel">ou appeler le <a href="tel:+590690618141">0690 61 81 41</a></span>
+      </p>
+    </div>
+    <div class="mobile mobile--simple" data-grille="fil" data-mobile data-effet="mobile-appel" data-souris data-visuel role="group" aria-label="Mobile en équilibre : conseil, formation et coaching">
+  <span class="mobile-crochet" aria-hidden="true"></span>
+  <div class="pivot pivot--a" data-pivot data-omega="3.4" data-gain="1">
+    <span class="mobile-barre mobile-barre--a" aria-hidden="true"></span>
+    <div class="pivot pivot--a1" data-pivot data-omega="4.6" data-gain="-1.2">
+      <span class="mobile-fil mobile-fil--a1" aria-hidden="true"></span>
+      <a class="piece piece--cadre" href="/formation" data-libelle="Formation">
+      <span class="piece-forme"></span>
+      <span class="piece-nom">Formation</span>
+    </a>
+    </div>
+    <div class="pivot pivot--a2" data-pivot data-omega="4" data-gain="1.4" data-tombe>
+      <span class="mobile-fil mobile-fil--a2" aria-hidden="true"></span>
+      <div class="pivot pivot--b" data-pivot data-omega="4.4" data-gain="-1.6">
+        <span class="mobile-barre mobile-barre--b" aria-hidden="true"></span>
+        <div class="pivot pivot--b1" data-pivot data-omega="5" data-gain="1.8">
+          <span class="mobile-fil mobile-fil--b1" aria-hidden="true"></span>
+          <a class="piece piece--rond" href="/conseil" data-libelle="Conseil">
+      <span class="piece-forme"></span>
+      <span class="piece-nom">Conseil</span>
+    </a>
+          <span class="mobile-fil mobile-fil--perle" aria-hidden="true"></span><span class="mobile-perle" aria-hidden="true"></span>
+        </div>
+        <div class="pivot pivot--b2" data-pivot data-omega="4.2" data-gain="-2">
+          <span class="mobile-fil mobile-fil--b2" aria-hidden="true"></span>
+          <a class="piece piece--arche" href="/coaching" data-libelle="Coaching">
+      <span class="piece-forme"></span>
+      <span class="piece-nom">Coaching</span>
+    </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair.svg" alt="" width="66" height="44">
+      <p class="pied-nom">Claire Glorot</p>
+      <p>Conseil, formation et coaching professionnel pour les dirigeants, les DRH, les managers et leurs équipes.</p>
+    </div>
+    <div>
+      <h2 class="pied-titre">Coordonnées</h2>
+      <ul>
+        <li>Mobile <a href="tel:+590690618141">0690 61 81 41</a></li>
+        <li>Fixe <a href="tel:+590590592461">0590 59 24 61</a></li>
+        <li class="pied-mail">E-mail <a href="mailto:claireglorot@hotmail.com">claireglorot@hotmail.com</a></li>
+        <li>Sainte-Anne, Guadeloupe</li>
+      </ul>
+    </div>
+    <nav aria-label="Plan du site">
+      <h2 class="pied-titre">Plan du site</h2>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/conseil" data-libelle="Conseil">Conseil</a></li><li><a href="/formation" data-libelle="Formation">Formation</a></li><li><a href="/coaching" data-libelle="Coaching" aria-current="page">Coaching</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+    <div>
+      <h2 class="pied-titre">Réseaux</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/claire-glorot-b45486/" target="_blank" rel="noopener">LinkedIn<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.facebook.com/claireglorot.formation" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+      </ul>
+      <figure class="pied-qualiopi"><img src="/assets/images/qualiopi.jpg" alt="Certification Qualiopi au titre des actions de formation." width="500" height="406" loading="lazy"></figure>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales : à compléter · Politique de confidentialité : à compléter · SIREN 539 751 032</p>
+    <p>Déclaration d&#39;activité n° 95 97 30685 97 auprès du préfet de région de Guadeloupe. Cet enregistrement ne vaut pas agrément de l&#39;État.</p>
+    <p>Maquette de démonstration : formulaires simulés, rien n&#39;est envoyé. © 2026 Claire Glorot</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+590690618141">Appeler</a>
+  <a class="bouton" href="/contact#demande" data-libelle="Contact">Demander un échange</a>
+</div>
+</body>
+</html>

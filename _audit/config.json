@@ -1,0 +1,26 @@
+{
+  "siteActuel": "www.claireglorot.com",
+  "pagesTypes": [
+    "/",
+    "/conseil",
+    "/formation",
+    "/coaching",
+    "/contact"
+  ],
+  "effets": [
+    "mobile",
+    "mobile-appel",
+    "orienteur",
+    "etapes-empilees",
+    "compte-a-rebours",
+    "persiennes",
+    "situations",
+    "chiffre-geant",
+    "catalogue",
+    "demande",
+    "pastille"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
+}

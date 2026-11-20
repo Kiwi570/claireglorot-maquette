@@ -1,0 +1,1532 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo-clair.png",
+    "role": "logo",
+    "alt": "Claire Glorot, conseil, formation et coaching professionnel",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "d637c3eb3a494e73",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 2302,
+      "logo-480.webp": 5074
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Claire Glorot, conseil, formation et coaching professionnel\", sizes: '240px' })"
+  },
+  "qualiopi": {
+    "nom": "qualiopi",
+    "source": "recu/logo.jpg",
+    "role": "logo",
+    "alt": "Qualiopi, processus certifié, République française. La certification qualité a été délivrée au titre de la catégorie d'actions suivante : actions de formation.",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "b64760904e760d96",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "qualiopi-240.webp",
+      "qualiopi-480.webp"
+    ],
+    "poids": {
+      "qualiopi-240.webp": 3324,
+      "qualiopi-480.webp": 8444
+    },
+    "media": "c.media({ nom: 'qualiopi', alt: \"Qualiopi, processus certifié, République française. La certification qualité a été délivrée au titre de la catégorie d'actions suivante : actions de formation.\", sizes: '240px' })"
+  },
+  "claire-portrait": {
+    "nom": "claire-portrait",
+    "source": "recu/claire-glorot-portrait.jpg",
+    "role": "portrait",
+    "alt": "Claire Glorot, souriante, assise sur un fauteuil moutarde",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "0c9b41f2fb274b09",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 36%"
+    },
+    "cadrage": "50% 36%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1334,
+      "height": 1668,
+      "source": [
+        1334,
+        1999
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "claire-portrait-480.webp",
+      "claire-portrait-800.webp",
+      "claire-portrait-1200.webp",
+      "claire-portrait-mobile-640.webp",
+      "claire-portrait-mobile-1080.webp"
+    ],
+    "poids": {
+      "claire-portrait-480.webp": 20084,
+      "claire-portrait-800.webp": 43250,
+      "claire-portrait-1200.webp": 77126,
+      "claire-portrait-mobile-640.webp": 30310,
+      "claire-portrait-mobile-1080.webp": 67962
+    },
+    "media": "c.media({ nom: 'claire-portrait', alt: \"Claire Glorot, souriante, assise sur un fauteuil moutarde\", cadrage: '50% 36%', cadrageMobile: '50% 36%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "grok/piece-conseil": {
+    "nom": "grok/piece-conseil",
+    "source": "recu/grok/accueil-piece-conseil.jpg",
+    "role": "vignette",
+    "alt": "Atelier de stratégie : notes colorées rangées en colonnes sur une table claire",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "08fa1d628a71f2fb",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 44%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 183,
+      "top": 0,
+      "width": 1074,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/piece-conseil-400.webp",
+      "grok/piece-conseil-800.webp"
+    ],
+    "poids": {
+      "grok/piece-conseil-400.webp": 15944,
+      "grok/piece-conseil-800.webp": 68324
+    },
+    "media": "c.media({ nom: 'grok/piece-conseil', alt: \"Atelier de stratégie : notes colorées rangées en colonnes sur une table claire\", cadrage: '50% 44%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "grok/piece-formation": {
+    "nom": "grok/piece-formation",
+    "source": "recu/grok/accueil-piece-formation.jpg",
+    "role": "vignette",
+    "alt": "Salle de formation lumineuse, participants vus de dos",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "ec17105e2d977c0b",
+    "ratio": "3:4",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "55% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 182,
+      "width": 1320,
+      "height": 1760,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/piece-formation-400.webp",
+      "grok/piece-formation-800.webp"
+    ],
+    "poids": {
+      "grok/piece-formation-400.webp": 38872,
+      "grok/piece-formation-800.webp": 105540
+    },
+    "media": "c.media({ nom: 'grok/piece-formation', alt: \"Salle de formation lumineuse, participants vus de dos\", cadrage: '55% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 4' })"
+  },
+  "grok/piece-coaching": {
+    "nom": "grok/piece-coaching",
+    "source": "recu/grok/accueil-piece-coaching.jpg",
+    "role": "vignette",
+    "alt": "Deux fauteuils en rotin face à face sur une véranda ombragée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "3032e0a33d974f7a",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 44%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 247,
+      "top": 0,
+      "width": 1074,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/piece-coaching-400.webp",
+      "grok/piece-coaching-800.webp"
+    ],
+    "poids": {
+      "grok/piece-coaching-400.webp": 30022,
+      "grok/piece-coaching-800.webp": 79102
+    },
+    "media": "c.media({ nom: 'grok/piece-coaching', alt: \"Deux fauteuils en rotin face à face sur une véranda ombragée\", cadrage: '50% 44%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "grok/axe-conseil": {
+    "nom": "grok/axe-conseil",
+    "source": "recu/grok/accueil-axe-conseil.jpg",
+    "role": "galerie",
+    "alt": "Séminaire de direction sur une terrasse couverte",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "281f1c08caef1946",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1072
+    ],
+    "mobile": null,
+    "cadrage": "46% 54%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 317,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/axe-conseil-480.webp",
+      "grok/axe-conseil-800.webp",
+      "grok/axe-conseil-1072.webp"
+    ],
+    "poids": {
+      "grok/axe-conseil-480.webp": 36476,
+      "grok/axe-conseil-800.webp": 74218,
+      "grok/axe-conseil-1072.webp": 104900
+    },
+    "media": "c.media({ nom: 'grok/axe-conseil', alt: \"Séminaire de direction sur une terrasse couverte\", cadrage: '46% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/axe-formation": {
+    "nom": "grok/axe-formation",
+    "source": "recu/grok/accueil-axe-formation.jpg",
+    "role": "galerie",
+    "alt": "Atelier de formation : un mur de notes colorées, participants de dos",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "9623275ccb8f6a6f",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1072
+    ],
+    "mobile": null,
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 119,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/axe-formation-480.webp",
+      "grok/axe-formation-800.webp",
+      "grok/axe-formation-1072.webp"
+    ],
+    "poids": {
+      "grok/axe-formation-480.webp": 24012,
+      "grok/axe-formation-800.webp": 40448,
+      "grok/axe-formation-1072.webp": 56184
+    },
+    "media": "c.media({ nom: 'grok/axe-formation', alt: \"Atelier de formation : un mur de notes colorées, participants de dos\", cadrage: '49% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/axe-coaching": {
+    "nom": "grok/axe-coaching",
+    "source": "recu/grok/accueil-axe-coaching.jpg",
+    "role": "galerie",
+    "alt": "Une manager de dos, face à une grande fenêtre, prend du recul",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "ee5f1db8bf6dca78",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1072
+    ],
+    "mobile": null,
+    "cadrage": "56% 49%",
+    "sujet": {
+      "x": 4.5,
+      "y": 0,
+      "l": 90.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.31,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/axe-coaching-480.webp",
+      "grok/axe-coaching-800.webp",
+      "grok/axe-coaching-1072.webp"
+    ],
+    "poids": {
+      "grok/axe-coaching-480.webp": 46606,
+      "grok/axe-coaching-800.webp": 91668,
+      "grok/axe-coaching-1072.webp": 128386
+    },
+    "media": "c.media({ nom: 'grok/axe-coaching', alt: \"Une manager de dos, face à une grande fenêtre, prend du recul\", cadrage: '56% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/petit-dejeuner": {
+    "nom": "grok/petit-dejeuner",
+    "source": "recu/grok/accueil-petit-dejeuner.jpg",
+    "role": "section-fond",
+    "alt": "Table de petit-déjeuner dressée pour une rencontre, chaises encore vides",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "653f7e877da785fe",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 72%"
+    },
+    "cadrage": "58% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 94.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 174,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/petit-dejeuner-640.webp",
+      "grok/petit-dejeuner-1280.webp",
+      "grok/petit-dejeuner-1600.webp",
+      "grok/petit-dejeuner-mobile-640.webp",
+      "grok/petit-dejeuner-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/petit-dejeuner-640.webp": 32098,
+      "grok/petit-dejeuner-1280.webp": 87648,
+      "grok/petit-dejeuner-1600.webp": 115164,
+      "grok/petit-dejeuner-mobile-640.webp": 52512,
+      "grok/petit-dejeuner-mobile-1080.webp": 97162
+    },
+    "media": "c.media({ nom: 'grok/petit-dejeuner', alt: \"Table de petit-déjeuner dressée pour une rencontre, chaises encore vides\", cadrage: '58% 55%', cadrageMobile: '50% 72%', sizes: '100vw' })"
+  },
+  "grok/conseil-ouverture": {
+    "nom": "grok/conseil-ouverture",
+    "source": "recu/grok/conseil-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Salle de séminaire prête pour une journée de travail, volets ouverts",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "7bd46512e21b5d70",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      960,
+      1280
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "64% 58%"
+    },
+    "cadrage": "64% 58%",
+    "sujet": {
+      "x": 18.2,
+      "y": 14.3,
+      "l": 77.3,
+      "h": 78.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.71,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.47,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 317,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/conseil-ouverture-640.webp",
+      "grok/conseil-ouverture-960.webp",
+      "grok/conseil-ouverture-1280.webp",
+      "grok/conseil-ouverture-mobile-640.webp",
+      "grok/conseil-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/conseil-ouverture-640.webp": 69394,
+      "grok/conseil-ouverture-960.webp": 118772,
+      "grok/conseil-ouverture-1280.webp": 164956,
+      "grok/conseil-ouverture-mobile-640.webp": 69394,
+      "grok/conseil-ouverture-mobile-1080.webp": 135352
+    },
+    "media": "c.media({ nom: 'grok/conseil-ouverture', alt: \"Salle de séminaire prête pour une journée de travail, volets ouverts\", cadrage: '64% 58%', cadrageMobile: '64% 58%', sizes: '100vw', priorite: true })"
+  },
+  "grok/conseil-strategie": {
+    "nom": "grok/conseil-strategie",
+    "source": "recu/grok/conseil-strategie.jpg",
+    "role": "carte-service",
+    "alt": "Une feuille de route en construction : cartes colorées posées en frise",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "bd731433d0d455c1",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "54% 43%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/conseil-strategie-1168.webp"
+    ],
+    "poids": {
+      "grok/conseil-strategie-1168.webp": 126592
+    },
+    "media": "c.media({ nom: 'grok/conseil-strategie', alt: \"Une feuille de route en construction : cartes colorées posées en frise\", cadrage: '54% 43%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/conseil-organisation": {
+    "nom": "grok/conseil-organisation",
+    "source": "recu/grok/conseil-organisation.jpg",
+    "role": "carte-service",
+    "alt": "Un organigramme abstrait de notes et de traits sur une paroi vitrée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "6b9f7540667b5751",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "39% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.9,
+      "h": 96.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 58,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/conseil-organisation-1168.webp"
+    ],
+    "poids": {
+      "grok/conseil-organisation-1168.webp": 48710
+    },
+    "media": "c.media({ nom: 'grok/conseil-organisation', alt: \"Un organigramme abstrait de notes et de traits sur une paroi vitrée\", cadrage: '39% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/conseil-transformation": {
+    "nom": "grok/conseil-transformation",
+    "source": "recu/grok/conseil-transformation.jpg",
+    "role": "carte-service",
+    "alt": "Une équipe projet de dos devant un grand tableau de planification",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "7f2f25223efba1f0",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "47% 57%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 97.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.05,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 48,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/conseil-transformation-1168.webp"
+    ],
+    "poids": {
+      "grok/conseil-transformation-1168.webp": 61238
+    },
+    "media": "c.media({ nom: 'grok/conseil-transformation', alt: \"Une équipe projet de dos devant un grand tableau de planification\", cadrage: '47% 57%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/formation-ouverture": {
+    "nom": "grok/formation-ouverture",
+    "source": "recu/grok/formation-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Une session de formation en demi-cercle, dans une salle baignée de lumière",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "e16b92243405fb26",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 64%"
+    },
+    "cadrage": "50% 36%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 97.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.31,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 149,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/formation-ouverture-640.webp",
+      "grok/formation-ouverture-1280.webp",
+      "grok/formation-ouverture-1600.webp",
+      "grok/formation-ouverture-mobile-640.webp",
+      "grok/formation-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/formation-ouverture-640.webp": 29672,
+      "grok/formation-ouverture-1280.webp": 73886,
+      "grok/formation-ouverture-1600.webp": 94054,
+      "grok/formation-ouverture-mobile-640.webp": 71502,
+      "grok/formation-ouverture-mobile-1080.webp": 130968
+    },
+    "media": "c.media({ nom: 'grok/formation-ouverture', alt: \"Une session de formation en demi-cercle, dans une salle baignée de lumière\", cadrage: '50% 36%', cadrageMobile: '50% 64%', sizes: '100vw', priorite: true })"
+  },
+  "grok/formation-inter": {
+    "nom": "grok/formation-inter",
+    "source": "recu/grok/formation-inter.jpg",
+    "role": "vignette",
+    "alt": "Pause entre participants de plusieurs entreprises, cafés à la main",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "f73006dba8bd3980",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "42% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1432,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/formation-inter-640.webp",
+      "grok/formation-inter-800.webp"
+    ],
+    "poids": {
+      "grok/formation-inter-640.webp": 45638,
+      "grok/formation-inter-800.webp": 60908
+    },
+    "media": "c.media({ nom: 'grok/formation-inter', alt: \"Pause entre participants de plusieurs entreprises, cafés à la main\", cadrage: '42% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/formation-intra": {
+    "nom": "grok/formation-intra",
+    "source": "recu/grok/formation-intra.jpg",
+    "role": "vignette",
+    "alt": "Une équipe en atelier dans sa propre salle de réunion",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "6489fc98d909ee51",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 9.1,
+      "l": 100,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 52,
+      "top": 0,
+      "width": 1432,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/formation-intra-640.webp",
+      "grok/formation-intra-800.webp"
+    ],
+    "poids": {
+      "grok/formation-intra-640.webp": 30076,
+      "grok/formation-intra-800.webp": 39880
+    },
+    "media": "c.media({ nom: 'grok/formation-intra', alt: \"Une équipe en atelier dans sa propre salle de réunion\", cadrage: '50% 53%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/coaching-ouverture": {
+    "nom": "grok/coaching-ouverture",
+    "source": "recu/grok/coaching-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Deux fauteuils face à face dans une pièce calme et lumineuse",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "8fc1bb4da81c6eb9",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      960,
+      1280
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "48% 54%"
+    },
+    "cadrage": "48% 54%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 93.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.5,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 307,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/coaching-ouverture-640.webp",
+      "grok/coaching-ouverture-960.webp",
+      "grok/coaching-ouverture-1280.webp",
+      "grok/coaching-ouverture-mobile-640.webp",
+      "grok/coaching-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/coaching-ouverture-640.webp": 41902,
+      "grok/coaching-ouverture-960.webp": 78106,
+      "grok/coaching-ouverture-1280.webp": 116992,
+      "grok/coaching-ouverture-mobile-640.webp": 41902,
+      "grok/coaching-ouverture-mobile-1080.webp": 91916
+    },
+    "media": "c.media({ nom: 'grok/coaching-ouverture', alt: \"Deux fauteuils face à face dans une pièce calme et lumineuse\", cadrage: '48% 54%', cadrageMobile: '48% 54%', sizes: '100vw', priorite: true })"
+  },
+  "grok/coaching-equipe": {
+    "nom": "grok/coaching-equipe",
+    "source": "recu/grok/coaching-equipe.jpg",
+    "role": "galerie",
+    "alt": "Une équipe assise en cercle, sans table, en séance collective",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "c8ea01bd6204dcf4",
+    "ratio": "3:2",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "44% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/coaching-equipe-1024.webp",
+      "grok/coaching-equipe-1168.webp",
+      "grok/coaching-equipe-1600.webp"
+    ],
+    "poids": {
+      "grok/coaching-equipe-1024.webp": 66374,
+      "grok/coaching-equipe-1168.webp": 77312,
+      "grok/coaching-equipe-1600.webp": 110312
+    },
+    "media": "c.media({ nom: 'grok/coaching-equipe', alt: \"Une équipe assise en cercle, sans table, en séance collective\", cadrage: '44% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "grok/coaching-carnet": {
+    "nom": "grok/coaching-carnet",
+    "source": "recu/grok/coaching-carnet.jpg",
+    "role": "galerie",
+    "alt": "Un carnet ouvert et un stylo sur un rebord de fenêtre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "0ee8262781968364",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1072
+    ],
+    "mobile": null,
+    "cadrage": "53% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 296,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/coaching-carnet-480.webp",
+      "grok/coaching-carnet-800.webp",
+      "grok/coaching-carnet-1072.webp"
+    ],
+    "poids": {
+      "grok/coaching-carnet-480.webp": 35774,
+      "grok/coaching-carnet-800.webp": 75358,
+      "grok/coaching-carnet-1072.webp": 107336
+    },
+    "media": "c.media({ nom: 'grok/coaching-carnet', alt: \"Un carnet ouvert et un stylo sur un rebord de fenêtre\", cadrage: '53% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/contact-ouverture": {
+    "nom": "grok/contact-ouverture",
+    "source": "recu/grok/contact-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Un bureau calme près d'une fenêtre ouverte, carnet et café",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "a64897e31c0244a8",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      960,
+      1280
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 42%"
+    },
+    "cadrage": "50% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/contact-ouverture-640.webp",
+      "grok/contact-ouverture-960.webp",
+      "grok/contact-ouverture-1280.webp",
+      "grok/contact-ouverture-mobile-640.webp",
+      "grok/contact-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/contact-ouverture-640.webp": 46550,
+      "grok/contact-ouverture-960.webp": 75448,
+      "grok/contact-ouverture-1280.webp": 108456,
+      "grok/contact-ouverture-mobile-640.webp": 47858,
+      "grok/contact-ouverture-mobile-1080.webp": 91632
+    },
+    "media": "c.media({ nom: 'grok/contact-ouverture', alt: \"Un bureau calme près d'une fenêtre ouverte, carnet et café\", cadrage: '50% 46%', cadrageMobile: '50% 42%', sizes: '100vw', priorite: true })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/page-404.jpg",
+    "role": "404",
+    "alt": "Une chaise vide face à un tableau blanc, dans une salle calme",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "c8b3efcb5f3d0ffd",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 49%"
+    },
+    "cadrage": "62% 50%",
+    "sujet": {
+      "x": 15.6,
+      "y": 0,
+      "l": 81.3,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.44,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 76,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/page-404-640.webp",
+      "grok/page-404-1280.webp",
+      "grok/page-404-1600.webp",
+      "grok/page-404-mobile-640.webp",
+      "grok/page-404-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/page-404-640.webp": 27126,
+      "grok/page-404-1280.webp": 77110,
+      "grok/page-404-1600.webp": 102694,
+      "grok/page-404-mobile-640.webp": 48318,
+      "grok/page-404-mobile-1080.webp": 88728
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Une chaise vide face à un tableau blanc, dans une salle calme\", cadrage: '62% 50%', cadrageMobile: '50% 49%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

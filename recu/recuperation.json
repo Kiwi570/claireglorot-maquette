@@ -1,0 +1,513 @@
+{
+  "site": "https://www.claireglorot.com/",
+  "date": "2026-11-20T20:38:39.539Z",
+  "pages": [
+    "https://www.claireglorot.com/",
+    "https://www.claireglorot.com/contact",
+    "https://www.claireglorot.com/qui-suis-je",
+    "https://www.claireglorot.com/coaching",
+    "https://www.claireglorot.com/formation/lead-collection",
+    "https://www.claireglorot.com/formation/planning-interentreprises",
+    "https://www.claireglorot.com/formation",
+    "https://www.claireglorot.com/nos-prestations",
+    "https://www.claireglorot.com/"
+  ],
+  "images": [
+    {
+      "fichier": "logo-clair.png",
+      "nom": "logo-clair",
+      "origine": "https://static.wixstatic.com/media/edf541_d5285a65a2c148f7a252057520511674~mv2.png",
+      "page": "https://www.claireglorot.com/formation",
+      "pages": 8,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Management, leadership, dynamique d'équipe et développement professionnel",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 1080,
+      "hauteur": 1080,
+      "poids": 148662,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "logo",
+      "marque": "principale"
+    },
+    {
+      "fichier": "logo.jpg",
+      "nom": "logo",
+      "origine": "https://static.wixstatic.com/media/edf541_890f2ae3f22c4467b1c694aaae05a45a~mv2.jpg",
+      "page": "https://www.claireglorot.com/formation",
+      "pages": 8,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Satisfaction générale",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 500,
+      "hauteur": 406,
+      "poids": 17745,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "logo",
+      "marque": "sous-marque"
+    },
+    {
+      "fichier": "logo-2.jpg",
+      "nom": "logo-2",
+      "origine": "https://static.wixstatic.com/media/edf541_cbf672d217a1470cb37681471463b08b~mv2.jpg",
+      "page": "https://www.claireglorot.com/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "CENTRE DE FORMATION",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 317,
+      "hauteur": 170,
+      "poids": 56532,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "logo",
+      "marque": "sous-marque"
+    },
+    {
+      "fichier": "logo-sombre.jpg",
+      "nom": "logo-sombre",
+      "origine": "https://static.wixstatic.com/media/edf541_02659fe2153847f6893a68188290ed1b~mv2.jpg",
+      "page": "https://www.claireglorot.com/qui-suis-je",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "CES ÉTABLISSEMENTS M'ONT FAIT CONFIANCE",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 125,
+      "hauteur": 125,
+      "poids": 3359,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "logo",
+      "marque": "sous-marque"
+    },
+    {
+      "fichier": "reussir-equation-performance-economique.jpg",
+      "nom": "reussir-equation-performance-economique",
+      "origine": "https://static.wixstatic.com/media/edf541_d6889396facd46758f084f9906fe1033~mv2.jpg",
+      "page": "https://www.claireglorot.com/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "\" RÉUSSIR L’ÉQUATION PERFORMANCE ECONOMIQUE ET HUMAINE\"",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 1001,
+      "hauteur": 1500,
+      "poids": 250079,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "conseil-formation-coaching-professionnel.jpg",
+      "nom": "conseil-formation-coaching-professionnel",
+      "origine": "https://static.wixstatic.com/media/edf541_d1ce3b2df8054574b7294fc2657b053f.jpg",
+      "page": "https://www.claireglorot.com/contact",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Conseil, Formation, Coaching Professionnel",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 424,
+      "hauteur": 283,
+      "poids": 72512,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "etablissements-m-ont-fait.png",
+      "nom": "etablissements-m-ont-fait",
+      "origine": "https://static.wixstatic.com/media/edf541_5f4efe0cee904dbaa6e41c94d5a1d0a9~mv2.png",
+      "page": "https://www.claireglorot.com/qui-suis-je",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "CES ÉTABLISSEMENTS M'ONT FAIT CONFIANCE",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 1628,
+      "hauteur": 336,
+      "poids": 94585,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "etablissements-m-ont-fait-2.jpg",
+      "nom": "etablissements-m-ont-fait-2",
+      "origine": "https://static.wixstatic.com/media/edf541_7329a763a65a4c01b6fdf0264da46062~mv2.jpg",
+      "page": "https://www.claireglorot.com/qui-suis-je",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "CES ÉTABLISSEMENTS M'ONT FAIT CONFIANCE",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 631,
+      "hauteur": 504,
+      "poids": 146592,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "portrait-femme-professionnelle.jpg",
+      "nom": "portrait-femme-professionnelle",
+      "origine": "https://static.wixstatic.com/media/772d8bc79db540789dfb8b2f64f4edaf.jpg",
+      "page": "https://www.claireglorot.com/coaching",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Portrait de femme professionnelle",
+        "legende": "",
+        "titre": "",
+        "section": "COACHING PROFESSIONNEL",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1335,
+      "largeur_origine": 7360,
+      "hauteur_origine": 4912,
+      "poids": 226858,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "temoignages.jpg",
+      "nom": "temoignages",
+      "origine": "https://static.wixstatic.com/media/11062b_bfb9e60a7d1f4b30b64b9b95311792c6~mv2.jpg",
+      "page": "https://www.claireglorot.com/coaching",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "TÉMOIGNAGES",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1420,
+      "largeur_origine": 6800,
+      "hauteur_origine": 4829,
+      "poids": 136185,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "plan-affaires.jpg",
+      "nom": "plan-affaires",
+      "origine": "https://static.wixstatic.com/media/11062b_c133cdde47c945eb86e5e93aab56210d~mv2.jpg",
+      "page": "https://www.claireglorot.com/coaching",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Plan d'affaires",
+        "legende": "",
+        "titre": "",
+        "section": "Booster le potentiel humain dans l'entreprise",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1333,
+      "largeur_origine": 5700,
+      "hauteur_origine": 3800,
+      "poids": 332061,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "sourire-affaires-femme.jpg",
+      "nom": "sourire-affaires-femme",
+      "origine": "https://static.wixstatic.com/media/11062b_8fd8468a7be04858a2b0ac2688ea9dfd~mv2.jpg",
+      "page": "https://www.claireglorot.com/coaching",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Sourire d'affaires Femme",
+        "legende": "",
+        "titre": "",
+        "section": "Muriel, Manager de proximité dans un organisme public",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1337,
+      "largeur_origine": 5489,
+      "hauteur_origine": 3669,
+      "poids": 172865,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "open-space.jpg",
+      "nom": "open-space",
+      "origine": "https://static.wixstatic.com/media/11062b_ed71af79bccc4783ac00939bb9c53522~mv2.jpg",
+      "page": "https://www.claireglorot.com/formation/lead-collection",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Open space",
+        "legende": "",
+        "titre": "",
+        "section": "​",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1335,
+      "largeur_origine": 5000,
+      "hauteur_origine": 3337,
+      "poids": 367673,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "conseil-formation-coaching-professionnel-2.jpg",
+      "nom": "conseil-formation-coaching-professionnel-2",
+      "origine": "https://static.wixstatic.com/media/edf541_9dbf5e45394a494f9eae16967205a3b1~mv2.jpg",
+      "page": "https://www.claireglorot.com/formation/planning-interentreprises",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Conseil, Formation, Coaching Professionnel",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 1380,
+      "hauteur": 1501,
+      "poids": 284314,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "satisfaction-generale.jpg",
+      "nom": "satisfaction-generale",
+      "origine": "https://static.wixstatic.com/media/a3c153_26cace63cf3442cabb956bb93a6c8d29f000.jpg",
+      "page": "https://www.claireglorot.com/formation",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Satisfaction générale",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 1920,
+      "hauteur": 1080,
+      "poids": 146725,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "centre-formation-claire-glorot.png",
+      "nom": "centre-formation-claire-glorot",
+      "origine": "https://static.wixstatic.com/media/0b24182070514346a744be46aba9646d.png",
+      "page": "https://www.claireglorot.com/formation",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Le Centre de formation Claire Glorot est spécialisé dans :",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 600,
+      "hauteur": 600,
+      "poids": 32983,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "entrer-relation-echange-strategique.jpg",
+      "nom": "entrer-relation-echange-strategique",
+      "origine": "https://static.wixstatic.com/media/11062b_e825515c93d94aa1af5b8bdd492155f9~mv2.jpeg",
+      "page": "https://www.claireglorot.com/nos-prestations",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Entrer en relation pour un échange stratégique",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1333,
+      "largeur_origine": 6720,
+      "hauteur_origine": 4480,
+      "poids": 287576,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "salle-conference.jpg",
+      "nom": "salle-conference",
+      "origine": "https://static.wixstatic.com/media/4aaebaa4a132485f87124db43fe35719.jpg",
+      "page": "https://www.claireglorot.com/nos-prestations",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "salle de conférence",
+        "legende": "",
+        "titre": "",
+        "section": "Conseil, Formation, Coaching Professionnel",
+        "page": "Conseil, Formation, Coaching Professionnel",
+        "fichier_origine": ""
+      },
+      "largeur": 1970,
+      "hauteur": 2000,
+      "largeur_origine": 2263,
+      "hauteur_origine": 2297,
+      "poids": 501871,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    }
+  ],
+  "ecartees": [
+    {
+      "url": "https://static.wixstatic.com/media/41d000_923783bd05e9f6dfd45827c8952a3e5b.png",
+      "raison": "repetee sur 8/9 pages"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/41d000_234c0c521a8017939900379e6a25b05c.png",
+      "raison": "repetee sur 8/9 pages"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/41d000_9a5081a86e28d0fbce1c1296869715d7.png",
+      "raison": "repetee sur 8/9 pages"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/48a2a42b19814efaa824450f23e8a253.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/b1cd13f9d4dfb1450bbb325285106177.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/edf541_7239ffc1be6c4763906235b6ec218eed%7Emv2.png",
+      "raison": "repetee sur 8/9 pages"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/11062b_9e78da3320da497ab23ce28d738d388a~mv2.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/8d13be_e7410a41eeb6463d8d5ad543f6ceb4ec.png",
+      "raison": "110 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/edf541_74d2124b9b0c4b49a0c063c6f26c2166.jpg",
+      "raison": "227 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/edf541_978bdce74fd341a88b6794b220d7807d.jpg",
+      "raison": "318 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/edf541_3703d472b2934848904f138f2cadbac4~mv2.png",
+      "raison": "112 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/edf541_498a3070b69b47c6b19af24c9d7bff9a~mv2.png",
+      "raison": "233 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/edf541_9337469c0b05463a8795287bcba47abd~mv2.png",
+      "raison": "172 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/edf541_0dd76e11730b49f7bba1ca0aa209e3c5.jpg",
+      "raison": "134 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/edf541_42b46f6ad9bb4a03bfbc2192141535bb~mv2.jpg",
+      "raison": "204 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/edf541_003d09b824fb46d7a58b851270ba4d6e.jpg",
+      "raison": "336 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/edf541_53e0d96e0f2245b69b9caa23865dfd6f~mv2.jpg",
+      "raison": "192 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/edf541_05c909adadb9488fa58caf080870f8a2.png",
+      "raison": "100 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/edf541_8b1be74e50704790bfc65da965c530bd~mv2.jpg",
+      "raison": "239 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/edf541_97e6404b367c429e93e5d87ae76e820d~mv2.png",
+      "raison": "200 px de large"
+    }
+  ]
+}
