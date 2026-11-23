@@ -51,17 +51,16 @@ export default (c) => html`
       ${surtitre(c, 'conseil.mission.surtitre')}
       ${titre(c, 'conseil.mission')}
     </div>
-    <ol class="mission-etapes" data-anime="cascade">
-      ${[1, 2, 3, 4].map((n) => html`<li class="mission-etape"><span class="mission-num">0${String(n)}</span><h3>${c.t(`conseil.mission.e${n}`)}</h3><p>${c.t(`conseil.mission.e${n}t`)}</p></li>`)}
-    </ol>
+    <div class="frise" data-frise>
+      <div class="frise-piste" aria-hidden="true"><span class="frise-plein" data-effet="frise"></span></div>
+      <ol class="mission-etapes" data-anime="cascade">
+        ${[1, 2, 3, 4].map((n) => html`<li class="mission-etape"><span class="mission-num">0${String(n)}</span><h3>${c.t(`conseil.mission.e${n}`)}</h3><p>${c.t(`conseil.mission.e${n}t`)}</p></li>`)}
+      </ol>
+    </div>
     <div class="durees" data-anime>
       <p class="surtitre">${c.t('conseil.mission.durees')}</p>
-      <svg class="durees-svg" viewBox="0 0 600 70" role="img" aria-label="${c.s('conseil.mission.durees')} : ${c.s('conseil.mission.d1')}, ${c.s('conseil.mission.d2')}, ${c.s('conseil.mission.d3')}" data-fx="trace" data-visuel>
-        <path d="M10 35 H590" class="durees-ligne" />
-        <path d="M10 35 C 90 5, 150 5, 190 35" data-fx-trait /><path d="M10 35 C 140 -5, 300 -5, 390 35" data-fx-trait /><path d="M10 35 C 200 -15, 480 -15, 590 35" data-fx-trait />
-        <circle cx="10" cy="35" r="7" /><circle cx="190" cy="35" r="6" /><circle cx="390" cy="35" r="6" /><circle cx="590" cy="35" r="6" />
-        <text x="190" y="64">${c.t('conseil.mission.d1')}</text><text x="390" y="64">${c.t('conseil.mission.d2')}</text><text x="560" y="64">${c.t('conseil.mission.d3')}</text>
-      </svg>
+      <ul class="durees-liste">${[1, 2, 3].map((n) => html`<li><span class="duree-barre duree-barre--${String(n)}" aria-hidden="true"></span>${c.t(`conseil.mission.d${n}`)}</li>`)}</ul>
+      <p class="durees-texte">${c.t('conseil.mission.dureesTexte')}</p>
     </div>
   </div>
 </section>

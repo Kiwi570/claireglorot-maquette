@@ -1,7 +1,7 @@
 /* Adaptateur : les modules de la bibliothèque attendent leur propre socle (pret(), socle.gsap…).
    Ici, ils reçoivent le GSAP, le ScrollTrigger et le recalcul regroupé du socle du site ; Flip est chargé à la demande.
    Pas de second défilement adouci : celui du site suffit. */
-import { rafraichir } from '../socle/index.js?v=1';
+import { rafraichir } from '../socle/index.js?v=2';
 
 const charges = {};
 const script = (src) => (charges[src] ??= new Promise((ok, ko) => {

@@ -82,7 +82,8 @@
     "label": "Mobile en équilibre : conseil, formation et coaching",
     "formation": "Formation",
     "conseil": "Conseil",
-    "coaching": "Coaching"
+    "coaching": "Coaching",
+    "indice": "Passez la souris : tout est question d'équilibre"
   },
   "appel": {
     "surtitre": "Un premier échange",
@@ -244,7 +245,8 @@
       "durees": "Durée des missions",
       "d1": "Courte",
       "d2": "Moyenne",
-      "d3": "Longue"
+      "d3": "Longue",
+      "dureesTexte": "Des missions de courte, moyenne ou longue durée, avec un suivi et une consolidation des résultats."
     },
     "territoire": {
       "titre": "Une expertise basée en Guadeloupe",

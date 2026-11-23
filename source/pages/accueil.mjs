@@ -26,9 +26,9 @@ export default (c) => {
       ${c.lien('contact', { ancre: 'demande', classe: 'bouton', texte: c.t('accueil.hero.action'), attrs: 'data-action-principale data-survol="magnetique"' })}
       ${c.lien('formation', { ancre: 'catalogue', classe: 'bouton bouton--contour masque-ecran-tres-bas', texte: c.t('accueil.hero.action2') })}
     </p>
-    <p class="hero-info" data-anime="gsap" data-info-cle data-rdv-info><span class="point" aria-hidden="true"></span><span data-rdv-avant>${c.t('accueil.hero.info')}</span><span data-rdv-apres hidden>${c.t('accueil.hero.infoPasse')}</span></p>
+    <p class="hero-info" data-anime="gsap" data-info-cle data-rdv-info><span class="point" aria-hidden="true"></span><a href="#rendez-vous" class="hero-info-lien" data-rdv-avant>${c.t('accueil.hero.info')}</a><span data-rdv-apres hidden>${c.t('accueil.hero.infoPasse')}</span></p>
   </div>
-  <div class="hero-mobile">${mobile(c, { iris: true })}</div>
+  <div class="hero-mobile"><span class="hero-soleil" data-effet="soleil" aria-hidden="true"></span>${mobile(c, { iris: true })}<p class="mobile-indice" data-indice aria-hidden="true">${c.t('mobile.indice')}</p></div>
 </section>
 
 <section class="orienteur bande bande--sable" id="situations">
@@ -43,14 +43,14 @@ export default (c) => {
         ${situations.map((s, i) => html`<button type="button" class="orienteur-bouton" data-situation="${s.id}" data-metier="${s.metier}" aria-pressed="${i === 0 ? 'true' : 'false'}" aria-controls="reponse-${s.id}"><span class="orienteur-num">0${String(i + 1)}</span>${s.situation}</button>`)}
       </div>
       <div class="orienteur-reponses" aria-live="polite">
-        <svg class="balance" viewBox="0 0 320 150" role="img" aria-label="${c.s('accueil.orienteur.balance')}" data-effet="orienteur" data-visuel>
-          <path class="balance-pied" d="M160 40 L160 140 M120 142 H200" />
+        <svg class="balance" viewBox="0 0 320 140" role="img" aria-label="${c.s('accueil.orienteur.balance')}" data-effet="orienteur" data-visuel>
+          <path class="balance-pied" d="M160 2 V40 M146 2 H174" />
           <g class="balance-fleau" data-balance>
             <path d="M40 40 H280" class="balance-barre" />
             <circle cx="160" cy="40" r="7" class="balance-axe" />
-            <g class="balance-plateau" data-plateau="conseil"><path d="M40 40 L22 82 M40 40 L58 82" /><path d="M14 82 H66 Q40 100 14 82Z" /><text x="40" y="126">${c.t('mobile.conseil')}</text></g>
-            <g class="balance-plateau" data-plateau="formation"><path d="M160 40 L160 70" /><rect x="140" y="66" width="40" height="26" rx="4" /><text x="160" y="126">${c.t('mobile.formation')}</text></g>
-            <g class="balance-plateau" data-plateau="coaching"><path d="M280 40 L262 82 M280 40 L298 82" /><path d="M254 82 H306 Q280 100 254 82Z" /><text x="280" y="126">${c.t('mobile.coaching')}</text></g>
+            <g class="balance-plateau" data-plateau="conseil"><path d="M40 40 V60" /><circle class="forme" cx="40" cy="80" r="20" /><text x="40" y="128">${c.t('mobile.conseil')}</text></g>
+            <g class="balance-plateau" data-plateau="formation"><path d="M160 40 V56" /><rect class="forme" x="143" y="56" width="34" height="46" rx="2" /><text x="160" y="128">${c.t('mobile.formation')}</text></g>
+            <g class="balance-plateau" data-plateau="coaching"><path d="M280 40 V58" /><path class="forme" d="M261 102 V77 A19 19 0 0 1 299 77 V102 Z" /><text x="280" y="128">${c.t('mobile.coaching')}</text></g>
           </g>
         </svg>
         ${situations.map((s, i) => html`<div class="orienteur-reponse" id="reponse-${s.id}" data-reponse="${s.id}"${i === 0 ? '' : brut(' data-cache')}>
@@ -73,7 +73,7 @@ export default (c) => {
     <div class="metiers-grille" data-anime="cascade">
       ${metiers.map(([cle, image, alt], i) => html`<article class="metier">
         ${c.media({ nom: image, alt, classe: 'metier-media', sizes: '(max-width: 760px) 100vw, 33vw', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}
-        <p class="metier-num">0${String(i + 1)}</p>
+        <p class="metier-num"><span class="forme-metier forme-metier--${cle}" aria-hidden="true"></span>0${String(i + 1)}</p>
         <h3 class="metier-titre">${c.t(`accueil.metiers.${cle}Titre`)}</h3>
         <p>${c.t(`accueil.metiers.${cle}Texte`)}</p>
         ${c.lien(cle, { classe: 'lien-fleche', texte: html`${c.t('accueil.metiers.decouvrir')}<span class="visuellement-cache"> : ${c.t(`accueil.metiers.${cle}Titre`)}</span>` })}

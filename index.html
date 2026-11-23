@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,15 +35,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/bricolage-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/modules.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/modules.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F4EEE3">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -119,9 +119,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <a href="/contact#demande" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Parler de votre situation</a>
       <a href="/formation#catalogue" class="bouton bouton--contour masque-ecran-tres-bas" data-libelle="Formation">Voir les formations</a>
     </p>
-    <p class="hero-info" data-anime="gsap" data-info-cle data-rdv-info><span class="point" aria-hidden="true"></span><span data-rdv-avant>Prochain rendez-vous : jeudi 11 décembre, petit-déjeuner « Leadership au féminin »</span><span data-rdv-apres hidden>Formations certifiées Qualiopi, finançables par les OPCO</span></p>
+    <p class="hero-info" data-anime="gsap" data-info-cle data-rdv-info><span class="point" aria-hidden="true"></span><a href="#rendez-vous" class="hero-info-lien" data-rdv-avant>Prochain rendez-vous : jeudi 11 décembre, petit-déjeuner « Leadership au féminin »</a><span data-rdv-apres hidden>Formations certifiées Qualiopi, finançables par les OPCO</span></p>
   </div>
-  <div class="hero-mobile"><div class="mobile" data-grille="manipuler" data-mobile data-effet="mobile" data-souris data-visuel role="group" aria-label="Mobile en équilibre : conseil, formation et coaching">
+  <div class="hero-mobile"><span class="hero-soleil" data-effet="soleil" aria-hidden="true"></span><div class="mobile" data-grille="manipuler" data-mobile data-effet="mobile" data-souris data-visuel role="group" aria-label="Mobile en équilibre : conseil, formation et coaching">
   <span class="mobile-crochet" aria-hidden="true"></span>
   <div class="pivot pivot--a" data-pivot data-omega="3.4" data-gain="1">
     <span class="mobile-barre mobile-barre--a" aria-hidden="true"></span>
@@ -166,7 +166,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </div>
     </div>
   </div>
-</div></div>
+</div><p class="mobile-indice" data-indice aria-hidden="true">Passez la souris : tout est question d&#39;équilibre</p></div>
 </section>
 <section class="orienteur bande bande--sable" id="situations">
   <div class="conteneur">
@@ -180,14 +180,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <button type="button" class="orienteur-bouton" data-situation="managers" data-metier="formation" aria-pressed="true" aria-controls="reponse-managers"><span class="orienteur-num">01</span>Développer les compétences de vos managers</button><button type="button" class="orienteur-bouton" data-situation="projet" data-metier="conseil" aria-pressed="false" aria-controls="reponse-projet"><span class="orienteur-num">02</span>Mener un projet qui transforme l&#39;organisation</button><button type="button" class="orienteur-bouton" data-situation="cohesion" data-metier="coaching" aria-pressed="false" aria-controls="reponse-cohesion"><span class="orienteur-num">03</span>Renforcer la cohésion de votre équipe</button><button type="button" class="orienteur-bouton" data-situation="transition" data-metier="coaching" aria-pressed="false" aria-controls="reponse-transition"><span class="orienteur-num">04</span>Faire le point dans une transition professionnelle</button><button type="button" class="orienteur-bouton" data-situation="dossier" data-metier="conseil" aria-pressed="false" aria-controls="reponse-dossier"><span class="orienteur-num">05</span>Monter le dossier d&#39;un projet d&#39;entreprise</button>
       </div>
       <div class="orienteur-reponses" aria-live="polite">
-        <svg class="balance" viewBox="0 0 320 150" role="img" aria-label="Balance qui penche vers le conseil, la formation ou le coaching" data-effet="orienteur" data-visuel>
-          <path class="balance-pied" d="M160 40 L160 140 M120 142 H200" />
+        <svg class="balance" viewBox="0 0 320 140" role="img" aria-label="Balance qui penche vers le conseil, la formation ou le coaching" data-effet="orienteur" data-visuel>
+          <path class="balance-pied" d="M160 2 V40 M146 2 H174" />
           <g class="balance-fleau" data-balance>
             <path d="M40 40 H280" class="balance-barre" />
             <circle cx="160" cy="40" r="7" class="balance-axe" />
-            <g class="balance-plateau" data-plateau="conseil"><path d="M40 40 L22 82 M40 40 L58 82" /><path d="M14 82 H66 Q40 100 14 82Z" /><text x="40" y="126">Conseil</text></g>
-            <g class="balance-plateau" data-plateau="formation"><path d="M160 40 L160 70" /><rect x="140" y="66" width="40" height="26" rx="4" /><text x="160" y="126">Formation</text></g>
-            <g class="balance-plateau" data-plateau="coaching"><path d="M280 40 L262 82 M280 40 L298 82" /><path d="M254 82 H306 Q280 100 254 82Z" /><text x="280" y="126">Coaching</text></g>
+            <g class="balance-plateau" data-plateau="conseil"><path d="M40 40 V60" /><circle class="forme" cx="40" cy="80" r="20" /><text x="40" y="128">Conseil</text></g>
+            <g class="balance-plateau" data-plateau="formation"><path d="M160 40 V56" /><rect class="forme" x="143" y="56" width="34" height="46" rx="2" /><text x="160" y="128">Formation</text></g>
+            <g class="balance-plateau" data-plateau="coaching"><path d="M280 40 V58" /><path class="forme" d="M261 102 V77 A19 19 0 0 1 299 77 V102 Z" /><text x="280" y="128">Coaching</text></g>
           </g>
         </svg>
         <div class="orienteur-reponse" id="reponse-managers" data-reponse="managers">
@@ -233,7 +233,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/grok/axe-conseil-1072.webp" srcset="/assets/images/grok/axe-conseil-480.webp 480w, /assets/images/grok/axe-conseil-800.webp 800w, /assets/images/grok/axe-conseil-1072.webp 1072w" sizes="(max-width: 760px) 100vw, 33vw" alt="Séminaire de direction sur une terrasse couverte" width="1072" height="1340" loading="lazy" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
-        <p class="metier-num">01</p>
+        <p class="metier-num"><span class="forme-metier forme-metier--conseil" aria-hidden="true"></span>01</p>
         <h3 class="metier-titre">Conseil</h3>
         <p>Organisation, management et RH : préparer et conduire le changement, sur des missions courtes, moyennes ou longues.</p>
         <a href="/conseil" class="lien-fleche" data-libelle="Conseil">Découvrir<span class="visuellement-cache"> : Conseil</span></a>
@@ -243,7 +243,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/grok/axe-formation-1072.webp" srcset="/assets/images/grok/axe-formation-480.webp 480w, /assets/images/grok/axe-formation-800.webp 800w, /assets/images/grok/axe-formation-1072.webp 1072w" sizes="(max-width: 760px) 100vw, 33vw" alt="Atelier de formation devant un mur de notes colorées" width="1072" height="1340" loading="lazy" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
-        <p class="metier-num">02</p>
+        <p class="metier-num"><span class="forme-metier forme-metier--formation" aria-hidden="true"></span>02</p>
         <h3 class="metier-titre">Formation</h3>
         <p>Centre certifié Qualiopi : 13 formations en management, leadership, RH et compétences transverses, en intra ou en inter.</p>
         <a href="/formation" class="lien-fleche" data-libelle="Formation">Découvrir<span class="visuellement-cache"> : Formation</span></a>
@@ -253,7 +253,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/grok/axe-coaching-1072.webp" srcset="/assets/images/grok/axe-coaching-480.webp 480w, /assets/images/grok/axe-coaching-800.webp 800w, /assets/images/grok/axe-coaching-1072.webp 1072w" sizes="(max-width: 760px) 100vw, 33vw" alt="Une manager de dos face à une grande fenêtre" width="1072" height="1340" loading="lazy" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
-        <p class="metier-num">03</p>
+        <p class="metier-num"><span class="forme-metier forme-metier--coaching" aria-hidden="true"></span>03</p>
         <h3 class="metier-titre">Coaching</h3>
         <p>Individuel ou d&#39;équipe, pour prendre du recul et avancer : environ 10 séances de 1 h 30 sur 6 à 8 mois.</p>
         <a href="/coaching" class="lien-fleche" data-libelle="Coaching">Découvrir<span class="visuellement-cache"> : Coaching</span></a>
@@ -383,7 +383,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="rdv-details">3 h 30 · de 3 à 15 participantes · 42 € net de TVA</p>
       <p class="rdv-texte">Un temps d&#39;échange entre femmes dirigeantes, managers et leaders : plafond de verre, perfectionnisme, stéréotypes du quotidien, performance et management humaniste.</p>
       <div class="rdv-avant">
-        <p class="rdv-compte" data-effet="compte-a-rebours" aria-live="off"><span class="rdv-dans">Dans</span> <strong data-rdv-jours>21</strong> <span data-rdv-mot>jours</span></p>
+        <p class="rdv-compte" data-effet="compte-a-rebours" aria-live="off"><span class="rdv-dans">Dans</span> <strong data-rdv-jours>18</strong> <span data-rdv-mot>jours</span></p>
         <p><a href="/contact?sujet=petit-dejeuner&amp;formation=petit-dejeuner#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Réserver ma place</a></p>
       </div>
       <div class="rdv-apres" hidden>

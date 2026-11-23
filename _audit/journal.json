@@ -101,6 +101,62 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Construction menée pendant l'attente des images Grok avec des visuels provisoires, remplacés par produire.mjs --forcer."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1.1",
+      "perimetre": [
+        "accueil",
+        "conseil",
+        "formation",
+        "coaching",
+        "contact",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "revue complète de la v1 (captures de chaque section, ordinateur et téléphone)",
+          "budget": 15,
+          "debut": "2026-11-23T16:47:00+01:00",
+          "fin": "2026-11-23T16:51:00+01:00"
+        },
+        {
+          "etape": "améliorations de l'accueil et des pages",
+          "budget": 60,
+          "debut": "2026-11-23T16:51:00+01:00",
+          "fin": "2026-11-23T16:57:00+01:00"
+        },
+        {
+          "etape": "audit complet, regard neuf et corrections",
+          "budget": 50,
+          "debut": "2026-11-23T16:57:00+01:00",
+          "fin": "2026-11-23T17:25:59+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-23T17:25:59+01:00",
+          "fin": "2026-11-23T17:25:59+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [
+        "catalogue-filtres-flip",
+        "formulaire-par-etapes",
+        "offre-a-tiroirs"
+      ],
+      "audit": {
+        "niveau": "complet (13 tailles, tous les modes, toutes les pages) puis relance ciblée",
+        "echecsPremierPassage": 1,
+        "relances": 1,
+        "corrections": [
+          "mention « Illustration générée » de la photo du rendez-vous recouverte par la carte sur téléphone : déplacée en haut"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Version finale demandée : revue complète, améliorations, audit complet."
     }
   ]
 }

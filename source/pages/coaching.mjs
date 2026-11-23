@@ -50,7 +50,7 @@ export default (c) => html`
     <div class="tete-section">${surtitre(c, 'coaching.themes.surtitre')}${titre(c, 'coaching.themes')}</div>
     <div class="themes-grille" data-anime="cascade">
       ${c.donnees.listes.themes.map((g, i) => html`<article class="theme">
-        <svg class="theme-forme" viewBox="0 0 80 80" aria-hidden="true" data-visuel>${i === 0 ? html`<circle cx="40" cy="40" r="30"/>` : i === 1 ? html`<rect x="16" y="10" width="48" height="60" rx="3"/>` : html`<path d="M14 70 V40 A26 26 0 0 1 66 40 V70 Z"/>`}</svg>
+        <svg class="theme-forme" viewBox="0 0 80 80" aria-hidden="true" data-visuel><path d="M14 74 V40 A26 26 0 0 1 66 40 V74 Z"/><text x="40" y="62">${String(i + 1)}</text></svg>
         <h3>${g.titre}</h3><ul class="liste-puces">${g.liste.map((l) => html`<li>${l}</li>`)}</ul>
       </article>`)}
     </div>

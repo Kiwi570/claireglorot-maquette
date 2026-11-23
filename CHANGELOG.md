@@ -1,5 +1,31 @@
 # Journal des versions
 
+## v2 · 23 novembre 2026
+
+Revue complète de la v1, page par page et section par section, sur ordinateur et sur téléphone, puis audit complet (13 tailles d'écran, tous les modes).
+
+**Accueil**
+- Le mobile de l'ouverture est plus grand (pièces agrandies d'environ 15 %), porté par un grand disque sable qui glisse au défilement, avec des ombres douces sous chaque pièce.
+- Effleurer une pièce à la souris (ou la viser au clavier) la fait tourner sur son fil ; la photo se rapproche légèrement. Une petite phrase invite au jeu sur ordinateur, puis s'efface au premier mouvement.
+- « Prochain rendez-vous » dans l'ouverture devient un lien vers la section du petit-déjeuner.
+- La balance de l'orienteur est suspendue à un fil, comme le mobile, et ses plateaux reprennent les trois formes des métiers : rond pour le conseil, cadre pour la formation, arche pour le coaching. Les mêmes formes repèrent les trois métiers dans leurs cartes.
+- Sur téléphone : ouverture plus compacte (le mobile apparaît dès le premier écran), photo du petit-déjeuner en haut et carte qui la chevauche, photo recadrée sur la table.
+
+**Conseil**
+- Le schéma des durées, peu lisible, est remplacé par une frise : une piste corail se remplit au défilement et chaque étape de la mission s'allume quand elle est atteinte ; les durées (courte, moyenne, longue) deviennent trois barres de longueur croissante.
+
+**Coaching**
+- La photo en arche est plus grande et ombrée ; les thématiques prennent la forme d'arches numérotées (la forme du coaching) et se soulèvent au survol.
+
+**Contact**
+- Une onde corail part en boucle du point de Sainte-Anne sur la carte (arrêtée hors de l'écran).
+
+**Formation**
+- Fiches du catalogue : bordure corail au survol.
+
+**Technique**
+- Numéro de version des fichiers passé à 2 (le navigateur recharge les styles et scripts).
+
 ## v1 · 20 novembre 2026
 
 Première version de la maquette, direction « L'équilibre ».

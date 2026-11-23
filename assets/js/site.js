@@ -3,7 +3,7 @@
    Ici : le mobile en équilibre (accueil et appel final), l'intro qui finit sur son cadre, l'orienteur et sa balance,
    les étapes qui s'empilent, les persiennes du conseil, les situations qui s'allument, le chiffre géant du coaching,
    le compte à rebours du rendez-vous, et le branchement des trois modules de la bibliothèque. */
-import { demarrer, boucle, versObjet, rafraichir } from './socle/index.js?v=1';
+import { demarrer, boucle, versObjet, rafraichir } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -21,7 +21,18 @@ function creerMobile(root) {
   const pivots = $$('[data-pivot]', root).map((el) => ({ el, w: +el.dataset.omega || 4, g: +el.dataset.gain || 1, a: 0, v: 0 }));
   const m = { root, pivots, force: 0, derniere: 0, dort: true, libre: true };
   const appliquer = () => pivots.forEach((p) => { p.el.style.rotate = `${p.a.toFixed(3)}deg`; });
-  m.pousser = (f) => { m.force += f; m.derniere = performance.now(); m.dort = false; };
+  m.pousser = (f) => { m.force += f; m.derniere = performance.now(); m.dort = false; m.indice?.classList.add('vu'); };
+  /* Effleurer une pièce (souris) ou la viser au clavier la fait tourner sur son fil. */
+  m.indice = root.parentElement?.querySelector('[data-indice]') || null;
+  const pichenette = (piece, sens) => {
+    const p = pivots.find((x) => x.el === piece.closest('[data-pivot]'));
+    if (!p) return;
+    p.v += 70 * sens; m.derniere = performance.now(); m.dort = false; m.indice?.classList.add('vu');
+  };
+  $$('.piece', root).forEach((piece, i) => {
+    piece.addEventListener('pointerenter', (e) => { if (e.pointerType === 'mouse') pichenette(piece, e.movementX < 0 ? -1 : 1); });
+    piece.addEventListener('focus', () => pichenette(piece, i % 2 ? -1 : 1));
+  });
   m.lancer = (angles) => { pivots.forEach((p, i) => { p.a = angles[i] || 0; p.v = 0; }); m.derniere = performance.now() + 900; m.dort = false; appliquer(); };
   m.poser = () => { pivots.forEach((p) => { p.a = 0; p.v = 0; }); m.dort = true; appliquer(); };
   boucle(root, (dt) => {
@@ -160,6 +171,15 @@ function preparerEtapes() {
   });
 }
 
+/* ---------- Conseil : la frise d'une mission se remplit, chaque étape s'allume quand elle est atteinte ---------- */
+function preparerFrise() {
+  const frise = $('[data-frise]');
+  if (!frise) return;
+  const plein = $('.frise-plein', frise), etapes = $$('.mission-etape', frise);
+  gsap.fromTo(plein, { scaleX: 0 }, { scaleX: 1, ease: 'none', scrollTrigger: { trigger: frise, start: 'top 78%', end: 'bottom 45%', scrub: 0.4,
+    onUpdate: (s) => etapes.forEach((e, i) => e.classList.toggle('atteinte', s.progress >= i / etapes.length + 0.02)) } });
+}
+
 /* ---------- Coaching : les situations s'allument une à une au défilement ; chiffres géants en parallaxe ---------- */
 function preparerNuage() {
   const nuage = $('[data-nuage]');
@@ -171,6 +191,8 @@ function preparerNuage() {
     } });
     gsap.fromTo(items, { y: (i) => (i % 3 - 1) * 18 }, { y: (i) => (1 - i % 3) * 18, ease: 'none', scrollTrigger: { trigger: nuage, start: 'top bottom', end: 'bottom top', scrub: 0.5 } });
   }
+  const soleil = $('.hero-soleil');
+  if (soleil) gsap.fromTo(soleil, { y: 0, scale: 1 }, { y: 90, scale: 1.12, ease: 'none', scrollTrigger: { trigger: soleil.closest('section'), start: 'top top', end: 'bottom top', scrub: 0.5 } });
   const pastille = $('.pastille-anneau');
   if (pastille) gsap.fromTo(pastille, { rotation: 0 }, { rotation: 140, ease: 'none', scrollTrigger: { trigger: pastille.closest('section'), start: 'top top', end: 'bottom top', scrub: 0.5 } });
   $$('.geant').forEach((g, i) => gsap.fromTo(g, { y: 0 }, { y: -50 - i * 40, ease: 'none', immediateRender: false, scrollTrigger: { trigger: g.closest('section'), start: 'top top', end: 'bottom top', scrub: 0.4 } }));
@@ -197,9 +219,9 @@ function preparerRendezVous() {
 /* ---------- Modules de la bibliothèque ---------- */
 function preparerModules() {
   const tiroirs = $('[data-module="offre-a-tiroirs"]');
-  if (tiroirs) import('./modules/offre-a-tiroirs/module.js?v=1').then((m) => m.init(tiroirs, {})).catch((e) => console.error(e));
+  if (tiroirs) import('./modules/offre-a-tiroirs/module.js?v=2').then((m) => m.init(tiroirs, {})).catch((e) => console.error(e));
   const catalogue = $('[data-module="catalogue-filtres-flip"]');
-  if (catalogue) import('./modules/catalogue-filtres-flip/module.js?v=1').then((m) => m.init(catalogue, { duree: 0.4, mots: ['formation', 'formations'], format: (n) => n.toLocaleString('fr-FR').replace(/ /g, ' ') + ' €' })).catch((e) => console.error(e));
+  if (catalogue) import('./modules/catalogue-filtres-flip/module.js?v=2').then((m) => m.init(catalogue, { duree: 0.4, mots: ['formation', 'formations'], format: (n) => n.toLocaleString('fr-FR').replace(/ /g, ' ') + ' €' })).catch((e) => console.error(e));
   const demande = $('[data-module="formulaire-par-etapes"]');
   if (demande) {
     const p = new URLSearchParams(location.search);
@@ -208,7 +230,7 @@ function preparerModules() {
     if (radio) radio.checked = true;
     const choix = $('#d-formation', demande);
     if (choix && formation && $(`option[value="${CSS.escape(formation)}"]`, choix)) choix.value = formation;
-    import('./modules/formulaire-par-etapes/module.js?v=1').then((m) => m.init(demande, {})).catch((e) => console.error(e));
+    import('./modules/formulaire-par-etapes/module.js?v=2').then((m) => m.init(demande, {})).catch((e) => console.error(e));
     demande.addEventListener('formulaire:envoye', () => setTimeout(() => {
       const f = $('.fpe__fin', demande);
       if (f && f.getBoundingClientRect().top < 0) f.scrollIntoView({ block: 'start' });
@@ -226,6 +248,7 @@ demarrer({
     preparerOrienteur();
     preparerEtapes();
     preparerNuage();
+    preparerFrise();
     preparerRendezVous();
     preparerModules();
   },

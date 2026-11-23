@@ -91,50 +91,64 @@ h1, h2, h3, h4 { font-weight: 700; letter-spacing: -.015em; }
 .hero-info { display: flex; align-items: baseline; font-weight: 600; max-width: 36em; margin: 0; }
 html.js:not(.secours):not([data-arrivee="retour"]) .hero-ligne { transform: translateY(110%); }
 html.js:not(.secours):not([data-arrivee="retour"]) :is(.hero-intro, .hero-actions, .hero-info) { opacity: 0; }
-.hero-mobile { width: 100%; max-width: 640px; justify-self: center; }
+.hero-mobile { position: relative; width: 100%; max-width: 640px; justify-self: center; }
+/* Le soleil : un grand disque doux derrière le mobile, qui glisse au défilement. */
+.hero-soleil { position: absolute; left: 50%; top: 50%; width: 82%; aspect-ratio: 1; margin: -41% 0 0 -41%; border-radius: 50%; background: radial-gradient(circle at 38% 34%, #F1E5D2, #E6D6BC 70%); pointer-events: none; }
+.hero-mobile .mobile { position: relative; }
+.mobile-indice { position: relative; margin: 4px 0 0; text-align: center; font-weight: 600; font-size: .9rem; color: var(--texte-doux); transition: opacity .6s; }
+.mobile-indice.vu { opacity: 0; }
+@media (hover: none) { .mobile-indice { display: none; } }
 .hero, .appel { overflow-x: clip; }
 /* Mobile étroit : les petites pièces deviennent des formes pleines (la photo n'y serait qu'une vignette illisible). */
 @container (max-width: 480px) {
-  .piece--rond .media, .piece--arche .media { display: none; }
-  .piece--rond .piece-forme { background: var(--corail); }
+  .piece--arche .media { display: none; }
   .piece--arche .piece-forme { background: var(--ocean); }
+}
+@container (max-width: 400px) {
+  .piece--rond .media { display: none; }
+  .piece--rond .piece-forme { background: var(--corail); }
 }
 
 .mobile { position: relative; width: 100%; aspect-ratio: 600 / 470; container-type: inline-size; user-select: none; }
-.mobile-crochet { position: absolute; left: 46.667cqw; top: 0; width: .34cqw; height: 9.333cqw; margin-left: -.17cqw; background: var(--fil); }
+.mobile-crochet { position: absolute; left: 50cqw; top: 0; width: .34cqw; height: 8.333cqw; margin-left: -.17cqw; background: var(--fil); }
 .mobile-crochet::before { content: ''; position: absolute; left: 50%; top: -.2cqw; width: 2.2cqw; height: 1.2cqw; transform: translateX(-50%); border-radius: 0 0 1cqw 1cqw; background: var(--fil); }
 .pivot { position: absolute; left: 0; top: 0; width: 0; height: 0; }
 .mobile-barre, .mobile-fil { position: absolute; background: var(--fil); }
 .mobile-barre { top: -.28cqw; height: .56cqw; border-radius: .6cqw; }
 .mobile-barre::before { content: ''; position: absolute; left: 50%; top: 50%; width: 1.4cqw; height: 1.4cqw; border-radius: 50%; background: var(--corail); transform: translate(-50%, -50%); }
 .mobile-fil { left: -.1cqw; top: 0; width: .2cqw; }
-.pivot--a { left: 46.667cqw; top: 9.333cqw; }
-.mobile-barre--a { left: -30cqw; width: 58.333cqw; }
-.mobile-barre--a::before { left: 51.4%; }
-.pivot--a1 { left: -30cqw; }
-.mobile-fil--a1 { height: 8.333cqw; }
+.pivot--a { left: 50cqw; top: 8.333cqw; }
+.mobile-barre--a { left: -31.667cqw; width: 61.667cqw; }
+.mobile-barre--a::before { left: 51.35%; }
+.pivot--a1 { left: -31.667cqw; }
+.mobile-fil--a1 { height: 7.667cqw; }
 .pivot--a2 { left: 28.333cqw; }
-.mobile-fil--a2 { height: 15cqw; }
-.pivot--b { top: 15cqw; }
-.mobile-barre--b { left: -20cqw; width: 35.833cqw; }
-.mobile-barre--b::before { left: 55.8%; }
+.mobile-fil--a2 { height: 13.333cqw; }
+.pivot--b { top: 13.333cqw; }
+.mobile-barre--b { left: -20cqw; width: 30.833cqw; }
+.mobile-barre--b::before { left: 64.9%; }
 .pivot--b1 { left: -20cqw; }
-.mobile-fil--b1 { height: 10cqw; }
-.pivot--b2 { left: 15.833cqw; }
-.mobile-fil--b2 { height: 21.667cqw; }
+.mobile-fil--b1 { height: 8.333cqw; }
+.pivot--b2 { left: 10.833cqw; }
+.mobile-fil--b2 { height: 20cqw; }
 .mobile-fil--perle, .mobile-perle { display: none; }
 .piece { position: absolute; display: block; text-decoration: none; color: var(--texte); }
 .piece:focus-visible { outline-offset: 6px; }
-.piece-forme { display: block; position: relative; overflow: hidden; }
+.piece-forme { display: block; position: relative; overflow: hidden; box-shadow: 0 2.6cqw 4cqw -2.6cqw rgba(23, 38, 51, .5); transition: transform .5s var(--courbe); }
+.piece:hover .piece-forme, .piece:focus-visible .piece-forme { transform: scale(1.04); }
+.piece .media img { transition: transform .8s var(--courbe); }
+.piece:hover .media img { transform: scale(1.08); }
 .piece .media { width: 100%; height: 100%; border-radius: 0; }
 .piece .mention-ia { left: 50%; right: auto; bottom: 9%; transform: translateX(-50%); width: max-content; max-width: 86%; font-size: 12px; line-height: 1.2; padding: 2px 7px; white-space: normal; text-align: center; border-radius: 10px; }
 .piece-nom { display: block; margin-top: 1.2cqw; text-align: center; font-family: var(--police-titres); font-weight: 700; font-size: max(13px, 2.6cqw); line-height: 1.1; }
-.piece--cadre { left: -14.667cqw; top: 8.333cqw; width: 29.333cqw; }
-.piece--cadre .piece-forme { aspect-ratio: 176 / 232; padding: 2cqw; background: linear-gradient(90deg, var(--cyan), var(--bleu)); }
-.piece--rond { left: -12.5cqw; top: 10cqw; width: 25cqw; }
+.piece--cadre { left: -16.667cqw; top: 7.667cqw; width: 33.333cqw; }
+.piece--cadre .piece-forme { aspect-ratio: 200 / 262; padding: 2cqw; background: linear-gradient(90deg, var(--cyan), var(--bleu)); }
+.piece--rond { left: -14.167cqw; top: 8.333cqw; width: 28.333cqw; }
 .piece--rond .piece-forme { aspect-ratio: 1; border-radius: 50%; border: 1.2cqw solid var(--corail); }
-.piece--arche { left: -8.333cqw; top: 21.667cqw; width: 16.667cqw; }
-.piece--arche .piece-forme { aspect-ratio: 100 / 130; border-radius: 999px 999px 0 0; border: 1cqw solid var(--ocean); border-bottom-width: 1.6cqw; }
+.piece--rond .mention-ia { bottom: 17%; }
+.piece--arche .mention-ia { bottom: 12%; }
+.piece--arche { left: -10cqw; top: 20cqw; width: 20cqw; }
+.piece--arche .piece-forme { aspect-ratio: 120 / 156; border-radius: 999px 999px 0 0; border: 1cqw solid var(--ocean); border-bottom-width: 1.6cqw; }
 .piece:hover .piece-nom { color: var(--corail-fonce); }
 /* Petit mobile de l'appel final : formes pleines, sans photo. */
 .mobile--simple .piece--cadre .piece-forme { background: linear-gradient(90deg, var(--cyan), #3E8EE8); }
@@ -167,8 +181,8 @@ html.js .orienteur-reponse[data-cache] { display: none; }
 .orienteur-texte { color: var(--texte-doux); }
 .balance { width: min(100%, 360px); height: auto; margin: 0 auto 16px; overflow: visible; }
 .balance path, .balance circle, .balance rect { fill: none; stroke: var(--texte); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
-.balance-plateau path:last-of-type, .balance-plateau rect { fill: var(--sable2); }
-.balance-plateau.actif path:last-of-type, .balance-plateau.actif rect { fill: var(--corail); stroke: var(--corail); }
+.balance .forme { fill: var(--sable2); transition: fill .4s, stroke .4s; }
+.balance-plateau.actif .forme { fill: var(--corail); stroke: var(--corail); }
 .balance text { font-family: var(--police-texte); font-weight: 600; font-size: 15px; text-anchor: middle; fill: var(--texte); stroke: none; }
 .balance-axe { fill: var(--corail) !important; stroke: none !important; }
 .balance-fleau { transform-box: view-box; transform-origin: 160px 40px; }
@@ -176,7 +190,14 @@ html.js .orienteur-reponse[data-cache] { display: none; }
 /* ===== Trois métiers ===== */
 .metiers-grille { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(16px, 2.4vw, 32px); }
 .metier-media { aspect-ratio: 4 / 5; margin-bottom: 18px; }
-.metier-num { margin: 0 0 .2em; font-weight: 600; letter-spacing: .12em; color: var(--texte-doux); }
+.metier-num { display: flex; align-items: center; gap: 10px; margin: 0 0 .2em; font-weight: 600; letter-spacing: .12em; color: var(--texte-doux); }
+/* Les trois formes du mobile désignent les trois métiers partout : rond (conseil), cadre (formation), arche (coaching). */
+.forme-metier { display: inline-block; width: 18px; height: 22px; flex: none; }
+.forme-metier--conseil { width: 20px; height: 20px; border-radius: 50%; background: var(--corail); }
+.forme-metier--formation { border: 4px solid; border-image: linear-gradient(90deg, var(--cyan), var(--bleu)) 1; }
+.forme-metier--coaching { border-radius: 999px 999px 0 0; background: var(--ocean); }
+.metier { position: relative; }
+.hero-info-lien { color: inherit; text-decoration: underline; text-decoration-color: var(--corail); text-underline-offset: .25em; }
 .metier-titre { font-size: clamp(1.8rem, 1.3rem + 1.4vw, 2.6rem); margin-bottom: .3em; }
 .metier p:not(.metier-num) { color: var(--texte-doux); }
 
@@ -212,7 +233,8 @@ html.js .orienteur-reponse[data-cache] { display: none; }
 .fiche-cadre { display: flex; }
 .fiche { position: relative; display: flex; flex-direction: column; width: 100%; padding: 24px 22px 20px; border-radius: var(--rayon); background: var(--sable); border: 1px solid color-mix(in srgb, var(--texte) 12%, transparent); transition: transform .35s var(--courbe), box-shadow .35s var(--courbe); }
 .bande:not(.bande--sable) .fiche { background: #FBF7F0; }
-.fiche:hover { box-shadow: 0 20px 40px -28px rgba(23, 38, 51, .6); }
+.fiche:hover { box-shadow: 0 22px 44px -26px rgba(23, 38, 51, .55); }
+.cff__fiche.fiche:hover, .fiche-cadre .fiche:hover { border-color: color-mix(in srgb, var(--corail) 45%, transparent); }
 .fiche-cat { margin: 0 0 10px; font-size: .85rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--corail-fonce); }
 .fiche-date { color: var(--texte); }
 .fiche-titre { font-size: 1.35rem; line-height: 1.15; margin-bottom: .35em; }
@@ -323,13 +345,13 @@ html:not(.js) .persiennes { display: none; }
 .ouvre-legende { position: absolute; left: var(--gouttiere); bottom: calc(var(--barres-h) + 28px); z-index: 2; margin: 0; max-width: 24em; padding: 14px 20px; border-radius: var(--rayon); background: var(--sable); font-family: var(--police-titres); font-weight: 500; font-size: clamp(1.1rem, 1rem + .6vw, 1.5rem); line-height: 1.2; }
 :is(html.secours, html:not(.js)) .ouvre-mot { display: none; }
 /* Coaching : chiffres géants et arche. */
-.ouverture--chiffres { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .7fr) minmax(0, .8fr); gap: clamp(20px, 3vw, 56px); align-items: center; min-height: min(100svh, 940px); }
+.ouverture--chiffres { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .62fr) minmax(0, .95fr); gap: clamp(20px, 3vw, 56px); align-items: center; min-height: min(100svh, 940px); }
 .chiffres-geants { display: grid; gap: 18px; }
 .geant { margin: 0; display: grid; }
 .geant-chiffre { display: block; font-family: var(--police-titres); font-weight: 700; font-size: clamp(4.4rem, min(11vw, 17vh), 11rem); line-height: 1.02; letter-spacing: -.04em; color: var(--corail); font-variant-numeric: tabular-nums; }
 .geant--2 .geant-chiffre { color: var(--ocean); font-size: clamp(3.2rem, min(7vw, 11vh), 7rem); }
 .geant-mot { display: block; margin-top: .35em; font-weight: 600; max-width: 12em; }
-.arche-media { aspect-ratio: 3 / 4; border-radius: 999px 999px var(--rayon) var(--rayon); max-height: 74svh; width: 100%; }
+.arche-media { aspect-ratio: 3 / 4; border-radius: 999px 999px var(--rayon) var(--rayon); max-height: 78svh; width: 100%; box-shadow: 0 30px 60px -36px rgba(23, 38, 51, .55); }
 /* Contact. */
 .contact-media { aspect-ratio: 4 / 5; }
 .contact-coord { margin-top: 18px; }
@@ -352,12 +374,22 @@ html:not(.js) .persiennes { display: none; }
 .mission-num { display: block; font-family: var(--police-titres); font-weight: 700; font-size: 2.6rem; line-height: 1; color: var(--corail); margin-bottom: 14px; }
 .mission-etape h3 { font-size: 1.5rem; }
 .mission-etape p { color: var(--texte-doux); margin: 0; }
-.durees { max-width: 760px; }
-.durees-svg { width: 100%; height: auto; overflow: visible; }
-.durees-svg path { fill: none; stroke: var(--corail); stroke-width: 2.5; stroke-linecap: round; }
-.durees-svg .durees-ligne { stroke: var(--texte); stroke-width: 2; }
-.durees-svg circle { fill: var(--ocean); }
-.durees-svg text { font-family: var(--police-texte); font-weight: 600; font-size: 16px; text-anchor: middle; fill: var(--texte); }
+/* La frise d'une mission : une piste qui se remplit au défilement, chaque étape s'allume quand elle est atteinte. */
+.frise { position: relative; }
+.frise-piste { position: absolute; left: 0; right: 0; top: 0; height: 4px; border-radius: 4px; background: color-mix(in srgb, var(--texte) 14%, transparent); overflow: hidden; }
+.frise-plein { position: absolute; inset: 0; background: linear-gradient(90deg, var(--corail), var(--corail-fonce)); transform-origin: 0 50%; transform: scaleX(0); }
+html:not(.js) .frise-plein, html.secours .frise-plein { transform: none; }
+.frise .mission-etape { border-top: 0; padding-top: 26px; }
+.mission-num { transition: color .4s var(--courbe); color: #6F7B87; }
+html:not(.js) .mission-num, .mission-etape.atteinte .mission-num { color: var(--corail-fonce); }
+.durees { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 10px 28px; align-items: center; max-width: 900px; padding: 24px 28px; border-radius: var(--rayon); background: var(--sable2); }
+.durees .surtitre { margin: 0; grid-column: 1 / -1; }
+.durees-liste { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px 26px; align-items: end; font-family: var(--police-titres); font-weight: 700; font-size: 1.2rem; }
+.durees-liste li { display: grid; gap: 6px; }
+.duree-barre { display: block; height: 10px; border-radius: 6px; background: var(--ocean); }
+.duree-barre--1 { width: 48px; } .duree-barre--2 { width: 96px; } .duree-barre--3 { width: 160px; background: var(--corail); }
+.durees-texte { margin: 0; color: var(--texte-doux); }
+@media (max-width: 760px) { .durees { grid-template-columns: minmax(0, 1fr); } .frise-piste { display: none; } .frise .mission-etape { border-top: 3px solid var(--texte); padding-top: 18px; } }
 .territoire { overflow: hidden; }
 .mots-geants { margin-bottom: clamp(24px, 4vw, 48px); color: #6B7C8C; }
 .mots-geants p { font-family: var(--police-titres); font-weight: 700; font-size: clamp(3.6rem, 10vw, 10rem); line-height: 1.02; letter-spacing: -.03em; }
@@ -407,9 +439,12 @@ html:not(.js) .persiennes { display: none; }
 .themes-grille { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(16px, 2.4vw, 32px); }
 .theme { padding: 28px; border-radius: var(--rayon); background: var(--sable); }
 .theme-forme { width: 64px; height: 64px; margin-bottom: 14px; }
-.theme:nth-child(1) .theme-forme * { fill: var(--corail); }
-.theme:nth-child(2) .theme-forme * { fill: none; stroke: var(--bleu); stroke-width: 8; }
-.theme:nth-child(3) .theme-forme * { fill: var(--ocean); }
+.theme-forme path { fill: var(--ocean); }
+.theme:nth-child(2) .theme-forme path { fill: var(--corail-fonce); }
+.theme:nth-child(3) .theme-forme path { fill: #2E5B7C; }
+.theme-forme text { font-family: var(--police-titres); font-weight: 700; font-size: 26px; text-anchor: middle; fill: var(--sable); }
+.theme { transition: transform .5s var(--courbe); }
+.theme:hover { transform: translateY(-4px); }
 .theme h3 { font-size: 1.6rem; }
 .equipe-grille { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 80px); align-items: center; }
 .equipe-media { aspect-ratio: 3 / 2; }
@@ -430,6 +465,8 @@ html:not(.js) .persiennes { display: none; }
 .carte-ile { fill: var(--sable2); stroke: var(--ocean); stroke-width: 3; stroke-linejoin: round; }
 .carte-trajet { fill: none; stroke: var(--corail); stroke-width: 6; stroke-linecap: round; }
 .carte-point { fill: var(--corail); stroke: var(--sable); stroke-width: 5; }
+.carte-onde { fill: none; stroke: var(--corail); stroke-width: 4; transform-box: fill-box; transform-origin: center; animation: onde 2.6s var(--courbe) infinite; }
+@keyframes onde { from { transform: scale(.6); opacity: .9; } to { transform: scale(2.6); opacity: 0; } }
 .carte-point--2 { fill: var(--ocean); }
 .carte-nom { font-family: var(--police-titres); font-weight: 700; font-size: 44px; fill: var(--texte); paint-order: stroke; stroke: var(--sable); stroke-width: 12px; stroke-linejoin: round; }
 
@@ -455,6 +492,15 @@ html:not(.js) .persiennes { display: none; }
   .hero { grid-template-columns: minmax(0, 1fr); align-content: start; gap: 8px; padding-top: calc(var(--entete-h) + 20px); }
   .hero-titre { font-size: clamp(2.7rem, 13vw, 4rem); }
   .hero-mobile { max-width: 440px; margin-top: 18px; }
+  .hero-surtitre { display: none; }
+  .hero-actions .bouton { padding-inline: 18px; }
+  /* Rendez-vous : la photo en haut, la carte qui vient la chevaucher. */
+  .rdv--photo { display: block; min-height: 0; padding-top: 0; background-color: transparent; }
+  .rdv--photo .rdv-media { position: relative !important; inset: auto; height: auto; aspect-ratio: 4 / 3.4; z-index: 0; }
+  .rdv--photo .rdv-media::after { display: none; }
+  .rdv--photo .rdv-media img { object-position: 50% 80%; }
+  .rdv--photo .mention-ia { top: 10px; bottom: auto; }
+  .rdv--photo .rdv-grille { margin-top: -64px; z-index: 1; }
   .orienteur-grille, .claire-grille, .methode-grille, .appel-grille, .cycle-grille, .engagements-grille, .deroule-grille, .equipe-grille, .acces-grille { grid-template-columns: minmax(0, 1fr); }
   .orienteur-reponses, .methode-tete, .garanties, .deroule-image, .demande .fpe__tete { position: static; }
   .metiers-grille, .temoignages, .formats-grille, .themes-grille, .paroles-grille { grid-template-columns: minmax(0, 1fr); }
@@ -469,8 +515,6 @@ html:not(.js) .persiennes { display: none; }
   .metier-media { aspect-ratio: 4 / 3; }
   .etape { grid-template-columns: minmax(0, 1fr); gap: 10px; min-height: 0; }
   .engagements-liste { grid-template-columns: minmax(0, 1fr); }
-  .rdv--photo { align-items: end; padding-top: 34svh; }
-  .rdv-media::after { background: linear-gradient(180deg, rgba(18, 51, 77, 0) 30%, rgba(18, 51, 77, .5)); }
   .rdv:not(.rdv--photo) .rdv-carte { grid-template-columns: minmax(0, 1fr); }
   .rdv:not(.rdv--photo) .rdv-carte > * { grid-column: 1 !important; grid-row: auto !important; }
   .appel .mobile { max-width: 340px; }

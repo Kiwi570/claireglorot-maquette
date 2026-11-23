@@ -2,7 +2,7 @@
   "nom": "Claire Glorot",
   "adresse": "https://claireglorot-maquette.vercel.app",
   "siteActuel": "www.claireglorot.com",
-  "version": 1,
+  "version": 2,
   "langues": ["fr"],
   "navigation": ["accueil", "conseil", "formation", "coaching", "contact"],
   "actionEntete": { "page": "contact", "ancre": "demande" },

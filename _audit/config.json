@@ -18,7 +18,9 @@
     "chiffre-geant",
     "catalogue",
     "demande",
-    "pastille"
+    "pastille",
+    "soleil",
+    "frise"
   ],
   "grille": {
     "dispenses": {}

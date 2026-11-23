@@ -110,9 +110,10 @@ export default (c) => {
       ${titre(c, 'contact.acces')}
       <p data-anime>${c.t('contact.acces.texte')}</p>
     </div>
-    <svg class="carte" viewBox="${carte.viewBox}" role="img" aria-label="${c.s('contact.acces.carte')}" data-fx="trace" data-visuel>
+    <svg class="carte" viewBox="${carte.viewBox}" role="img" aria-label="${c.s('contact.acces.carte')}" data-fx="trace" data-visuel data-boucle-css>
       <path class="carte-ile" d="${carte.d}" />
       <path class="carte-trajet" data-fx-trait d="M${String(jx)} ${String(jy)} C ${String(jx + 90)} ${String(jy - 90)}, ${String(ax - 110)} ${String(ay - 80)}, ${String(ax)} ${String(ay)}" />
+      <circle class="carte-onde" cx="${String(ax)}" cy="${String(ay)}" r="14" aria-hidden="true" />
       <circle class="carte-point" cx="${String(ax)}" cy="${String(ay)}" r="14" data-repere /><circle class="carte-point carte-point--2" cx="${String(jx)}" cy="${String(jy)}" r="11" data-repere />
       <text class="carte-nom" x="${String(ax + 26)}" y="${String(ay + 50)}">${c.t('contact.acces.sainteAnne')}</text>
       <text class="carte-nom" x="${String(jx - 26)}" y="${String(jy - 40)}" text-anchor="end">${c.t('contact.acces.jarry')}</text>
